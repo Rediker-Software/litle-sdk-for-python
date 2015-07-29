@@ -7,7 +7,6 @@
 import pyxb
 import pyxb.binding
 import pyxb.binding.saxer
-import StringIO
 import pyxb.utils.utility
 import pyxb.utils.domutils
 import sys
