@@ -21,15 +21,18 @@
 #FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 #OTHER DEALINGS IN THE SOFTWARE.
 
-import litleXmlFields
+from . import litleXmlFields
 import pyxb
 import os
 import shutil
-from Communications import *
-from litleBatchResponse import *
-from Configuration import *
+from .Communications import *
+from .litleBatchResponse import *
+from .Configuration import *
 import time
-from ConfigParser import *
+try:
+    from ConfigParser import *
+except:
+    from configparser import *
 
 class litleBatchRequest:
     def __init__(self, fileRequest, merchantId = None):

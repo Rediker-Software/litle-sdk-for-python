@@ -21,8 +21,8 @@
 #FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 #OTHER DEALINGS IN THE SOFTWARE.
 
-import litleXmlFields
-from responseParser import *
+from . import litleXmlFields
+from .responseParser import *
 
 class litleBatchResponse:
     def __init__(self, parser):
