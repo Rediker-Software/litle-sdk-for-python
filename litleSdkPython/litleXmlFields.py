@@ -77,7 +77,7 @@ class customerIdType (pyxb.binding.datatypes.string):
 
     _ExpandedName = pyxb.namespace.ExpandedName(Namespace, u'customerIdType')
     _Documentation = None
-customerIdType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(50L))
+customerIdType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(50))
 customerIdType._InitializeFacetMap(customerIdType._CF_maxLength)
 Namespace.addCategoryObject('typeBinding', u'customerIdType', customerIdType)
 
@@ -88,7 +88,7 @@ class string25Type (pyxb.binding.datatypes.string):
 
     _ExpandedName = pyxb.namespace.ExpandedName(Namespace, u'string25Type')
     _Documentation = None
-string25Type._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(25L))
+string25Type._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(25))
 string25Type._InitializeFacetMap(string25Type._CF_maxLength)
 Namespace.addCategoryObject('typeBinding', u'string25Type', string25Type)
 
@@ -99,9 +99,9 @@ class reportGroupType (pyxb.binding.datatypes.string):
 
     _ExpandedName = pyxb.namespace.ExpandedName(Namespace, u'reportGroupType')
     _Documentation = None
-reportGroupType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(25L))
+reportGroupType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(25))
 reportGroupType._CF_whiteSpace = pyxb.binding.facets.CF_whiteSpace(value=pyxb.binding.facets._WhiteSpace_enum.collapse)
-reportGroupType._CF_minLength = pyxb.binding.facets.CF_minLength(value=pyxb.binding.datatypes.nonNegativeInteger(1L))
+reportGroupType._CF_minLength = pyxb.binding.facets.CF_minLength(value=pyxb.binding.datatypes.nonNegativeInteger(1))
 reportGroupType._InitializeFacetMap(reportGroupType._CF_maxLength,
    reportGroupType._CF_whiteSpace,
    reportGroupType._CF_minLength)
@@ -114,7 +114,7 @@ class litleIdType (pyxb.binding.datatypes.long):
 
     _ExpandedName = pyxb.namespace.ExpandedName(Namespace, u'litleIdType')
     _Documentation = None
-litleIdType._CF_totalDigits = pyxb.binding.facets.CF_totalDigits(value=pyxb.binding.datatypes.positiveInteger(19L))
+litleIdType._CF_totalDigits = pyxb.binding.facets.CF_totalDigits(value=pyxb.binding.datatypes.positiveInteger(19))
 litleIdType._InitializeFacetMap(litleIdType._CF_totalDigits)
 Namespace.addCategoryObject('typeBinding', u'litleIdType', litleIdType)
 
@@ -125,7 +125,7 @@ class responseType (pyxb.binding.datatypes.string):
 
     _ExpandedName = pyxb.namespace.ExpandedName(Namespace, u'responseType')
     _Documentation = None
-responseType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(3L))
+responseType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(3))
 responseType._InitializeFacetMap(responseType._CF_maxLength)
 Namespace.addCategoryObject('typeBinding', u'responseType', responseType)
 
@@ -136,7 +136,7 @@ class messageType (pyxb.binding.datatypes.string):
 
     _ExpandedName = pyxb.namespace.ExpandedName(Namespace, u'messageType')
     _Documentation = None
-messageType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(512L))
+messageType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(512))
 messageType._InitializeFacetMap(messageType._CF_maxLength)
 Namespace.addCategoryObject('typeBinding', u'messageType', messageType)
 
@@ -147,7 +147,7 @@ class merchantIdentificationType (pyxb.binding.datatypes.string):
 
     _ExpandedName = pyxb.namespace.ExpandedName(Namespace, u'merchantIdentificationType')
     _Documentation = None
-merchantIdentificationType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(50L))
+merchantIdentificationType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(50))
 merchantIdentificationType._InitializeFacetMap(merchantIdentificationType._CF_maxLength)
 Namespace.addCategoryObject('typeBinding', u'merchantIdentificationType', merchantIdentificationType)
 
@@ -158,7 +158,7 @@ class transactionAmountType (pyxb.binding.datatypes.integer):
 
     _ExpandedName = pyxb.namespace.ExpandedName(Namespace, u'transactionAmountType')
     _Documentation = None
-transactionAmountType._CF_totalDigits = pyxb.binding.facets.CF_totalDigits(value=pyxb.binding.datatypes.positiveInteger(12L))
+transactionAmountType._CF_totalDigits = pyxb.binding.facets.CF_totalDigits(value=pyxb.binding.datatypes.positiveInteger(12))
 transactionAmountType._InitializeFacetMap(transactionAmountType._CF_totalDigits)
 Namespace.addCategoryObject('typeBinding', u'transactionAmountType', transactionAmountType)
 
@@ -169,7 +169,7 @@ class batchTotalAmountType (pyxb.binding.datatypes.integer):
 
     _ExpandedName = pyxb.namespace.ExpandedName(Namespace, u'batchTotalAmountType')
     _Documentation = None
-batchTotalAmountType._CF_totalDigits = pyxb.binding.facets.CF_totalDigits(value=pyxb.binding.datatypes.positiveInteger(10L))
+batchTotalAmountType._CF_totalDigits = pyxb.binding.facets.CF_totalDigits(value=pyxb.binding.datatypes.positiveInteger(10))
 batchTotalAmountType._InitializeFacetMap(batchTotalAmountType._CF_totalDigits)
 Namespace.addCategoryObject('typeBinding', u'batchTotalAmountType', batchTotalAmountType)
 
@@ -202,7 +202,7 @@ class redeliveryCycle (pyxb.binding.datatypes.integer):
 
     _ExpandedName = pyxb.namespace.ExpandedName(Namespace, u'redeliveryCycle')
     _Documentation = None
-redeliveryCycle._CF_totalDigits = pyxb.binding.facets.CF_totalDigits(value=pyxb.binding.datatypes.positiveInteger(1L))
+redeliveryCycle._CF_totalDigits = pyxb.binding.facets.CF_totalDigits(value=pyxb.binding.datatypes.positiveInteger(1))
 redeliveryCycle._InitializeFacetMap(redeliveryCycle._CF_totalDigits)
 Namespace.addCategoryObject('typeBinding', u'redeliveryCycle', redeliveryCycle)
 
@@ -213,7 +213,7 @@ class customAttributeType (pyxb.binding.datatypes.string):
 
     _ExpandedName = pyxb.namespace.ExpandedName(Namespace, u'customAttributeType')
     _Documentation = None
-customAttributeType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(200L))
+customAttributeType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(200))
 customAttributeType._InitializeFacetMap(customAttributeType._CF_maxLength)
 Namespace.addCategoryObject('typeBinding', u'customAttributeType', customAttributeType)
 
@@ -237,7 +237,7 @@ class actionReasonType (pyxb.binding.datatypes.string):
 
     _ExpandedName = pyxb.namespace.ExpandedName(Namespace, u'actionReasonType')
     _Documentation = None
-actionReasonType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(255L))
+actionReasonType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(255))
 actionReasonType._InitializeFacetMap(actionReasonType._CF_maxLength)
 Namespace.addCategoryObject('typeBinding', u'actionReasonType', actionReasonType)
 
@@ -261,7 +261,7 @@ class string256Type (pyxb.binding.datatypes.string):
 
     _ExpandedName = pyxb.namespace.ExpandedName(Namespace, u'string256Type')
     _Documentation = None
-string256Type._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(256L))
+string256Type._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(256))
 string256Type._InitializeFacetMap(string256Type._CF_maxLength)
 Namespace.addCategoryObject('typeBinding', u'string256Type', string256Type)
 
@@ -272,7 +272,7 @@ class versionType (pyxb.binding.datatypes.string):
 
     _ExpandedName = pyxb.namespace.ExpandedName(Namespace, u'versionType')
     _Documentation = None
-versionType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(10L))
+versionType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(10))
 versionType._InitializeFacetMap(versionType._CF_maxLength)
 Namespace.addCategoryObject('typeBinding', u'versionType', versionType)
 
@@ -283,9 +283,9 @@ class STD_ANON (pyxb.binding.datatypes.string):
 
     _ExpandedName = None
     _Documentation = None
-STD_ANON._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(127L))
+STD_ANON._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(127))
 STD_ANON._CF_whiteSpace = pyxb.binding.facets.CF_whiteSpace(value=pyxb.binding.facets._WhiteSpace_enum.collapse)
-STD_ANON._CF_minLength = pyxb.binding.facets.CF_minLength(value=pyxb.binding.datatypes.nonNegativeInteger(1L))
+STD_ANON._CF_minLength = pyxb.binding.facets.CF_minLength(value=pyxb.binding.datatypes.nonNegativeInteger(1))
 STD_ANON._InitializeFacetMap(STD_ANON._CF_maxLength,
    STD_ANON._CF_whiteSpace,
    STD_ANON._CF_minLength)
@@ -323,7 +323,7 @@ class nameType (pyxb.binding.datatypes.string):
 
     _ExpandedName = pyxb.namespace.ExpandedName(Namespace, u'nameType')
     _Documentation = None
-nameType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(100L))
+nameType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(100))
 nameType._InitializeFacetMap(nameType._CF_maxLength)
 Namespace.addCategoryObject('typeBinding', u'nameType', nameType)
 
@@ -350,8 +350,8 @@ class numberOfPaymentsType (pyxb.binding.datatypes.integer):
 
     _ExpandedName = pyxb.namespace.ExpandedName(Namespace, u'numberOfPaymentsType')
     _Documentation = None
-numberOfPaymentsType._CF_maxInclusive = pyxb.binding.facets.CF_maxInclusive(value_datatype=numberOfPaymentsType, value=pyxb.binding.datatypes.integer(99L))
-numberOfPaymentsType._CF_minInclusive = pyxb.binding.facets.CF_minInclusive(value_datatype=numberOfPaymentsType, value=pyxb.binding.datatypes.integer(1L))
+numberOfPaymentsType._CF_maxInclusive = pyxb.binding.facets.CF_maxInclusive(value_datatype=numberOfPaymentsType, value=pyxb.binding.datatypes.integer(99))
+numberOfPaymentsType._CF_minInclusive = pyxb.binding.facets.CF_minInclusive(value_datatype=numberOfPaymentsType, value=pyxb.binding.datatypes.integer(1))
 numberOfPaymentsType._InitializeFacetMap(numberOfPaymentsType._CF_maxInclusive,
    numberOfPaymentsType._CF_minInclusive)
 Namespace.addCategoryObject('typeBinding', u'numberOfPaymentsType', numberOfPaymentsType)
@@ -363,7 +363,7 @@ class lastNameType (pyxb.binding.datatypes.string):
 
     _ExpandedName = pyxb.namespace.ExpandedName(Namespace, u'lastNameType')
     _Documentation = None
-lastNameType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(25L))
+lastNameType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(25))
 lastNameType._InitializeFacetMap(lastNameType._CF_maxLength)
 Namespace.addCategoryObject('typeBinding', u'lastNameType', lastNameType)
 
@@ -374,8 +374,8 @@ class itemDescriptionType (pyxb.binding.datatypes.string):
 
     _ExpandedName = pyxb.namespace.ExpandedName(Namespace, u'itemDescriptionType')
     _Documentation = None
-itemDescriptionType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(26L))
-itemDescriptionType._CF_minLength = pyxb.binding.facets.CF_minLength(value=pyxb.binding.datatypes.nonNegativeInteger(1L))
+itemDescriptionType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(26))
+itemDescriptionType._CF_minLength = pyxb.binding.facets.CF_minLength(value=pyxb.binding.datatypes.nonNegativeInteger(1))
 itemDescriptionType._InitializeFacetMap(itemDescriptionType._CF_maxLength,
    itemDescriptionType._CF_minLength)
 Namespace.addCategoryObject('typeBinding', u'itemDescriptionType', itemDescriptionType)
@@ -387,7 +387,7 @@ class authCodeType (pyxb.binding.datatypes.string):
 
     _ExpandedName = pyxb.namespace.ExpandedName(Namespace, u'authCodeType')
     _Documentation = None
-authCodeType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(6L))
+authCodeType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(6))
 authCodeType._InitializeFacetMap(authCodeType._CF_maxLength)
 Namespace.addCategoryObject('typeBinding', u'authCodeType', authCodeType)
 
@@ -398,8 +398,8 @@ class cardAcceptorTaxIdType (pyxb.binding.datatypes.string):
 
     _ExpandedName = pyxb.namespace.ExpandedName(Namespace, u'cardAcceptorTaxIdType')
     _Documentation = None
-cardAcceptorTaxIdType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(20L))
-cardAcceptorTaxIdType._CF_minLength = pyxb.binding.facets.CF_minLength(value=pyxb.binding.datatypes.nonNegativeInteger(1L))
+cardAcceptorTaxIdType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(20))
+cardAcceptorTaxIdType._CF_minLength = pyxb.binding.facets.CF_minLength(value=pyxb.binding.datatypes.nonNegativeInteger(1))
 cardAcceptorTaxIdType._InitializeFacetMap(cardAcceptorTaxIdType._CF_maxLength,
    cardAcceptorTaxIdType._CF_minLength)
 Namespace.addCategoryObject('typeBinding', u'cardAcceptorTaxIdType', cardAcceptorTaxIdType)
@@ -411,7 +411,7 @@ class cityType (pyxb.binding.datatypes.string):
 
     _ExpandedName = pyxb.namespace.ExpandedName(Namespace, u'cityType')
     _Documentation = None
-cityType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(35L))
+cityType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(35))
 cityType._InitializeFacetMap(cityType._CF_maxLength)
 Namespace.addCategoryObject('typeBinding', u'cityType', cityType)
 
@@ -437,7 +437,7 @@ class stateType (pyxb.binding.datatypes.string):
 
     _ExpandedName = pyxb.namespace.ExpandedName(Namespace, u'stateType')
     _Documentation = None
-stateType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(30L))
+stateType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(30))
 stateType._InitializeFacetMap(stateType._CF_maxLength)
 Namespace.addCategoryObject('typeBinding', u'stateType', stateType)
 
@@ -448,7 +448,7 @@ class echeckAccountNumberType (pyxb.binding.datatypes.string):
 
     _ExpandedName = pyxb.namespace.ExpandedName(Namespace, u'echeckAccountNumberType')
     _Documentation = None
-echeckAccountNumberType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(17L))
+echeckAccountNumberType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(17))
 echeckAccountNumberType._InitializeFacetMap(echeckAccountNumberType._CF_maxLength)
 Namespace.addCategoryObject('typeBinding', u'echeckAccountNumberType', echeckAccountNumberType)
 
@@ -459,8 +459,8 @@ class routingNumberType (pyxb.binding.datatypes.string):
 
     _ExpandedName = pyxb.namespace.ExpandedName(Namespace, u'routingNumberType')
     _Documentation = None
-routingNumberType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(9L))
-routingNumberType._CF_minLength = pyxb.binding.facets.CF_minLength(value=pyxb.binding.datatypes.nonNegativeInteger(9L))
+routingNumberType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(9))
+routingNumberType._CF_minLength = pyxb.binding.facets.CF_minLength(value=pyxb.binding.datatypes.nonNegativeInteger(9))
 routingNumberType._InitializeFacetMap(routingNumberType._CF_maxLength,
    routingNumberType._CF_minLength)
 Namespace.addCategoryObject('typeBinding', u'routingNumberType', routingNumberType)
@@ -472,8 +472,8 @@ class ccAccountNumberType (pyxb.binding.datatypes.string):
 
     _ExpandedName = pyxb.namespace.ExpandedName(Namespace, u'ccAccountNumberType')
     _Documentation = None
-ccAccountNumberType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(25L))
-ccAccountNumberType._CF_minLength = pyxb.binding.facets.CF_minLength(value=pyxb.binding.datatypes.nonNegativeInteger(13L))
+ccAccountNumberType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(25))
+ccAccountNumberType._CF_minLength = pyxb.binding.facets.CF_minLength(value=pyxb.binding.datatypes.nonNegativeInteger(13))
 ccAccountNumberType._InitializeFacetMap(ccAccountNumberType._CF_maxLength,
    ccAccountNumberType._CF_minLength)
 Namespace.addCategoryObject('typeBinding', u'ccAccountNumberType', ccAccountNumberType)
@@ -507,8 +507,8 @@ class expDateType (pyxb.binding.datatypes.string):
 
     _ExpandedName = pyxb.namespace.ExpandedName(Namespace, u'expDateType')
     _Documentation = None
-expDateType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(4L))
-expDateType._CF_minLength = pyxb.binding.facets.CF_minLength(value=pyxb.binding.datatypes.nonNegativeInteger(4L))
+expDateType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(4))
+expDateType._CF_minLength = pyxb.binding.facets.CF_minLength(value=pyxb.binding.datatypes.nonNegativeInteger(4))
 expDateType._InitializeFacetMap(expDateType._CF_maxLength,
    expDateType._CF_minLength)
 Namespace.addCategoryObject('typeBinding', u'expDateType', expDateType)
@@ -520,7 +520,7 @@ class STD_ANON_ (pyxb.binding.datatypes.string):
 
     _ExpandedName = None
     _Documentation = None
-STD_ANON_._CF_length = pyxb.binding.facets.CF_length(value=pyxb.binding.datatypes.nonNegativeInteger(2L))
+STD_ANON_._CF_length = pyxb.binding.facets.CF_length(value=pyxb.binding.datatypes.nonNegativeInteger(2))
 STD_ANON_._InitializeFacetMap(STD_ANON_._CF_length)
 
 # Atomic simple type: {http://www.litle.com/schema}affluenceTypeEnum
@@ -543,7 +543,7 @@ class phoneType (pyxb.binding.datatypes.string):
 
     _ExpandedName = pyxb.namespace.ExpandedName(Namespace, u'phoneType')
     _Documentation = None
-phoneType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(20L))
+phoneType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(20))
 phoneType._InitializeFacetMap(phoneType._CF_maxLength)
 Namespace.addCategoryObject('typeBinding', u'phoneType', phoneType)
 
@@ -554,7 +554,7 @@ class unitCostType (pyxb.binding.datatypes.decimal):
 
     _ExpandedName = pyxb.namespace.ExpandedName(Namespace, u'unitCostType')
     _Documentation = None
-unitCostType._CF_totalDigits = pyxb.binding.facets.CF_totalDigits(value=pyxb.binding.datatypes.positiveInteger(12L))
+unitCostType._CF_totalDigits = pyxb.binding.facets.CF_totalDigits(value=pyxb.binding.datatypes.positiveInteger(12))
 unitCostType._CF_minInclusive = pyxb.binding.facets.CF_minInclusive(value_datatype=unitCostType, value=pyxb.binding.datatypes.decimal(0.0))
 unitCostType._InitializeFacetMap(unitCostType._CF_totalDigits,
    unitCostType._CF_minInclusive)
@@ -567,7 +567,7 @@ class addressIndicator (pyxb.binding.datatypes.string):
 
     _ExpandedName = pyxb.namespace.ExpandedName(Namespace, u'addressIndicator')
     _Documentation = None
-addressIndicator._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(1L))
+addressIndicator._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(1))
 addressIndicator._InitializeFacetMap(addressIndicator._CF_maxLength)
 Namespace.addCategoryObject('typeBinding', u'addressIndicator', addressIndicator)
 
@@ -578,7 +578,7 @@ class STD_ANON_2 (pyxb.binding.datatypes.int):
 
     _ExpandedName = None
     _Documentation = None
-STD_ANON_2._CF_totalDigits = pyxb.binding.facets.CF_totalDigits(value=pyxb.binding.datatypes.positiveInteger(4L))
+STD_ANON_2._CF_totalDigits = pyxb.binding.facets.CF_totalDigits(value=pyxb.binding.datatypes.positiveInteger(4))
 STD_ANON_2._InitializeFacetMap(STD_ANON_2._CF_totalDigits)
 
 # Atomic simple type: {http://www.litle.com/schema}reloadablePrepaidTypeEnum
@@ -602,7 +602,7 @@ class string20Type (pyxb.binding.datatypes.string):
 
     _ExpandedName = pyxb.namespace.ExpandedName(Namespace, u'string20Type')
     _Documentation = None
-string20Type._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(20L))
+string20Type._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(20))
 string20Type._InitializeFacetMap(string20Type._CF_maxLength)
 Namespace.addCategoryObject('typeBinding', u'string20Type', string20Type)
 
@@ -615,7 +615,7 @@ class IIASFlagType (pyxb.binding.datatypes.string, pyxb.binding.basis.enumeratio
     _Documentation = None
 IIASFlagType._CF_enumeration = pyxb.binding.facets.CF_enumeration(value_datatype=IIASFlagType, enum_prefix=None)
 IIASFlagType.Y = IIASFlagType._CF_enumeration.addEnumeration(unicode_value=u'Y', tag=u'Y')
-IIASFlagType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(1L))
+IIASFlagType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(1))
 IIASFlagType._InitializeFacetMap(IIASFlagType._CF_enumeration,
    IIASFlagType._CF_maxLength)
 Namespace.addCategoryObject('typeBinding', u'IIASFlagType', IIASFlagType)
@@ -641,9 +641,9 @@ class customerReferenceType (pyxb.binding.datatypes.string):
 
     _ExpandedName = pyxb.namespace.ExpandedName(Namespace, u'customerReferenceType')
     _Documentation = None
-customerReferenceType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(17L))
+customerReferenceType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(17))
 customerReferenceType._CF_whiteSpace = pyxb.binding.facets.CF_whiteSpace(value=pyxb.binding.facets._WhiteSpace_enum.collapse)
-customerReferenceType._CF_minLength = pyxb.binding.facets.CF_minLength(value=pyxb.binding.datatypes.nonNegativeInteger(1L))
+customerReferenceType._CF_minLength = pyxb.binding.facets.CF_minLength(value=pyxb.binding.datatypes.nonNegativeInteger(1))
 customerReferenceType._InitializeFacetMap(customerReferenceType._CF_maxLength,
    customerReferenceType._CF_whiteSpace,
    customerReferenceType._CF_minLength)
@@ -656,7 +656,7 @@ class cardNumberLast4Type (pyxb.binding.datatypes.string):
 
     _ExpandedName = pyxb.namespace.ExpandedName(Namespace, u'cardNumberLast4Type')
     _Documentation = None
-cardNumberLast4Type._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(4L))
+cardNumberLast4Type._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(4))
 cardNumberLast4Type._InitializeFacetMap(cardNumberLast4Type._CF_maxLength)
 Namespace.addCategoryObject('typeBinding', u'cardNumberLast4Type', cardNumberLast4Type)
 
@@ -682,7 +682,7 @@ class authorizationSourcePlatform (pyxb.binding.datatypes.string):
 
     _ExpandedName = pyxb.namespace.ExpandedName(Namespace, u'authorizationSourcePlatform')
     _Documentation = None
-authorizationSourcePlatform._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(1L))
+authorizationSourcePlatform._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(1))
 authorizationSourcePlatform._InitializeFacetMap(authorizationSourcePlatform._CF_maxLength)
 Namespace.addCategoryObject('typeBinding', u'authorizationSourcePlatform', authorizationSourcePlatform)
 
@@ -708,9 +708,9 @@ class STD_ANON_4 (pyxb.binding.datatypes.string):
 
     _ExpandedName = None
     _Documentation = None
-STD_ANON_4._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(17L))
+STD_ANON_4._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(17))
 STD_ANON_4._CF_whiteSpace = pyxb.binding.facets.CF_whiteSpace(value=pyxb.binding.facets._WhiteSpace_enum.collapse)
-STD_ANON_4._CF_minLength = pyxb.binding.facets.CF_minLength(value=pyxb.binding.datatypes.nonNegativeInteger(1L))
+STD_ANON_4._CF_minLength = pyxb.binding.facets.CF_minLength(value=pyxb.binding.datatypes.nonNegativeInteger(1))
 STD_ANON_4._InitializeFacetMap(STD_ANON_4._CF_maxLength,
    STD_ANON_4._CF_whiteSpace,
    STD_ANON_4._CF_minLength)
@@ -722,7 +722,7 @@ class string50Type (pyxb.binding.datatypes.string):
 
     _ExpandedName = pyxb.namespace.ExpandedName(Namespace, u'string50Type')
     _Documentation = None
-string50Type._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(50L))
+string50Type._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(50))
 string50Type._InitializeFacetMap(string50Type._CF_maxLength)
 Namespace.addCategoryObject('typeBinding', u'string50Type', string50Type)
 
@@ -733,7 +733,7 @@ class string3Type (pyxb.binding.datatypes.string):
 
     _ExpandedName = pyxb.namespace.ExpandedName(Namespace, u'string3Type')
     _Documentation = None
-string3Type._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(3L))
+string3Type._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(3))
 string3Type._InitializeFacetMap(string3Type._CF_maxLength)
 Namespace.addCategoryObject('typeBinding', u'string3Type', string3Type)
 
@@ -744,7 +744,7 @@ class zipType (pyxb.binding.datatypes.string):
 
     _ExpandedName = pyxb.namespace.ExpandedName(Namespace, u'zipType')
     _Documentation = None
-zipType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(20L))
+zipType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(20))
 zipType._InitializeFacetMap(zipType._CF_maxLength)
 Namespace.addCategoryObject('typeBinding', u'zipType', zipType)
 
@@ -755,8 +755,8 @@ class invoiceReferenceNumberType (pyxb.binding.datatypes.string):
 
     _ExpandedName = pyxb.namespace.ExpandedName(Namespace, u'invoiceReferenceNumberType')
     _Documentation = None
-invoiceReferenceNumberType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(15L))
-invoiceReferenceNumberType._CF_minLength = pyxb.binding.facets.CF_minLength(value=pyxb.binding.datatypes.nonNegativeInteger(1L))
+invoiceReferenceNumberType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(15))
+invoiceReferenceNumberType._CF_minLength = pyxb.binding.facets.CF_minLength(value=pyxb.binding.datatypes.nonNegativeInteger(1))
 invoiceReferenceNumberType._InitializeFacetMap(invoiceReferenceNumberType._CF_maxLength,
    invoiceReferenceNumberType._CF_minLength)
 Namespace.addCategoryObject('typeBinding', u'invoiceReferenceNumberType', invoiceReferenceNumberType)
@@ -781,7 +781,7 @@ class loanToValueEstimator (pyxb.binding.datatypes.string):
 
     _ExpandedName = pyxb.namespace.ExpandedName(Namespace, u'loanToValueEstimator')
     _Documentation = None
-loanToValueEstimator._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(8L))
+loanToValueEstimator._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(8))
 loanToValueEstimator._InitializeFacetMap(loanToValueEstimator._CF_maxLength)
 Namespace.addCategoryObject('typeBinding', u'loanToValueEstimator', loanToValueEstimator)
 
@@ -792,7 +792,7 @@ class payPalNotesType (pyxb.binding.datatypes.string):
 
     _ExpandedName = pyxb.namespace.ExpandedName(Namespace, u'payPalNotesType')
     _Documentation = None
-payPalNotesType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(255L))
+payPalNotesType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(255))
 payPalNotesType._InitializeFacetMap(payPalNotesType._CF_maxLength)
 Namespace.addCategoryObject('typeBinding', u'payPalNotesType', payPalNotesType)
 
@@ -803,7 +803,7 @@ class string512Type (pyxb.binding.datatypes.string):
 
     _ExpandedName = pyxb.namespace.ExpandedName(Namespace, u'string512Type')
     _Documentation = None
-string512Type._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(512L))
+string512Type._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(512))
 string512Type._InitializeFacetMap(string512Type._CF_maxLength)
 Namespace.addCategoryObject('typeBinding', u'string512Type', string512Type)
 
@@ -814,9 +814,9 @@ class sellerIdType (pyxb.binding.datatypes.string):
 
     _ExpandedName = pyxb.namespace.ExpandedName(Namespace, u'sellerIdType')
     _Documentation = None
-sellerIdType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(16L))
+sellerIdType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(16))
 sellerIdType._CF_whiteSpace = pyxb.binding.facets.CF_whiteSpace(value=pyxb.binding.facets._WhiteSpace_enum.collapse)
-sellerIdType._CF_minLength = pyxb.binding.facets.CF_minLength(value=pyxb.binding.datatypes.nonNegativeInteger(1L))
+sellerIdType._CF_minLength = pyxb.binding.facets.CF_minLength(value=pyxb.binding.datatypes.nonNegativeInteger(1))
 sellerIdType._InitializeFacetMap(sellerIdType._CF_maxLength,
    sellerIdType._CF_whiteSpace,
    sellerIdType._CF_minLength)
@@ -829,7 +829,7 @@ class authenticationValueType (pyxb.binding.datatypes.base64Binary):
 
     _ExpandedName = pyxb.namespace.ExpandedName(Namespace, u'authenticationValueType')
     _Documentation = None
-authenticationValueType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(56L))
+authenticationValueType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(56))
 authenticationValueType._InitializeFacetMap(authenticationValueType._CF_maxLength)
 Namespace.addCategoryObject('typeBinding', u'authenticationValueType', authenticationValueType)
 
@@ -840,8 +840,8 @@ class itemSequenceNumberType (pyxb.binding.datatypes.integer):
 
     _ExpandedName = pyxb.namespace.ExpandedName(Namespace, u'itemSequenceNumberType')
     _Documentation = None
-itemSequenceNumberType._CF_maxInclusive = pyxb.binding.facets.CF_maxInclusive(value_datatype=itemSequenceNumberType, value=pyxb.binding.datatypes.integer(99L))
-itemSequenceNumberType._CF_minInclusive = pyxb.binding.facets.CF_minInclusive(value_datatype=itemSequenceNumberType, value=pyxb.binding.datatypes.integer(1L))
+itemSequenceNumberType._CF_maxInclusive = pyxb.binding.facets.CF_maxInclusive(value_datatype=itemSequenceNumberType, value=pyxb.binding.datatypes.integer(99))
+itemSequenceNumberType._CF_minInclusive = pyxb.binding.facets.CF_minInclusive(value_datatype=itemSequenceNumberType, value=pyxb.binding.datatypes.integer(1))
 itemSequenceNumberType._InitializeFacetMap(itemSequenceNumberType._CF_maxInclusive,
    itemSequenceNumberType._CF_minInclusive)
 Namespace.addCategoryObject('typeBinding', u'itemSequenceNumberType', itemSequenceNumberType)
@@ -853,7 +853,7 @@ class taxRateType (pyxb.binding.datatypes.decimal):
 
     _ExpandedName = pyxb.namespace.ExpandedName(Namespace, u'taxRateType')
     _Documentation = None
-taxRateType._CF_totalDigits = pyxb.binding.facets.CF_totalDigits(value=pyxb.binding.datatypes.positiveInteger(5L))
+taxRateType._CF_totalDigits = pyxb.binding.facets.CF_totalDigits(value=pyxb.binding.datatypes.positiveInteger(5))
 taxRateType._InitializeFacetMap(taxRateType._CF_totalDigits)
 Namespace.addCategoryObject('typeBinding', u'taxRateType', taxRateType)
 
@@ -864,8 +864,8 @@ class productCodeType (pyxb.binding.datatypes.string):
 
     _ExpandedName = pyxb.namespace.ExpandedName(Namespace, u'productCodeType')
     _Documentation = None
-productCodeType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(12L))
-productCodeType._CF_minLength = pyxb.binding.facets.CF_minLength(value=pyxb.binding.datatypes.nonNegativeInteger(1L))
+productCodeType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(12))
+productCodeType._CF_minLength = pyxb.binding.facets.CF_minLength(value=pyxb.binding.datatypes.nonNegativeInteger(1))
 productCodeType._InitializeFacetMap(productCodeType._CF_maxLength,
    productCodeType._CF_minLength)
 Namespace.addCategoryObject('typeBinding', u'productCodeType', productCodeType)
@@ -877,7 +877,7 @@ class addressLineType (pyxb.binding.datatypes.string):
 
     _ExpandedName = pyxb.namespace.ExpandedName(Namespace, u'addressLineType')
     _Documentation = None
-addressLineType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(35L))
+addressLineType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(35))
 addressLineType._InitializeFacetMap(addressLineType._CF_maxLength)
 Namespace.addCategoryObject('typeBinding', u'addressLineType', addressLineType)
 
@@ -888,7 +888,7 @@ class quantityType (pyxb.binding.datatypes.decimal):
 
     _ExpandedName = pyxb.namespace.ExpandedName(Namespace, u'quantityType')
     _Documentation = None
-quantityType._CF_totalDigits = pyxb.binding.facets.CF_totalDigits(value=pyxb.binding.datatypes.positiveInteger(12L))
+quantityType._CF_totalDigits = pyxb.binding.facets.CF_totalDigits(value=pyxb.binding.datatypes.positiveInteger(12))
 quantityType._CF_minInclusive = pyxb.binding.facets.CF_minInclusive(value_datatype=quantityType, value=pyxb.binding.datatypes.decimal(0.0))
 quantityType._InitializeFacetMap(quantityType._CF_totalDigits,
    quantityType._CF_minInclusive)
@@ -1163,7 +1163,7 @@ class emailType (pyxb.binding.datatypes.string):
 
     _ExpandedName = pyxb.namespace.ExpandedName(Namespace, u'emailType')
     _Documentation = None
-emailType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(100L))
+emailType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(100))
 emailType._InitializeFacetMap(emailType._CF_maxLength)
 Namespace.addCategoryObject('typeBinding', u'emailType', emailType)
 
@@ -1174,7 +1174,7 @@ class STD_ANON_5 (emailType):
 
     _ExpandedName = None
     _Documentation = None
-STD_ANON_5._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(100L))
+STD_ANON_5._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(100))
 STD_ANON_5._InitializeFacetMap(STD_ANON_5._CF_maxLength)
 
 # Atomic simple type: {http://www.litle.com/schema}numberOfDeposits
@@ -1184,7 +1184,7 @@ class numberOfDeposits (pyxb.binding.datatypes.integer):
 
     _ExpandedName = pyxb.namespace.ExpandedName(Namespace, u'numberOfDeposits')
     _Documentation = None
-numberOfDeposits._CF_totalDigits = pyxb.binding.facets.CF_totalDigits(value=pyxb.binding.datatypes.positiveInteger(1L))
+numberOfDeposits._CF_totalDigits = pyxb.binding.facets.CF_totalDigits(value=pyxb.binding.datatypes.positiveInteger(1))
 numberOfDeposits._InitializeFacetMap(numberOfDeposits._CF_totalDigits)
 Namespace.addCategoryObject('typeBinding', u'numberOfDeposits', numberOfDeposits)
 
@@ -1195,8 +1195,8 @@ class commodityCodeType (pyxb.binding.datatypes.string):
 
     _ExpandedName = pyxb.namespace.ExpandedName(Namespace, u'commodityCodeType')
     _Documentation = None
-commodityCodeType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(12L))
-commodityCodeType._CF_minLength = pyxb.binding.facets.CF_minLength(value=pyxb.binding.datatypes.nonNegativeInteger(1L))
+commodityCodeType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(12))
+commodityCodeType._CF_minLength = pyxb.binding.facets.CF_minLength(value=pyxb.binding.datatypes.nonNegativeInteger(1))
 commodityCodeType._InitializeFacetMap(commodityCodeType._CF_maxLength,
    commodityCodeType._CF_minLength)
 Namespace.addCategoryObject('typeBinding', u'commodityCodeType', commodityCodeType)
@@ -1208,7 +1208,7 @@ class customBillingPhoneType (pyxb.binding.datatypes.string):
 
     _ExpandedName = pyxb.namespace.ExpandedName(Namespace, u'customBillingPhoneType')
     _Documentation = None
-customBillingPhoneType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(13L))
+customBillingPhoneType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(13))
 customBillingPhoneType._CF_pattern = pyxb.binding.facets.CF_pattern()
 customBillingPhoneType._CF_pattern.addPattern(pattern=u'[0-9]*')
 customBillingPhoneType._InitializeFacetMap(customBillingPhoneType._CF_maxLength,
@@ -1222,9 +1222,9 @@ class campaignType (pyxb.binding.datatypes.string):
 
     _ExpandedName = pyxb.namespace.ExpandedName(Namespace, u'campaignType')
     _Documentation = None
-campaignType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(25L))
+campaignType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(25))
 campaignType._CF_whiteSpace = pyxb.binding.facets.CF_whiteSpace(value=pyxb.binding.facets._WhiteSpace_enum.collapse)
-campaignType._CF_minLength = pyxb.binding.facets.CF_minLength(value=pyxb.binding.datatypes.nonNegativeInteger(1L))
+campaignType._CF_minLength = pyxb.binding.facets.CF_minLength(value=pyxb.binding.datatypes.nonNegativeInteger(1))
 campaignType._InitializeFacetMap(campaignType._CF_maxLength,
    campaignType._CF_whiteSpace,
    campaignType._CF_minLength)
@@ -1237,9 +1237,9 @@ class affiliateType (pyxb.binding.datatypes.string):
 
     _ExpandedName = pyxb.namespace.ExpandedName(Namespace, u'affiliateType')
     _Documentation = None
-affiliateType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(25L))
+affiliateType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(25))
 affiliateType._CF_whiteSpace = pyxb.binding.facets.CF_whiteSpace(value=pyxb.binding.facets._WhiteSpace_enum.collapse)
-affiliateType._CF_minLength = pyxb.binding.facets.CF_minLength(value=pyxb.binding.datatypes.nonNegativeInteger(1L))
+affiliateType._CF_minLength = pyxb.binding.facets.CF_minLength(value=pyxb.binding.datatypes.nonNegativeInteger(1))
 affiliateType._InitializeFacetMap(affiliateType._CF_maxLength,
    affiliateType._CF_whiteSpace,
    affiliateType._CF_minLength)
@@ -1252,9 +1252,9 @@ class merchantGroupingIdType (pyxb.binding.datatypes.string):
 
     _ExpandedName = pyxb.namespace.ExpandedName(Namespace, u'merchantGroupingIdType')
     _Documentation = None
-merchantGroupingIdType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(25L))
+merchantGroupingIdType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(25))
 merchantGroupingIdType._CF_whiteSpace = pyxb.binding.facets.CF_whiteSpace(value=pyxb.binding.facets._WhiteSpace_enum.collapse)
-merchantGroupingIdType._CF_minLength = pyxb.binding.facets.CF_minLength(value=pyxb.binding.datatypes.nonNegativeInteger(1L))
+merchantGroupingIdType._CF_minLength = pyxb.binding.facets.CF_minLength(value=pyxb.binding.datatypes.nonNegativeInteger(1))
 merchantGroupingIdType._InitializeFacetMap(merchantGroupingIdType._CF_maxLength,
    merchantGroupingIdType._CF_whiteSpace,
    merchantGroupingIdType._CF_minLength)
@@ -1267,7 +1267,7 @@ class driversLicenseType (pyxb.binding.datatypes.string):
 
     _ExpandedName = pyxb.namespace.ExpandedName(Namespace, u'driversLicenseType')
     _Documentation = None
-driversLicenseType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(30L))
+driversLicenseType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(30))
 driversLicenseType._InitializeFacetMap(driversLicenseType._CF_maxLength)
 Namespace.addCategoryObject('typeBinding', u'driversLicenseType', driversLicenseType)
 
@@ -1278,7 +1278,7 @@ class stateCodeType (pyxb.binding.datatypes.string):
 
     _ExpandedName = pyxb.namespace.ExpandedName(Namespace, u'stateCodeType')
     _Documentation = None
-stateCodeType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(2L))
+stateCodeType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(2))
 stateCodeType._InitializeFacetMap(stateCodeType._CF_maxLength)
 Namespace.addCategoryObject('typeBinding', u'stateCodeType', stateCodeType)
 
@@ -1289,7 +1289,7 @@ class dateOfBirthType (pyxb.binding.datatypes.string):
 
     _ExpandedName = pyxb.namespace.ExpandedName(Namespace, u'dateOfBirthType')
     _Documentation = None
-dateOfBirthType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(8L))
+dateOfBirthType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(8))
 dateOfBirthType._InitializeFacetMap(dateOfBirthType._CF_maxLength)
 Namespace.addCategoryObject('typeBinding', u'dateOfBirthType', dateOfBirthType)
 
@@ -1347,7 +1347,7 @@ class customBillingCityType (pyxb.binding.datatypes.string):
 
     _ExpandedName = pyxb.namespace.ExpandedName(Namespace, u'customBillingCityType')
     _Documentation = None
-customBillingCityType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(35L))
+customBillingCityType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(35))
 customBillingCityType._InitializeFacetMap(customBillingCityType._CF_maxLength)
 Namespace.addCategoryObject('typeBinding', u'customBillingCityType', customBillingCityType)
 
@@ -1371,7 +1371,7 @@ class STD_ANON_9 (pyxb.binding.datatypes.int):
 
     _ExpandedName = None
     _Documentation = None
-STD_ANON_9._CF_totalDigits = pyxb.binding.facets.CF_totalDigits(value=pyxb.binding.datatypes.positiveInteger(2L))
+STD_ANON_9._CF_totalDigits = pyxb.binding.facets.CF_totalDigits(value=pyxb.binding.datatypes.positiveInteger(2))
 STD_ANON_9._InitializeFacetMap(STD_ANON_9._CF_totalDigits)
 
 # Atomic simple type: [anonymous]
@@ -1381,7 +1381,7 @@ class STD_ANON_10 (pyxb.binding.datatypes.int):
 
     _ExpandedName = None
     _Documentation = None
-STD_ANON_10._CF_totalDigits = pyxb.binding.facets.CF_totalDigits(value=pyxb.binding.datatypes.positiveInteger(2L))
+STD_ANON_10._CF_totalDigits = pyxb.binding.facets.CF_totalDigits(value=pyxb.binding.datatypes.positiveInteger(2))
 STD_ANON_10._InitializeFacetMap(STD_ANON_10._CF_totalDigits)
 
 # Atomic simple type: [anonymous]
@@ -1391,7 +1391,7 @@ class STD_ANON_11 (pyxb.binding.datatypes.int):
 
     _ExpandedName = None
     _Documentation = None
-STD_ANON_11._CF_totalDigits = pyxb.binding.facets.CF_totalDigits(value=pyxb.binding.datatypes.positiveInteger(5L))
+STD_ANON_11._CF_totalDigits = pyxb.binding.facets.CF_totalDigits(value=pyxb.binding.datatypes.positiveInteger(5))
 STD_ANON_11._InitializeFacetMap(STD_ANON_11._CF_totalDigits)
 
 # Atomic simple type: {http://www.litle.com/schema}string2Type
@@ -1401,7 +1401,7 @@ class string2Type (pyxb.binding.datatypes.string):
 
     _ExpandedName = pyxb.namespace.ExpandedName(Namespace, u'string2Type')
     _Documentation = None
-string2Type._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(2L))
+string2Type._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(2))
 string2Type._InitializeFacetMap(string2Type._CF_maxLength)
 Namespace.addCategoryObject('typeBinding', u'string2Type', string2Type)
 
@@ -1426,7 +1426,7 @@ class virtualAuthenticationKeyPresenceIndicator (pyxb.binding.datatypes.string):
 
     _ExpandedName = pyxb.namespace.ExpandedName(Namespace, u'virtualAuthenticationKeyPresenceIndicator')
     _Documentation = None
-virtualAuthenticationKeyPresenceIndicator._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(1L))
+virtualAuthenticationKeyPresenceIndicator._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(1))
 virtualAuthenticationKeyPresenceIndicator._InitializeFacetMap(virtualAuthenticationKeyPresenceIndicator._CF_maxLength)
 Namespace.addCategoryObject('typeBinding', u'virtualAuthenticationKeyPresenceIndicator', virtualAuthenticationKeyPresenceIndicator)
 
@@ -1437,7 +1437,7 @@ class STD_ANON_12 (pyxb.binding.datatypes.int):
 
     _ExpandedName = None
     _Documentation = None
-STD_ANON_12._CF_totalDigits = pyxb.binding.facets.CF_totalDigits(value=pyxb.binding.datatypes.positiveInteger(4L))
+STD_ANON_12._CF_totalDigits = pyxb.binding.facets.CF_totalDigits(value=pyxb.binding.datatypes.positiveInteger(4))
 STD_ANON_12._InitializeFacetMap(STD_ANON_12._CF_totalDigits)
 
 # Atomic simple type: {http://www.litle.com/schema}customBillingUrlType
@@ -1447,7 +1447,7 @@ class customBillingUrlType (pyxb.binding.datatypes.string):
 
     _ExpandedName = pyxb.namespace.ExpandedName(Namespace, u'customBillingUrlType')
     _Documentation = None
-customBillingUrlType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(13L))
+customBillingUrlType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(13))
 customBillingUrlType._CF_pattern = pyxb.binding.facets.CF_pattern()
 customBillingUrlType._CF_pattern.addPattern(pattern=u'[A-Z,a-z,0-9,/,\\-,_,.]*')
 customBillingUrlType._InitializeFacetMap(customBillingUrlType._CF_maxLength,
@@ -1461,10 +1461,10 @@ class descriptorType (pyxb.binding.datatypes.string):
 
     _ExpandedName = pyxb.namespace.ExpandedName(Namespace, u'descriptorType')
     _Documentation = None
-descriptorType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(25L))
+descriptorType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(25))
 descriptorType._CF_pattern = pyxb.binding.facets.CF_pattern()
 descriptorType._CF_pattern.addPattern(pattern=u"[A-Z,a-z,0-9, ,\\*,,,\\-,',#,&,.]*")
-descriptorType._CF_minLength = pyxb.binding.facets.CF_minLength(value=pyxb.binding.datatypes.nonNegativeInteger(4L))
+descriptorType._CF_minLength = pyxb.binding.facets.CF_minLength(value=pyxb.binding.datatypes.nonNegativeInteger(4))
 descriptorType._InitializeFacetMap(descriptorType._CF_maxLength,
    descriptorType._CF_pattern,
    descriptorType._CF_minLength)
@@ -1477,9 +1477,9 @@ class merchantCategoryCodeType (pyxb.binding.datatypes.string):
 
     _ExpandedName = pyxb.namespace.ExpandedName(Namespace, u'merchantCategoryCodeType')
     _Documentation = None
-merchantCategoryCodeType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(4L))
+merchantCategoryCodeType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(4))
 merchantCategoryCodeType._CF_whiteSpace = pyxb.binding.facets.CF_whiteSpace(value=pyxb.binding.facets._WhiteSpace_enum.collapse)
-merchantCategoryCodeType._CF_minLength = pyxb.binding.facets.CF_minLength(value=pyxb.binding.datatypes.nonNegativeInteger(1L))
+merchantCategoryCodeType._CF_minLength = pyxb.binding.facets.CF_minLength(value=pyxb.binding.datatypes.nonNegativeInteger(1))
 merchantCategoryCodeType._InitializeFacetMap(merchantCategoryCodeType._CF_maxLength,
    merchantCategoryCodeType._CF_whiteSpace,
    merchantCategoryCodeType._CF_minLength)
@@ -1492,7 +1492,7 @@ class firstNameType (pyxb.binding.datatypes.string):
 
     _ExpandedName = pyxb.namespace.ExpandedName(Namespace, u'firstNameType')
     _Documentation = None
-firstNameType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(25L))
+firstNameType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(25))
 firstNameType._InitializeFacetMap(firstNameType._CF_maxLength)
 Namespace.addCategoryObject('typeBinding', u'firstNameType', firstNameType)
 
@@ -1503,7 +1503,7 @@ class riskEstimator (pyxb.binding.datatypes.string):
 
     _ExpandedName = pyxb.namespace.ExpandedName(Namespace, u'riskEstimator')
     _Documentation = None
-riskEstimator._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(8L))
+riskEstimator._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(8))
 riskEstimator._InitializeFacetMap(riskEstimator._CF_maxLength)
 Namespace.addCategoryObject('typeBinding', u'riskEstimator', riskEstimator)
 
@@ -1514,7 +1514,7 @@ class cvNumType (pyxb.binding.datatypes.string):
 
     _ExpandedName = pyxb.namespace.ExpandedName(Namespace, u'cvNumType')
     _Documentation = None
-cvNumType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(4L))
+cvNumType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(4))
 cvNumType._InitializeFacetMap(cvNumType._CF_maxLength)
 Namespace.addCategoryObject('typeBinding', u'cvNumType', cvNumType)
 
@@ -1525,7 +1525,7 @@ class riskQueueAssignment (pyxb.binding.datatypes.string):
 
     _ExpandedName = pyxb.namespace.ExpandedName(Namespace, u'riskQueueAssignment')
     _Documentation = None
-riskQueueAssignment._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(8L))
+riskQueueAssignment._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(8))
 riskQueueAssignment._InitializeFacetMap(riskQueueAssignment._CF_maxLength)
 Namespace.addCategoryObject('typeBinding', u'riskQueueAssignment', riskQueueAssignment)
 
@@ -1536,7 +1536,7 @@ class middleInitialType (pyxb.binding.datatypes.string):
 
     _ExpandedName = pyxb.namespace.ExpandedName(Namespace, u'middleInitialType')
     _Documentation = None
-middleInitialType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(1L))
+middleInitialType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(1))
 middleInitialType._InitializeFacetMap(middleInitialType._CF_maxLength)
 Namespace.addCategoryObject('typeBinding', u'middleInitialType', middleInitialType)
 
@@ -1547,7 +1547,7 @@ class authenticationTransactionIdType (pyxb.binding.datatypes.base64Binary):
 
     _ExpandedName = pyxb.namespace.ExpandedName(Namespace, u'authenticationTransactionIdType')
     _Documentation = None
-authenticationTransactionIdType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(28L))
+authenticationTransactionIdType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(28))
 authenticationTransactionIdType._InitializeFacetMap(authenticationTransactionIdType._CF_maxLength)
 Namespace.addCategoryObject('typeBinding', u'authenticationTransactionIdType', authenticationTransactionIdType)
 
@@ -1570,8 +1570,8 @@ class unitOfMeasureType (pyxb.binding.datatypes.string):
 
     _ExpandedName = pyxb.namespace.ExpandedName(Namespace, u'unitOfMeasureType')
     _Documentation = None
-unitOfMeasureType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(12L))
-unitOfMeasureType._CF_minLength = pyxb.binding.facets.CF_minLength(value=pyxb.binding.datatypes.nonNegativeInteger(1L))
+unitOfMeasureType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(12))
+unitOfMeasureType._CF_minLength = pyxb.binding.facets.CF_minLength(value=pyxb.binding.datatypes.nonNegativeInteger(1))
 unitOfMeasureType._InitializeFacetMap(unitOfMeasureType._CF_maxLength,
    unitOfMeasureType._CF_minLength)
 Namespace.addCategoryObject('typeBinding', u'unitOfMeasureType', unitOfMeasureType)
@@ -1595,7 +1595,7 @@ class template (pyxb.binding.datatypes.string):
 
     _ExpandedName = pyxb.namespace.ExpandedName(Namespace, u'template')
     _Documentation = None
-template._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(25L))
+template._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(25))
 template._InitializeFacetMap(template._CF_maxLength)
 Namespace.addCategoryObject('typeBinding', u'template', template)
 
@@ -1606,7 +1606,7 @@ class companyName (pyxb.binding.datatypes.string):
 
     _ExpandedName = pyxb.namespace.ExpandedName(Namespace, u'companyName')
     _Documentation = None
-companyName._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(40L))
+companyName._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(40))
 companyName._InitializeFacetMap(companyName._CF_maxLength)
 Namespace.addCategoryObject('typeBinding', u'companyName', companyName)
 
@@ -1617,7 +1617,7 @@ class STD_ANON_13 (pyxb.binding.datatypes.int):
 
     _ExpandedName = None
     _Documentation = None
-STD_ANON_13._CF_totalDigits = pyxb.binding.facets.CF_totalDigits(value=pyxb.binding.datatypes.positiveInteger(8L))
+STD_ANON_13._CF_totalDigits = pyxb.binding.facets.CF_totalDigits(value=pyxb.binding.datatypes.positiveInteger(8))
 STD_ANON_13._InitializeFacetMap(STD_ANON_13._CF_totalDigits)
 
 # Atomic simple type: {http://www.litle.com/schema}ksnType
@@ -1627,8 +1627,8 @@ class ksnType (pyxb.binding.datatypes.string):
 
     _ExpandedName = pyxb.namespace.ExpandedName(Namespace, u'ksnType')
     _Documentation = None
-ksnType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(1028L))
-ksnType._CF_minLength = pyxb.binding.facets.CF_minLength(value=pyxb.binding.datatypes.nonNegativeInteger(1L))
+ksnType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(1028))
+ksnType._CF_minLength = pyxb.binding.facets.CF_minLength(value=pyxb.binding.datatypes.nonNegativeInteger(1))
 ksnType._InitializeFacetMap(ksnType._CF_maxLength,
    ksnType._CF_minLength)
 Namespace.addCategoryObject('typeBinding', u'ksnType', ksnType)
@@ -1640,8 +1640,8 @@ class formatIdType (pyxb.binding.datatypes.string):
 
     _ExpandedName = pyxb.namespace.ExpandedName(Namespace, u'formatIdType')
     _Documentation = None
-formatIdType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(1028L))
-formatIdType._CF_minLength = pyxb.binding.facets.CF_minLength(value=pyxb.binding.datatypes.nonNegativeInteger(1L))
+formatIdType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(1028))
+formatIdType._CF_minLength = pyxb.binding.facets.CF_minLength(value=pyxb.binding.datatypes.nonNegativeInteger(1))
 formatIdType._InitializeFacetMap(formatIdType._CF_maxLength,
    formatIdType._CF_minLength)
 Namespace.addCategoryObject('typeBinding', u'formatIdType', formatIdType)
@@ -1653,8 +1653,8 @@ class encryptedTrackType (pyxb.binding.datatypes.string):
 
     _ExpandedName = pyxb.namespace.ExpandedName(Namespace, u'encryptedTrackType')
     _Documentation = None
-encryptedTrackType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(1028L))
-encryptedTrackType._CF_minLength = pyxb.binding.facets.CF_minLength(value=pyxb.binding.datatypes.nonNegativeInteger(1L))
+encryptedTrackType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(1028))
+encryptedTrackType._CF_minLength = pyxb.binding.facets.CF_minLength(value=pyxb.binding.datatypes.nonNegativeInteger(1))
 encryptedTrackType._InitializeFacetMap(encryptedTrackType._CF_maxLength,
    encryptedTrackType._CF_minLength)
 Namespace.addCategoryObject('typeBinding', u'encryptedTrackType', encryptedTrackType)
@@ -1682,7 +1682,7 @@ class authenticationResultType (pyxb.binding.datatypes.string):
 
     _ExpandedName = pyxb.namespace.ExpandedName(Namespace, u'authenticationResultType')
     _Documentation = None
-authenticationResultType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(1L))
+authenticationResultType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(1))
 authenticationResultType._InitializeFacetMap(authenticationResultType._CF_maxLength)
 Namespace.addCategoryObject('typeBinding', u'authenticationResultType', authenticationResultType)
 
@@ -1721,9 +1721,9 @@ class trackDataType (pyxb.binding.datatypes.string):
 
     _ExpandedName = pyxb.namespace.ExpandedName(Namespace, u'trackDataType')
     _Documentation = None
-trackDataType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(256L))
+trackDataType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(256))
 trackDataType._CF_whiteSpace = pyxb.binding.facets.CF_whiteSpace(value=pyxb.binding.facets._WhiteSpace_enum.collapse)
-trackDataType._CF_minLength = pyxb.binding.facets.CF_minLength(value=pyxb.binding.datatypes.nonNegativeInteger(1L))
+trackDataType._CF_minLength = pyxb.binding.facets.CF_minLength(value=pyxb.binding.datatypes.nonNegativeInteger(1))
 trackDataType._InitializeFacetMap(trackDataType._CF_maxLength,
    trackDataType._CF_whiteSpace,
    trackDataType._CF_minLength)
@@ -1748,8 +1748,8 @@ class checkNumberType (pyxb.binding.datatypes.string):
 
     _ExpandedName = pyxb.namespace.ExpandedName(Namespace, u'checkNumberType')
     _Documentation = None
-checkNumberType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(15L))
-checkNumberType._CF_minLength = pyxb.binding.facets.CF_minLength(value=pyxb.binding.datatypes.nonNegativeInteger(1L))
+checkNumberType._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(15))
+checkNumberType._CF_minLength = pyxb.binding.facets.CF_minLength(value=pyxb.binding.datatypes.nonNegativeInteger(1))
 checkNumberType._InitializeFacetMap(checkNumberType._CF_maxLength,
    checkNumberType._CF_minLength)
 Namespace.addCategoryObject('typeBinding', u'checkNumberType', checkNumberType)
@@ -1775,7 +1775,7 @@ class virtualAuthenticationKeyData (pyxb.binding.datatypes.string):
 
     _ExpandedName = pyxb.namespace.ExpandedName(Namespace, u'virtualAuthenticationKeyData')
     _Documentation = None
-virtualAuthenticationKeyData._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(4L))
+virtualAuthenticationKeyData._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(4))
 virtualAuthenticationKeyData._InitializeFacetMap(virtualAuthenticationKeyData._CF_maxLength)
 Namespace.addCategoryObject('typeBinding', u'virtualAuthenticationKeyData', virtualAuthenticationKeyData)
 
@@ -1786,7 +1786,7 @@ class string80Type (pyxb.binding.datatypes.string):
 
     _ExpandedName = pyxb.namespace.ExpandedName(Namespace, u'string80Type')
     _Documentation = None
-string80Type._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(80L))
+string80Type._CF_maxLength = pyxb.binding.facets.CF_maxLength(value=pyxb.binding.datatypes.nonNegativeInteger(80))
 string80Type._InitializeFacetMap(string80Type._CF_maxLength)
 Namespace.addCategoryObject('typeBinding', u'string80Type', string80Type)
 
@@ -13455,12 +13455,12 @@ CTD_ANON._GroupModel_ = pyxb.binding.content.GroupChoice(
     pyxb.binding.content.ParticleModel(CTD_ANON._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'virtualGiftCard')), min_occurs=1, max_occurs=1)
     )
 CTD_ANON._GroupModel = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(CTD_ANON._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'amount')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderSource')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON._GroupModel_, min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'amount')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderSource')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON._GroupModel_, min_occurs=0, max_occurs=1)
     )
-CTD_ANON._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -13483,16 +13483,16 @@ CTD_ANON_._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Nam
 CTD_ANON_._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'tokenResponse'), tokenResponseType, scope=CTD_ANON_))
 CTD_ANON_._GroupModel = pyxb.binding.content.GroupAll(
     pyxb.binding.content.ParticleModel(CTD_ANON_._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'litleTxnId')), min_occurs=1, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'postDate')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'tokenResponse')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fraudResult')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'giftCardResponse')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'postDate')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'tokenResponse')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fraudResult')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'giftCardResponse')), min_occurs=0, max_occurs=1)
     )
-CTD_ANON_._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -13504,12 +13504,12 @@ CTD_ANON_2._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Na
 
 CTD_ANON_2._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'beginningBalance'), string20Type, scope=CTD_ANON_2))
 CTD_ANON_2._GroupModel = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(CTD_ANON_2._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'availableBalance')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_2._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'beginningBalance')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_2._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'endingBalance')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_2._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'cashBackAmount')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_2._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'availableBalance')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_2._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'beginningBalance')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_2._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'endingBalance')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_2._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'cashBackAmount')), min_occurs=0, max_occurs=1)
     )
-CTD_ANON_2._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_2._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_2._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_2._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -13523,13 +13523,13 @@ CTD_ANON_3._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Na
 
 CTD_ANON_3._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'avsResult'), string2Type, scope=CTD_ANON_3))
 CTD_ANON_3._GroupModel = pyxb.binding.content.GroupAll(
-    pyxb.binding.content.ParticleModel(CTD_ANON_3._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'avsResult')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_3._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'cardValidationResult')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_3._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'authenticationResult')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_3._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'advancedAVSResult')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_3._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'advancedFraudResults')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_3._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'avsResult')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_3._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'cardValidationResult')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_3._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'authenticationResult')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_3._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'advancedAVSResult')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_3._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'advancedFraudResults')), min_occurs=0, max_occurs=1)
     )
-CTD_ANON_3._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_3._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_3._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_3._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -13539,12 +13539,12 @@ CTD_ANON_4._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Na
 
 CTD_ANON_4._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'fundsTransferId'), string25Type, scope=CTD_ANON_4))
 CTD_ANON_4._GroupModel_ = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(CTD_ANON_4._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fundingSubmerchantId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_4._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fundsTransferId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_4._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'amount')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_4._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fundingSubmerchantId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_4._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fundsTransferId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_4._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'amount')), min_occurs=0, max_occurs=1)
     )
 CTD_ANON_4._GroupModel = pyxb.binding.content.GroupChoice(
-    pyxb.binding.content.ParticleModel(CTD_ANON_4._GroupModel_, min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_4._GroupModel_, min_occurs=0, max_occurs=1)
     )
 CTD_ANON_4._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_4._GroupModel, min_occurs=1, max_occurs=1)
 
@@ -13565,14 +13565,14 @@ CTD_ANON_5._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Na
 CTD_ANON_5._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'postDate'), pyxb.binding.datatypes.date, scope=CTD_ANON_5))
 CTD_ANON_5._GroupModel = pyxb.binding.content.GroupAll(
     pyxb.binding.content.ParticleModel(CTD_ANON_5._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'litleTxnId')), min_occurs=1, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_5._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_5._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_5._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_5._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'postDate')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_5._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_5._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'giftCardResponse')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_5._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_5._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_5._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_5._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'postDate')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_5._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_5._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'giftCardResponse')), min_occurs=0, max_occurs=1)
     )
-CTD_ANON_5._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_5._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_5._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_5._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -13586,13 +13586,13 @@ CTD_ANON_6._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Na
 
 CTD_ANON_6._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'dentalAmount'), transactionAmountType, scope=CTD_ANON_6))
 CTD_ANON_6._GroupModel = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(CTD_ANON_6._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'totalHealthcareAmount')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_6._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'RxAmount')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_6._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'visionAmount')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_6._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'clinicOtherAmount')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_6._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'dentalAmount')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_6._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'totalHealthcareAmount')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_6._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'RxAmount')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_6._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'visionAmount')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_6._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'clinicOtherAmount')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_6._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'dentalAmount')), min_occurs=0, max_occurs=1)
     )
-CTD_ANON_6._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_6._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_6._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_6._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -13600,10 +13600,10 @@ virtualGiftCardType._AddElement(pyxb.binding.basis.element(pyxb.namespace.Expand
 
 virtualGiftCardType._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'accountNumberLength'), pyxb.binding.datatypes.integer, scope=virtualGiftCardType))
 virtualGiftCardType._GroupModel = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(virtualGiftCardType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'accountNumberLength')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(virtualGiftCardType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'giftCardBin')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(virtualGiftCardType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'accountNumberLength')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(virtualGiftCardType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'giftCardBin')), min_occurs=0, max_occurs=1)
     )
-virtualGiftCardType._ContentModel = pyxb.binding.content.ParticleModel(virtualGiftCardType._GroupModel, min_occurs=0L, max_occurs=1)
+virtualGiftCardType._ContentModel = pyxb.binding.content.ParticleModel(virtualGiftCardType._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -13618,12 +13618,12 @@ CTD_ANON_7._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Na
 CTD_ANON_7._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'litleTxnId'), litleIdType, scope=CTD_ANON_7))
 CTD_ANON_7._GroupModel = pyxb.binding.content.GroupAll(
     pyxb.binding.content.ParticleModel(CTD_ANON_7._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'litleTxnId')), min_occurs=1, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_7._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fundsTransferId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_7._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_7._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_7._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_7._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fundsTransferId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_7._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_7._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_7._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0, max_occurs=1)
     )
-CTD_ANON_7._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_7._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_7._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_7._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -13631,10 +13631,10 @@ CTD_ANON_8._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Na
 
 CTD_ANON_8._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'active'), pyxb.binding.datatypes.boolean, scope=CTD_ANON_8))
 CTD_ANON_8._GroupModel = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(CTD_ANON_8._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'planCode')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_8._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'active')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_8._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'planCode')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_8._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'active')), min_occurs=0, max_occurs=1)
     )
-CTD_ANON_8._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_8._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_8._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_8._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -13653,14 +13653,14 @@ CTD_ANON_9._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Na
 CTD_ANON_9._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'postDate'), pyxb.binding.datatypes.date, scope=CTD_ANON_9))
 CTD_ANON_9._GroupModel = pyxb.binding.content.GroupAll(
     pyxb.binding.content.ParticleModel(CTD_ANON_9._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'litleTxnId')), min_occurs=1, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_9._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_9._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_9._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_9._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'postDate')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_9._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_9._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'giftCardResponse')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_9._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_9._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_9._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_9._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'postDate')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_9._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_9._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'giftCardResponse')), min_occurs=0, max_occurs=1)
     )
-CTD_ANON_9._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_9._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_9._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_9._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -13671,7 +13671,7 @@ CTD_ANON_10._GroupModel = pyxb.binding.content.GroupChoice(
     pyxb.binding.content.ParticleModel(CTD_ANON_10._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'litleSessionId')), min_occurs=1, max_occurs=1),
     pyxb.binding.content.ParticleModel(CTD_ANON_10._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'accountUpdateFileRequestData')), min_occurs=1, max_occurs=1)
     )
-CTD_ANON_10._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_10._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_10._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_10._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -13685,13 +13685,13 @@ CTD_ANON_11._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(N
 
 CTD_ANON_11._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'merchantData'), merchantDataType, scope=CTD_ANON_11))
 CTD_ANON_11._GroupModel = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(CTD_ANON_11._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_11._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderSource')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_11._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'billToAddress')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_11._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'echeck')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_11._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'merchantData')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_11._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_11._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderSource')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_11._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'billToAddress')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_11._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'echeck')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_11._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'merchantData')), min_occurs=0, max_occurs=1)
     )
-CTD_ANON_11._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_11._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_11._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_11._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -13702,7 +13702,7 @@ CTD_ANON_12._GroupModel = pyxb.binding.content.GroupChoice(
     pyxb.binding.content.ParticleModel(CTD_ANON_12._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'transaction')), min_occurs=1, max_occurs=None),
     pyxb.binding.content.ParticleModel(CTD_ANON_12._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'recurringTransaction')), min_occurs=1, max_occurs=None)
     )
-CTD_ANON_12._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_12._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_12._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_12._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -13710,10 +13710,10 @@ CTD_ANON_13._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(N
 
 CTD_ANON_13._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'recurringTransactionResponse'), recurringTransactionResponseType, abstract=pyxb.binding.datatypes.boolean(1), scope=CTD_ANON_13))
 CTD_ANON_13._GroupModel = pyxb.binding.content.GroupChoice(
-    pyxb.binding.content.ParticleModel(CTD_ANON_13._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'transactionResponse')), min_occurs=0L, max_occurs=None),
-    pyxb.binding.content.ParticleModel(CTD_ANON_13._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'recurringTransactionResponse')), min_occurs=0L, max_occurs=None)
+    pyxb.binding.content.ParticleModel(CTD_ANON_13._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'transactionResponse')), min_occurs=0, max_occurs=None),
+    pyxb.binding.content.ParticleModel(CTD_ANON_13._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'recurringTransactionResponse')), min_occurs=0, max_occurs=None)
     )
-CTD_ANON_13._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_13._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_13._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_13._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -13723,11 +13723,11 @@ merchantDataType._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedN
 
 merchantDataType._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'campaign'), campaignType, scope=merchantDataType))
 merchantDataType._GroupModel = pyxb.binding.content.GroupAll(
-    pyxb.binding.content.ParticleModel(merchantDataType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'campaign')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(merchantDataType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'affiliate')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(merchantDataType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'merchantGroupingId')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(merchantDataType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'campaign')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(merchantDataType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'affiliate')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(merchantDataType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'merchantGroupingId')), min_occurs=0, max_occurs=1)
     )
-merchantDataType._ContentModel = pyxb.binding.content.ParticleModel(merchantDataType._GroupModel, min_occurs=0L, max_occurs=1)
+merchantDataType._ContentModel = pyxb.binding.content.ParticleModel(merchantDataType._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -13741,13 +13741,13 @@ CTD_ANON_14._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(N
 
 CTD_ANON_14._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'merchantData'), merchantDataType, scope=CTD_ANON_14))
 CTD_ANON_14._GroupModel = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(CTD_ANON_14._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_14._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderSource')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_14._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'billToAddress')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_14._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'echeck')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_14._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'merchantData')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_14._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_14._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderSource')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_14._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'billToAddress')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_14._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'echeck')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_14._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'merchantData')), min_occurs=0, max_occurs=1)
     )
-CTD_ANON_14._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_14._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_14._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_14._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -13762,12 +13762,12 @@ CTD_ANON_15._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(N
 CTD_ANON_15._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'message'), messageType, scope=CTD_ANON_15))
 CTD_ANON_15._GroupModel = pyxb.binding.content.GroupAll(
     pyxb.binding.content.ParticleModel(CTD_ANON_15._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'litleTxnId')), min_occurs=1, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_15._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_15._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_15._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_15._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_15._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_15._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_15._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_15._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0, max_occurs=1)
     )
-CTD_ANON_15._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_15._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_15._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_15._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -13790,24 +13790,24 @@ CTD_ANON_16._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(N
 CTD_ANON_16._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'response'), responseType, scope=CTD_ANON_16))
 CTD_ANON_16._GroupModel = pyxb.binding.content.GroupAll(
     pyxb.binding.content.ParticleModel(CTD_ANON_16._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'litleTxnId')), min_occurs=1, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_16._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_16._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_16._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_16._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'postDate')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_16._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_16._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'accountUpdater')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_16._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fraudResult')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_16._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'giftCardResponse')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_16._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_16._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_16._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_16._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'postDate')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_16._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_16._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'accountUpdater')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_16._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fraudResult')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_16._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'giftCardResponse')), min_occurs=0, max_occurs=1)
     )
-CTD_ANON_16._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_16._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_16._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_16._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
 CTD_ANON_17._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'subscriptionId'), litleIdType, scope=CTD_ANON_17))
 CTD_ANON_17._GroupModel = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(CTD_ANON_17._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'subscriptionId')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_17._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'subscriptionId')), min_occurs=0, max_occurs=1)
     )
-CTD_ANON_17._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_17._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_17._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_17._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -13842,17 +13842,17 @@ CTD_ANON_18._GroupModel_ = pyxb.binding.content.GroupChoice(
     pyxb.binding.content.ParticleModel(CTD_ANON_18._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'paypage')), min_occurs=1, max_occurs=1)
     )
 CTD_ANON_18._GroupModel = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(CTD_ANON_18._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'subscriptionId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_18._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'planCode')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_18._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'billToAddress')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_18._GroupModel_, min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_18._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'billingDate')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_18._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'createDiscount')), min_occurs=0L, max_occurs=None),
-    pyxb.binding.content.ParticleModel(CTD_ANON_18._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'updateDiscount')), min_occurs=0L, max_occurs=None),
-    pyxb.binding.content.ParticleModel(CTD_ANON_18._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'deleteDiscount')), min_occurs=0L, max_occurs=None),
-    pyxb.binding.content.ParticleModel(CTD_ANON_18._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'createAddOn')), min_occurs=0L, max_occurs=None),
-    pyxb.binding.content.ParticleModel(CTD_ANON_18._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'updateAddOn')), min_occurs=0L, max_occurs=None),
-    pyxb.binding.content.ParticleModel(CTD_ANON_18._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'deleteAddOn')), min_occurs=0L, max_occurs=None)
+    pyxb.binding.content.ParticleModel(CTD_ANON_18._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'subscriptionId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_18._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'planCode')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_18._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'billToAddress')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_18._GroupModel_, min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_18._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'billingDate')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_18._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'createDiscount')), min_occurs=0, max_occurs=None),
+    pyxb.binding.content.ParticleModel(CTD_ANON_18._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'updateDiscount')), min_occurs=0, max_occurs=None),
+    pyxb.binding.content.ParticleModel(CTD_ANON_18._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'deleteDiscount')), min_occurs=0, max_occurs=None),
+    pyxb.binding.content.ParticleModel(CTD_ANON_18._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'createAddOn')), min_occurs=0, max_occurs=None),
+    pyxb.binding.content.ParticleModel(CTD_ANON_18._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'updateAddOn')), min_occurs=0, max_occurs=None),
+    pyxb.binding.content.ParticleModel(CTD_ANON_18._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'deleteAddOn')), min_occurs=0, max_occurs=None)
     )
 CTD_ANON_18._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_18._GroupModel, min_occurs=1, max_occurs=1)
 
@@ -13869,12 +13869,12 @@ CTD_ANON_19._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(N
 CTD_ANON_19._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'response'), responseType, scope=CTD_ANON_19))
 CTD_ANON_19._GroupModel = pyxb.binding.content.GroupAll(
     pyxb.binding.content.ParticleModel(CTD_ANON_19._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'litleTxnId')), min_occurs=1, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_19._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_19._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_19._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_19._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_19._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_19._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_19._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_19._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0, max_occurs=1)
     )
-CTD_ANON_19._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_19._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_19._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_19._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -13882,10 +13882,10 @@ CTD_ANON_20._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(N
 
 CTD_ANON_20._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'sellerId'), sellerIdType, scope=CTD_ANON_20))
 CTD_ANON_20._GroupModel = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(CTD_ANON_20._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'sellerId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_20._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'sellerMerchantCategoryCode')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_20._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'sellerId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_20._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'sellerMerchantCategoryCode')), min_occurs=0, max_occurs=1)
     )
-CTD_ANON_20._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_20._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_20._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_20._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -13897,20 +13897,20 @@ recurringResponseType._AddElement(pyxb.binding.basis.element(pyxb.namespace.Expa
 
 recurringResponseType._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'recurringTxnId'), litleIdType, scope=recurringResponseType))
 recurringResponseType._GroupModel = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(recurringResponseType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'subscriptionId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(recurringResponseType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseCode')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(recurringResponseType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseMessage')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(recurringResponseType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'recurringTxnId')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(recurringResponseType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'subscriptionId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(recurringResponseType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseCode')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(recurringResponseType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseMessage')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(recurringResponseType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'recurringTxnId')), min_occurs=0, max_occurs=1)
     )
-recurringResponseType._ContentModel = pyxb.binding.content.ParticleModel(recurringResponseType._GroupModel, min_occurs=0L, max_occurs=1)
+recurringResponseType._ContentModel = pyxb.binding.content.ParticleModel(recurringResponseType._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
 recurringRequestType._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'subscription'), recurringSubscriptionType, scope=recurringRequestType))
 recurringRequestType._GroupModel = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(recurringRequestType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'subscription')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(recurringRequestType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'subscription')), min_occurs=0, max_occurs=1)
     )
-recurringRequestType._ContentModel = pyxb.binding.content.ParticleModel(recurringRequestType._GroupModel, min_occurs=0L, max_occurs=1)
+recurringRequestType._ContentModel = pyxb.binding.content.ParticleModel(recurringRequestType._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -13925,21 +13925,21 @@ cardType._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Name
 cardType._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'type'), methodOfPaymentTypeEnum, scope=cardType))
 cardType._GroupModel_2 = pyxb.binding.content.GroupSequence(
     pyxb.binding.content.ParticleModel(cardType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'type')), min_occurs=1, max_occurs=1),
-    pyxb.binding.content.ParticleModel(cardType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'number')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(cardType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'expDate')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(cardType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'number')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(cardType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'expDate')), min_occurs=0, max_occurs=1)
     )
 cardType._GroupModel_3 = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(cardType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'track')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(cardType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'track')), min_occurs=0, max_occurs=1)
     )
 cardType._GroupModel_ = pyxb.binding.content.GroupChoice(
     pyxb.binding.content.ParticleModel(cardType._GroupModel_2, min_occurs=1, max_occurs=1),
-    pyxb.binding.content.ParticleModel(cardType._GroupModel_3, min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(cardType._GroupModel_3, min_occurs=0, max_occurs=1)
     )
 cardType._GroupModel = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(cardType._GroupModel_, min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(cardType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'cardValidationNum')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(cardType._GroupModel_, min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(cardType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'cardValidationNum')), min_occurs=0, max_occurs=1)
     )
-cardType._ContentModel = pyxb.binding.content.ParticleModel(cardType._GroupModel, min_occurs=0L, max_occurs=1)
+cardType._ContentModel = pyxb.binding.content.ParticleModel(cardType._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -13951,12 +13951,12 @@ cardTokenType._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName
 
 cardTokenType._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'expDate'), expDateType, scope=cardTokenType))
 cardTokenType._GroupModel = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(cardTokenType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'litleToken')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(cardTokenType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'expDate')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(cardTokenType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'cardValidationNum')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(cardTokenType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'type')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(cardTokenType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'litleToken')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(cardTokenType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'expDate')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(cardTokenType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'cardValidationNum')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(cardTokenType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'type')), min_occurs=0, max_occurs=1)
     )
-cardTokenType._ContentModel = pyxb.binding.content.ParticleModel(cardTokenType._GroupModel, min_occurs=0L, max_occurs=1)
+cardTokenType._ContentModel = pyxb.binding.content.ParticleModel(cardTokenType._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -13970,14 +13970,14 @@ CTD_ANON_21._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(N
 
 CTD_ANON_21._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'fundingSubmerchantId'), merchantIdentificationType, scope=CTD_ANON_21))
 CTD_ANON_21._GroupModel_ = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(CTD_ANON_21._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fundingSubmerchantId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_21._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'vendorName')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_21._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fundsTransferId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_21._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'amount')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_21._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'accountInfo')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_21._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fundingSubmerchantId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_21._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'vendorName')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_21._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fundsTransferId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_21._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'amount')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_21._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'accountInfo')), min_occurs=0, max_occurs=1)
     )
 CTD_ANON_21._GroupModel = pyxb.binding.content.GroupChoice(
-    pyxb.binding.content.ParticleModel(CTD_ANON_21._GroupModel_, min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_21._GroupModel_, min_occurs=0, max_occurs=1)
     )
 CTD_ANON_21._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_21._GroupModel, min_occurs=1, max_occurs=1)
 
@@ -13993,13 +13993,13 @@ updateAddOnType._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedNa
 
 updateAddOnType._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'startDate'), pyxb.binding.datatypes.date, scope=updateAddOnType))
 updateAddOnType._GroupModel = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(updateAddOnType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'addOnCode')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(updateAddOnType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'name')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(updateAddOnType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'amount')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(updateAddOnType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'startDate')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(updateAddOnType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'endDate')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(updateAddOnType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'addOnCode')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(updateAddOnType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'name')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(updateAddOnType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'amount')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(updateAddOnType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'startDate')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(updateAddOnType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'endDate')), min_occurs=0, max_occurs=1)
     )
-updateAddOnType._ContentModel = pyxb.binding.content.ParticleModel(updateAddOnType._GroupModel, min_occurs=0L, max_occurs=1)
+updateAddOnType._ContentModel = pyxb.binding.content.ParticleModel(updateAddOnType._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -14009,11 +14009,11 @@ CTD_ANON_22._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(N
 
 CTD_ANON_22._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'orderId'), string25Type, scope=CTD_ANON_22))
 CTD_ANON_22._GroupModel = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(CTD_ANON_22._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_22._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderSource')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_22._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'card')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_22._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_22._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderSource')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_22._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'card')), min_occurs=0, max_occurs=1)
     )
-CTD_ANON_22._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_22._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_22._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_22._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -14029,14 +14029,14 @@ tokenResponseType._AddElement(pyxb.binding.basis.element(pyxb.namespace.Expanded
 
 tokenResponseType._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'litleToken'), ccAccountNumberType, scope=tokenResponseType))
 tokenResponseType._GroupModel = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(tokenResponseType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'litleToken')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(tokenResponseType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'tokenResponseCode')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(tokenResponseType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'tokenMessage')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(tokenResponseType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'type')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(tokenResponseType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'bin')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(tokenResponseType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'eCheckAccountSuffix')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(tokenResponseType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'litleToken')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(tokenResponseType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'tokenResponseCode')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(tokenResponseType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'tokenMessage')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(tokenResponseType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'type')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(tokenResponseType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'bin')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(tokenResponseType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'eCheckAccountSuffix')), min_occurs=0, max_occurs=1)
     )
-tokenResponseType._ContentModel = pyxb.binding.content.ParticleModel(tokenResponseType._GroupModel, min_occurs=0L, max_occurs=1)
+tokenResponseType._ContentModel = pyxb.binding.content.ParticleModel(tokenResponseType._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -14046,22 +14046,22 @@ CTD_ANON_23._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(N
 
 CTD_ANON_23._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'batchRequest'), CTD_ANON_12, scope=CTD_ANON_23))
 CTD_ANON_23._GroupModel_ = pyxb.binding.content.GroupChoice(
-    pyxb.binding.content.ParticleModel(CTD_ANON_23._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'batchRequest')), min_occurs=0L, max_occurs=None),
-    pyxb.binding.content.ParticleModel(CTD_ANON_23._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'RFRRequest')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_23._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'batchRequest')), min_occurs=0, max_occurs=None),
+    pyxb.binding.content.ParticleModel(CTD_ANON_23._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'RFRRequest')), min_occurs=0, max_occurs=1)
     )
 CTD_ANON_23._GroupModel = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(CTD_ANON_23._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'authentication')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_23._GroupModel_, min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_23._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'authentication')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_23._GroupModel_, min_occurs=0, max_occurs=1)
     )
-CTD_ANON_23._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_23._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_23._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_23._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
 deleteAddOnType._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'addOnCode'), string25Type, scope=deleteAddOnType))
 deleteAddOnType._GroupModel = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(deleteAddOnType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'addOnCode')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(deleteAddOnType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'addOnCode')), min_occurs=0, max_occurs=1)
     )
-deleteAddOnType._ContentModel = pyxb.binding.content.ParticleModel(deleteAddOnType._GroupModel, min_occurs=0L, max_occurs=1)
+deleteAddOnType._ContentModel = pyxb.binding.content.ParticleModel(deleteAddOnType._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -14084,16 +14084,16 @@ CTD_ANON_24._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(N
 CTD_ANON_24._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'tokenResponse'), tokenResponseType, scope=CTD_ANON_24))
 CTD_ANON_24._GroupModel = pyxb.binding.content.GroupAll(
     pyxb.binding.content.ParticleModel(CTD_ANON_24._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'litleTxnId')), min_occurs=1, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_24._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_24._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_24._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_24._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'postDate')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_24._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_24._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'tokenResponse')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_24._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fraudResult')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_24._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'giftCardResponse')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_24._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_24._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_24._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_24._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'postDate')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_24._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_24._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'tokenResponse')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_24._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fraudResult')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_24._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'giftCardResponse')), min_occurs=0, max_occurs=1)
     )
-CTD_ANON_24._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_24._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_24._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_24._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -14106,11 +14106,11 @@ recurringTransactionResponseType._AddElement(pyxb.binding.basis.element(pyxb.nam
 recurringTransactionResponseType._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'response'), responseType, scope=recurringTransactionResponseType))
 recurringTransactionResponseType._GroupModel = pyxb.binding.content.GroupSequence(
     pyxb.binding.content.ParticleModel(recurringTransactionResponseType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'litleTxnId')), min_occurs=1, max_occurs=1),
-    pyxb.binding.content.ParticleModel(recurringTransactionResponseType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(recurringTransactionResponseType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(recurringTransactionResponseType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(recurringTransactionResponseType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(recurringTransactionResponseType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(recurringTransactionResponseType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0, max_occurs=1)
     )
-recurringTransactionResponseType._ContentModel = pyxb.binding.content.ParticleModel(recurringTransactionResponseType._GroupModel, min_occurs=0L, max_occurs=1)
+recurringTransactionResponseType._ContentModel = pyxb.binding.content.ParticleModel(recurringTransactionResponseType._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -14119,19 +14119,19 @@ CTD_ANON_25._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(N
 CTD_ANON_25._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'tokenResponse'), tokenResponseType, scope=CTD_ANON_25))
 CTD_ANON_25._GroupModel_ = pyxb.binding.content.GroupSequence(
     pyxb.binding.content.ParticleModel(CTD_ANON_25._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'litleTxnId')), min_occurs=1, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_25._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_25._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_25._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_25._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_25._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_25._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0, max_occurs=1)
     )
 CTD_ANON_25._GroupModel_2 = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(CTD_ANON_25._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'subscriptionId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_25._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'tokenResponse')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_25._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'subscriptionId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_25._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'tokenResponse')), min_occurs=0, max_occurs=1)
     )
 CTD_ANON_25._GroupModel = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(CTD_ANON_25._GroupModel_, min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_25._GroupModel_2, min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_25._GroupModel_, min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_25._GroupModel_2, min_occurs=0, max_occurs=1)
     )
-CTD_ANON_25._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_25._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_25._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_25._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -14146,12 +14146,12 @@ CTD_ANON_26._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(N
 CTD_ANON_26._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'response'), responseType, scope=CTD_ANON_26))
 CTD_ANON_26._GroupModel = pyxb.binding.content.GroupAll(
     pyxb.binding.content.ParticleModel(CTD_ANON_26._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'litleTxnId')), min_occurs=1, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_26._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fundsTransferId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_26._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_26._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_26._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_26._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fundsTransferId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_26._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_26._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_26._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0, max_occurs=1)
     )
-CTD_ANON_26._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_26._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_26._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_26._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -14170,22 +14170,22 @@ CTD_ANON_27._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(N
 CTD_ANON_27._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'litleTxnId'), litleIdType, scope=CTD_ANON_27))
 CTD_ANON_27._GroupModel = pyxb.binding.content.GroupAll(
     pyxb.binding.content.ParticleModel(CTD_ANON_27._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'litleTxnId')), min_occurs=1, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_27._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'amount')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_27._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'surchargeAmount')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_27._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'enhancedData')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_27._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'processingInstructions')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_27._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'payPalOrderComplete')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_27._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'payPalNotes')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_27._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'amount')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_27._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'surchargeAmount')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_27._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'enhancedData')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_27._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'processingInstructions')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_27._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'payPalOrderComplete')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_27._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'payPalNotes')), min_occurs=0, max_occurs=1)
     )
-CTD_ANON_27._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_27._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_27._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_27._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
 CTD_ANON_28._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'bypassVelocityCheck'), pyxb.binding.datatypes.boolean, scope=CTD_ANON_28))
 CTD_ANON_28._GroupModel = pyxb.binding.content.GroupAll(
-    pyxb.binding.content.ParticleModel(CTD_ANON_28._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'bypassVelocityCheck')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_28._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'bypassVelocityCheck')), min_occurs=0, max_occurs=1)
     )
-CTD_ANON_28._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_28._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_28._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_28._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -14199,14 +14199,14 @@ CTD_ANON_29._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(N
 
 CTD_ANON_29._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'accountInfo'), echeckType, scope=CTD_ANON_29))
 CTD_ANON_29._GroupModel_ = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(CTD_ANON_29._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fundingSubmerchantId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_29._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'vendorName')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_29._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fundsTransferId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_29._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'amount')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_29._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'accountInfo')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_29._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fundingSubmerchantId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_29._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'vendorName')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_29._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fundsTransferId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_29._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'amount')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_29._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'accountInfo')), min_occurs=0, max_occurs=1)
     )
 CTD_ANON_29._GroupModel = pyxb.binding.content.GroupChoice(
-    pyxb.binding.content.ParticleModel(CTD_ANON_29._GroupModel_, min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_29._GroupModel_, min_occurs=0, max_occurs=1)
     )
 CTD_ANON_29._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_29._GroupModel, min_occurs=1, max_occurs=1)
 
@@ -14226,15 +14226,15 @@ CTD_ANON_30._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(N
 
 CTD_ANON_30._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'amount'), transactionAmountType, scope=CTD_ANON_30))
 CTD_ANON_30._GroupModel = pyxb.binding.content.GroupAll(
-    pyxb.binding.content.ParticleModel(CTD_ANON_30._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'litleTxnId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_30._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_30._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'amount')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_30._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderSource')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_30._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'billToAddress')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_30._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'echeckOrEcheckToken')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_30._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'merchantData')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_30._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'litleTxnId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_30._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_30._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'amount')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_30._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderSource')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_30._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'billToAddress')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_30._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'echeckOrEcheckToken')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_30._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'merchantData')), min_occurs=0, max_occurs=1)
     )
-CTD_ANON_30._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_30._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_30._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_30._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -14244,11 +14244,11 @@ payPal._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namesp
 
 payPal._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'payerId'), pyxb.binding.datatypes.string, scope=payPal))
 payPal._GroupModel = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(payPal._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'payerId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(payPal._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'token')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(payPal._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'transactionId')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(payPal._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'payerId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(payPal._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'token')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(payPal._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'transactionId')), min_occurs=0, max_occurs=1)
     )
-payPal._ContentModel = pyxb.binding.content.ParticleModel(payPal._GroupModel, min_occurs=0L, max_occurs=1)
+payPal._ContentModel = pyxb.binding.content.ParticleModel(payPal._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -14271,16 +14271,16 @@ CTD_ANON_31._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(N
 CTD_ANON_31._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'originalToken'), cardTokenTypeAU, scope=CTD_ANON_31))
 CTD_ANON_31._GroupModel = pyxb.binding.content.GroupAll(
     pyxb.binding.content.ParticleModel(CTD_ANON_31._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'litleTxnId')), min_occurs=1, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_31._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_31._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_31._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_31._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_31._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'updatedCard')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_31._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'originalCard')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_31._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'updatedToken')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_31._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'originalToken')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_31._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_31._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_31._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_31._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_31._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'updatedCard')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_31._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'originalCard')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_31._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'updatedToken')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_31._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'originalToken')), min_occurs=0, max_occurs=1)
     )
-CTD_ANON_31._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_31._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_31._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_31._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -14303,16 +14303,16 @@ CTD_ANON_32._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(N
 CTD_ANON_32._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'orderId'), string25Type, scope=CTD_ANON_32))
 CTD_ANON_32._GroupModel = pyxb.binding.content.GroupAll(
     pyxb.binding.content.ParticleModel(CTD_ANON_32._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'litleTxnId')), min_occurs=1, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_32._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_32._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_32._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_32._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_32._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'verificationCode')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_32._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'postDate')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_32._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'accountUpdater')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_32._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'tokenResponse')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_32._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_32._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_32._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_32._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_32._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'verificationCode')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_32._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'postDate')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_32._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'accountUpdater')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_32._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'tokenResponse')), min_occurs=0, max_occurs=1)
     )
-CTD_ANON_32._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_32._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_32._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_32._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -14331,14 +14331,14 @@ CTD_ANON_33._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(N
 CTD_ANON_33._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'giftCardResponse'), CTD_ANON_2, scope=CTD_ANON_33))
 CTD_ANON_33._GroupModel = pyxb.binding.content.GroupAll(
     pyxb.binding.content.ParticleModel(CTD_ANON_33._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'litleTxnId')), min_occurs=1, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_33._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_33._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_33._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_33._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'postDate')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_33._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_33._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'giftCardResponse')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_33._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_33._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_33._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_33._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'postDate')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_33._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_33._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'giftCardResponse')), min_occurs=0, max_occurs=1)
     )
-CTD_ANON_33._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_33._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_33._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_33._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -14366,20 +14366,20 @@ CTD_ANON_34._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(N
 
 CTD_ANON_34._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'commodityCode'), commodityCodeType, scope=CTD_ANON_34))
 CTD_ANON_34._GroupModel = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(CTD_ANON_34._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'itemSequenceNumber')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_34._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'itemDescription')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_34._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'productCode')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_34._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'quantity')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_34._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'unitOfMeasure')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_34._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'taxAmount')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_34._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'lineItemTotal')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_34._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'lineItemTotalWithTax')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_34._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'itemDiscountAmount')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_34._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'commodityCode')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_34._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'unitCost')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_34._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'detailTax')), min_occurs=0L, max_occurs=6L)
+    pyxb.binding.content.ParticleModel(CTD_ANON_34._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'itemSequenceNumber')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_34._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'itemDescription')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_34._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'productCode')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_34._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'quantity')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_34._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'unitOfMeasure')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_34._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'taxAmount')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_34._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'lineItemTotal')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_34._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'lineItemTotalWithTax')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_34._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'itemDiscountAmount')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_34._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'commodityCode')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_34._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'unitCost')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_34._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'detailTax')), min_occurs=0, max_occurs=6)
     )
-CTD_ANON_34._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_34._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_34._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_34._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -14387,10 +14387,10 @@ CTD_ANON_35._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(N
 
 CTD_ANON_35._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'accountNumber'), ccAccountNumberType, scope=CTD_ANON_35))
 CTD_ANON_35._GroupModel = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(CTD_ANON_35._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'accountNumber')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_35._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'cardValidationNum')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_35._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'accountNumber')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_35._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'cardValidationNum')), min_occurs=0, max_occurs=1)
     )
-CTD_ANON_35._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_35._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_35._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_35._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -14398,10 +14398,10 @@ CTD_ANON_36._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(N
 
 CTD_ANON_36._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'password'), string20Type, scope=CTD_ANON_36))
 CTD_ANON_36._GroupModel = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(CTD_ANON_36._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'user')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_36._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'password')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_36._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'user')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_36._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'password')), min_occurs=0, max_occurs=1)
     )
-CTD_ANON_36._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_36._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_36._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_36._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -14415,13 +14415,13 @@ echeckType._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Na
 
 echeckType._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'accNum'), echeckAccountNumberType, scope=echeckType))
 echeckType._GroupModel = pyxb.binding.content.GroupAll(
-    pyxb.binding.content.ParticleModel(echeckType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'accType')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(echeckType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'accNum')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(echeckType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'routingNum')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(echeckType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'checkNum')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(echeckType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'ccdPaymentInformation')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(echeckType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'accType')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(echeckType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'accNum')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(echeckType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'routingNum')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(echeckType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'checkNum')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(echeckType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'ccdPaymentInformation')), min_occurs=0, max_occurs=1)
     )
-echeckType._ContentModel = pyxb.binding.content.ParticleModel(echeckType._GroupModel, min_occurs=0L, max_occurs=1)
+echeckType._ContentModel = pyxb.binding.content.ParticleModel(echeckType._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -14442,15 +14442,15 @@ CTD_ANON_37._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(N
 CTD_ANON_37._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'postDate'), pyxb.binding.datatypes.date, scope=CTD_ANON_37))
 CTD_ANON_37._GroupModel = pyxb.binding.content.GroupAll(
     pyxb.binding.content.ParticleModel(CTD_ANON_37._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'litleTxnId')), min_occurs=1, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_37._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_37._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_37._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_37._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_37._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'postDate')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_37._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'accountUpdater')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_37._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'tokenResponse')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_37._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_37._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_37._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_37._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_37._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'postDate')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_37._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'accountUpdater')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_37._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'tokenResponse')), min_occurs=0, max_occurs=1)
     )
-CTD_ANON_37._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_37._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_37._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_37._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -14482,30 +14482,30 @@ contact._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Names
 
 contact._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'lastName'), lastNameType, scope=contact))
 contact._GroupModel = pyxb.binding.content.GroupAll(
-    pyxb.binding.content.ParticleModel(contact._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'name')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(contact._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'firstName')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(contact._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'middleInitial')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(contact._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'lastName')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(contact._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'companyName')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(contact._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'addressLine1')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(contact._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'addressLine2')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(contact._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'addressLine3')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(contact._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'city')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(contact._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'state')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(contact._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'zip')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(contact._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'country')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(contact._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'email')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(contact._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'phone')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(contact._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'name')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(contact._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'firstName')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(contact._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'middleInitial')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(contact._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'lastName')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(contact._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'companyName')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(contact._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'addressLine1')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(contact._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'addressLine2')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(contact._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'addressLine3')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(contact._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'city')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(contact._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'state')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(contact._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'zip')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(contact._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'country')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(contact._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'email')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(contact._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'phone')), min_occurs=0, max_occurs=1)
     )
-contact._ContentModel = pyxb.binding.content.ParticleModel(contact._GroupModel, min_occurs=0L, max_occurs=1)
+contact._ContentModel = pyxb.binding.content.ParticleModel(contact._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
 voidRecyclingResponseType._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'creditLitleTxnId'), litleIdType, scope=voidRecyclingResponseType))
 voidRecyclingResponseType._GroupModel = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(voidRecyclingResponseType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'creditLitleTxnId')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(voidRecyclingResponseType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'creditLitleTxnId')), min_occurs=0, max_occurs=1)
     )
-voidRecyclingResponseType._ContentModel = pyxb.binding.content.ParticleModel(voidRecyclingResponseType._GroupModel, min_occurs=0L, max_occurs=1)
+voidRecyclingResponseType._ContentModel = pyxb.binding.content.ParticleModel(voidRecyclingResponseType._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -14537,22 +14537,22 @@ CTD_ANON_38._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(N
 
 CTD_ANON_38._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'orderDate'), pyxb.binding.datatypes.date, scope=CTD_ANON_38))
 CTD_ANON_38._GroupModel = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(CTD_ANON_38._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'customerReference')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_38._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'salesTax')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_38._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'deliveryType')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_38._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'taxExempt')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_38._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'discountAmount')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_38._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'shippingAmount')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_38._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'dutyAmount')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_38._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'shipFromPostalCode')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_38._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'destinationPostalCode')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_38._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'destinationCountryCode')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_38._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'invoiceReferenceNumber')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_38._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderDate')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_38._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'detailTax')), min_occurs=0L, max_occurs=6L),
-    pyxb.binding.content.ParticleModel(CTD_ANON_38._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'lineItemData')), min_occurs=0L, max_occurs=99L)
+    pyxb.binding.content.ParticleModel(CTD_ANON_38._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'customerReference')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_38._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'salesTax')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_38._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'deliveryType')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_38._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'taxExempt')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_38._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'discountAmount')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_38._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'shippingAmount')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_38._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'dutyAmount')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_38._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'shipFromPostalCode')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_38._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'destinationPostalCode')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_38._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'destinationCountryCode')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_38._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'invoiceReferenceNumber')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_38._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderDate')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_38._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'detailTax')), min_occurs=0, max_occurs=6),
+    pyxb.binding.content.ParticleModel(CTD_ANON_38._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'lineItemData')), min_occurs=0, max_occurs=99)
     )
-CTD_ANON_38._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_38._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_38._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_38._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -14560,10 +14560,10 @@ recyclingRequestType._AddElement(pyxb.binding.basis.element(pyxb.namespace.Expan
 
 recyclingRequestType._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'recycleBy'), recycleByTypeEnum, scope=recyclingRequestType))
 recyclingRequestType._GroupModel = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(recyclingRequestType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'recycleBy')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(recyclingRequestType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'recycleId')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(recyclingRequestType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'recycleBy')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(recyclingRequestType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'recycleId')), min_occurs=0, max_occurs=1)
     )
-recyclingRequestType._ContentModel = pyxb.binding.content.ParticleModel(recyclingRequestType._GroupModel, min_occurs=0L, max_occurs=1)
+recyclingRequestType._ContentModel = pyxb.binding.content.ParticleModel(recyclingRequestType._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -14593,21 +14593,21 @@ CTD_ANON_39._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(N
 
 CTD_ANON_39._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'customerType'), STD_ANON_7, scope=CTD_ANON_39))
 CTD_ANON_39._GroupModel = pyxb.binding.content.GroupAll(
-    pyxb.binding.content.ParticleModel(CTD_ANON_39._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'ssn')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_39._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'dob')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_39._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'customerRegistrationDate')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_39._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'customerType')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_39._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'incomeAmount')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_39._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'incomeCurrency')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_39._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'customerCheckingAccount')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_39._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'customerSavingAccount')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_39._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'employerName')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_39._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'customerWorkTelephone')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_39._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'residenceStatus')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_39._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'yearsAtResidence')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_39._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'yearsAtEmployer')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_39._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'ssn')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_39._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'dob')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_39._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'customerRegistrationDate')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_39._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'customerType')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_39._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'incomeAmount')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_39._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'incomeCurrency')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_39._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'customerCheckingAccount')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_39._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'customerSavingAccount')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_39._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'employerName')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_39._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'customerWorkTelephone')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_39._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'residenceStatus')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_39._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'yearsAtResidence')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_39._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'yearsAtEmployer')), min_occurs=0, max_occurs=1)
     )
-CTD_ANON_39._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_39._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_39._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_39._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -14629,29 +14629,29 @@ CTD_ANON_40._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(N
 
 CTD_ANON_40._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'newTokenInfo'), echeckTokenInfoType, scope=CTD_ANON_40))
 CTD_ANON_40._GroupModel_ = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(CTD_ANON_40._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'originalAccountInfo')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_40._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'newAccountInfo')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_40._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'originalAccountInfo')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_40._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'newAccountInfo')), min_occurs=0, max_occurs=1)
     )
 CTD_ANON_40._GroupModel_2 = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(CTD_ANON_40._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'originalTokenInfo')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_40._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'newTokenInfo')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_40._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'originalTokenInfo')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_40._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'newTokenInfo')), min_occurs=0, max_occurs=1)
     )
 CTD_ANON_40._GroupModel_3 = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(CTD_ANON_40._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'originalCardInfo')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_40._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'newCardInfo')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_40._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'extendedCardResponse')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_40._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'originalCardInfo')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_40._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'newCardInfo')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_40._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'extendedCardResponse')), min_occurs=0, max_occurs=1)
     )
 CTD_ANON_40._GroupModel_4 = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(CTD_ANON_40._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'originalCardTokenInfo')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_40._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'newCardTokenInfo')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_40._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'extendedCardResponse')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_40._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'originalCardTokenInfo')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_40._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'newCardTokenInfo')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_40._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'extendedCardResponse')), min_occurs=0, max_occurs=1)
     )
 CTD_ANON_40._GroupModel = pyxb.binding.content.GroupChoice(
-    pyxb.binding.content.ParticleModel(CTD_ANON_40._GroupModel_, min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_40._GroupModel_2, min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_40._GroupModel_3, min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_40._GroupModel_4, min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_40._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'extendedCardResponse')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_40._GroupModel_, min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_40._GroupModel_2, min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_40._GroupModel_3, min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_40._GroupModel_4, min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_40._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'extendedCardResponse')), min_occurs=0, max_occurs=1)
     )
 CTD_ANON_40._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_40._GroupModel, min_occurs=1, max_occurs=1)
 
@@ -14663,11 +14663,11 @@ echeckAccountInfoType._AddElement(pyxb.binding.basis.element(pyxb.namespace.Expa
 
 echeckAccountInfoType._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'accType'), echeckAccountTypeEnum, scope=echeckAccountInfoType))
 echeckAccountInfoType._GroupModel = pyxb.binding.content.GroupAll(
-    pyxb.binding.content.ParticleModel(echeckAccountInfoType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'accType')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(echeckAccountInfoType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'accNum')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(echeckAccountInfoType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'routingNum')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(echeckAccountInfoType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'accType')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(echeckAccountInfoType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'accNum')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(echeckAccountInfoType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'routingNum')), min_occurs=0, max_occurs=1)
     )
-echeckAccountInfoType._ContentModel = pyxb.binding.content.ParticleModel(echeckAccountInfoType._GroupModel, min_occurs=0L, max_occurs=1)
+echeckAccountInfoType._ContentModel = pyxb.binding.content.ParticleModel(echeckAccountInfoType._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -14677,11 +14677,11 @@ echeckTokenInfoType._AddElement(pyxb.binding.basis.element(pyxb.namespace.Expand
 
 echeckTokenInfoType._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'accType'), echeckAccountTypeEnum, scope=echeckTokenInfoType))
 echeckTokenInfoType._GroupModel = pyxb.binding.content.GroupAll(
-    pyxb.binding.content.ParticleModel(echeckTokenInfoType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'accType')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(echeckTokenInfoType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'litleToken')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(echeckTokenInfoType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'routingNum')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(echeckTokenInfoType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'accType')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(echeckTokenInfoType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'litleToken')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(echeckTokenInfoType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'routingNum')), min_occurs=0, max_occurs=1)
     )
-echeckTokenInfoType._ContentModel = pyxb.binding.content.ParticleModel(echeckTokenInfoType._GroupModel, min_occurs=0L, max_occurs=1)
+echeckTokenInfoType._ContentModel = pyxb.binding.content.ParticleModel(echeckTokenInfoType._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -14693,12 +14693,12 @@ cardPaypageType._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedNa
 
 cardPaypageType._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'paypageRegistrationId'), string512Type, scope=cardPaypageType))
 cardPaypageType._GroupModel = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(cardPaypageType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'paypageRegistrationId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(cardPaypageType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'expDate')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(cardPaypageType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'cardValidationNum')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(cardPaypageType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'type')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(cardPaypageType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'paypageRegistrationId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(cardPaypageType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'expDate')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(cardPaypageType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'cardValidationNum')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(cardPaypageType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'type')), min_occurs=0, max_occurs=1)
     )
-cardPaypageType._ContentModel = pyxb.binding.content.ParticleModel(cardPaypageType._GroupModel, min_occurs=0L, max_occurs=1)
+cardPaypageType._ContentModel = pyxb.binding.content.ParticleModel(cardPaypageType._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -14708,11 +14708,11 @@ litleInternalRecurringRequestType._AddElement(pyxb.binding.basis.element(pyxb.na
 
 litleInternalRecurringRequestType._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'subscriptionId'), litleIdType, scope=litleInternalRecurringRequestType))
 litleInternalRecurringRequestType._GroupModel = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(litleInternalRecurringRequestType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'subscriptionId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(litleInternalRecurringRequestType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'recurringTxnId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(litleInternalRecurringRequestType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'finalPayment')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(litleInternalRecurringRequestType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'subscriptionId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(litleInternalRecurringRequestType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'recurringTxnId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(litleInternalRecurringRequestType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'finalPayment')), min_occurs=0, max_occurs=1)
     )
-litleInternalRecurringRequestType._ContentModel = pyxb.binding.content.ParticleModel(litleInternalRecurringRequestType._GroupModel, min_occurs=0L, max_occurs=1)
+litleInternalRecurringRequestType._ContentModel = pyxb.binding.content.ParticleModel(litleInternalRecurringRequestType._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -14728,14 +14728,14 @@ advancedFraudChecksType._AddElement(pyxb.binding.basis.element(pyxb.namespace.Ex
 
 advancedFraudChecksType._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'customAttribute5'), customAttributeType, scope=advancedFraudChecksType))
 advancedFraudChecksType._GroupModel = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(advancedFraudChecksType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'threatMetrixSessionId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(advancedFraudChecksType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'customAttribute1')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(advancedFraudChecksType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'customAttribute2')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(advancedFraudChecksType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'customAttribute3')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(advancedFraudChecksType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'customAttribute4')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(advancedFraudChecksType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'customAttribute5')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(advancedFraudChecksType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'threatMetrixSessionId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(advancedFraudChecksType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'customAttribute1')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(advancedFraudChecksType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'customAttribute2')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(advancedFraudChecksType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'customAttribute3')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(advancedFraudChecksType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'customAttribute4')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(advancedFraudChecksType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'customAttribute5')), min_occurs=0, max_occurs=1)
     )
-advancedFraudChecksType._ContentModel = pyxb.binding.content.ParticleModel(advancedFraudChecksType._GroupModel, min_occurs=0L, max_occurs=1)
+advancedFraudChecksType._ContentModel = pyxb.binding.content.ParticleModel(advancedFraudChecksType._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -14743,10 +14743,10 @@ recyclingType._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName
 
 recyclingType._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'recycleAdvice'), recycleAdviceType, scope=recyclingType))
 recyclingType._GroupModel = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(recyclingType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'recycleAdvice')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(recyclingType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'recycleEngineActive')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(recyclingType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'recycleAdvice')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(recyclingType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'recycleEngineActive')), min_occurs=0, max_occurs=1)
     )
-recyclingType._ContentModel = pyxb.binding.content.ParticleModel(recyclingType._GroupModel, min_occurs=0L, max_occurs=1)
+recyclingType._ContentModel = pyxb.binding.content.ParticleModel(recyclingType._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -14756,11 +14756,11 @@ CTD_ANON_41._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(N
 
 CTD_ANON_41._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'orderSource'), orderSourceType, scope=CTD_ANON_41))
 CTD_ANON_41._GroupModel = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(CTD_ANON_41._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_41._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderSource')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_41._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'card')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_41._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_41._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderSource')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_41._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'card')), min_occurs=0, max_occurs=1)
     )
-CTD_ANON_41._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_41._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_41._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_41._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -14770,11 +14770,11 @@ cardAccountInfoType._AddElement(pyxb.binding.basis.element(pyxb.namespace.Expand
 
 cardAccountInfoType._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'type'), methodOfPaymentTypeEnum, scope=cardAccountInfoType))
 cardAccountInfoType._GroupModel = pyxb.binding.content.GroupAll(
-    pyxb.binding.content.ParticleModel(cardAccountInfoType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'type')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(cardAccountInfoType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'number')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(cardAccountInfoType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'expDate')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(cardAccountInfoType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'type')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(cardAccountInfoType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'number')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(cardAccountInfoType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'expDate')), min_occurs=0, max_occurs=1)
     )
-cardAccountInfoType._ContentModel = pyxb.binding.content.ParticleModel(cardAccountInfoType._GroupModel, min_occurs=0L, max_occurs=1)
+cardAccountInfoType._ContentModel = pyxb.binding.content.ParticleModel(cardAccountInfoType._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -14785,7 +14785,7 @@ recycleAdviceType._GroupModel = pyxb.binding.content.GroupChoice(
     pyxb.binding.content.ParticleModel(recycleAdviceType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'nextRecycleTime')), min_occurs=1, max_occurs=1),
     pyxb.binding.content.ParticleModel(recycleAdviceType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'recycleAdviceEnd')), min_occurs=1, max_occurs=1)
     )
-recycleAdviceType._ContentModel = pyxb.binding.content.ParticleModel(recycleAdviceType._GroupModel, min_occurs=0L, max_occurs=1)
+recycleAdviceType._ContentModel = pyxb.binding.content.ParticleModel(recycleAdviceType._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -14799,13 +14799,13 @@ CTD_ANON_42._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(N
 
 CTD_ANON_42._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'affluence'), affluenceTypeEnum, scope=CTD_ANON_42))
 CTD_ANON_42._GroupModel = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(CTD_ANON_42._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fundingSource')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_42._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'affluence')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_42._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'issuerCountry')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_42._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'cardProductType')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_42._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'virtualAccountNumber')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_42._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fundingSource')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_42._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'affluence')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_42._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'issuerCountry')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_42._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'cardProductType')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_42._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'virtualAccountNumber')), min_occurs=0, max_occurs=1)
     )
-CTD_ANON_42._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_42._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_42._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_42._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -14824,14 +14824,14 @@ CTD_ANON_43._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(N
 CTD_ANON_43._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'responseTime'), pyxb.binding.datatypes.dateTime, scope=CTD_ANON_43))
 CTD_ANON_43._GroupModel = pyxb.binding.content.GroupAll(
     pyxb.binding.content.ParticleModel(CTD_ANON_43._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'litleTxnId')), min_occurs=1, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_43._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_43._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_43._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_43._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'postDate')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_43._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_43._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'giftCardResponse')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_43._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_43._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_43._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_43._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'postDate')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_43._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_43._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'giftCardResponse')), min_occurs=0, max_occurs=1)
     )
-CTD_ANON_43._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_43._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_43._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_43._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -14843,12 +14843,12 @@ CTD_ANON_44._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(N
 
 CTD_ANON_44._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'type'), fundingSourceTypeEnum, scope=CTD_ANON_44))
 CTD_ANON_44._GroupModel = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(CTD_ANON_44._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'type')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_44._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'availableBalance')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_44._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'reloadable')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_44._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'prepaidCardType')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_44._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'type')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_44._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'availableBalance')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_44._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'reloadable')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_44._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'prepaidCardType')), min_occurs=0, max_occurs=1)
     )
-CTD_ANON_44._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_44._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_44._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_44._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -14873,11 +14873,11 @@ registerTokenRequestType._GroupModel_ = pyxb.binding.content.GroupChoice(
     pyxb.binding.content.ParticleModel(registerTokenRequestType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'applepay')), min_occurs=1, max_occurs=1)
     )
 registerTokenRequestType._GroupModel = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(registerTokenRequestType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(registerTokenRequestType._GroupModel_, min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(registerTokenRequestType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'cardValidationNum')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(registerTokenRequestType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(registerTokenRequestType._GroupModel_, min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(registerTokenRequestType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'cardValidationNum')), min_occurs=0, max_occurs=1)
     )
-registerTokenRequestType._ContentModel = pyxb.binding.content.ParticleModel(registerTokenRequestType._GroupModel, min_occurs=0L, max_occurs=1)
+registerTokenRequestType._ContentModel = pyxb.binding.content.ParticleModel(registerTokenRequestType._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -14896,14 +14896,14 @@ CTD_ANON_45._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(N
 CTD_ANON_45._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'message'), messageType, scope=CTD_ANON_45))
 CTD_ANON_45._GroupModel = pyxb.binding.content.GroupAll(
     pyxb.binding.content.ParticleModel(CTD_ANON_45._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'litleTxnId')), min_occurs=1, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_45._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_45._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_45._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_45._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'postDate')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_45._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_45._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'giftCardResponse')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_45._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_45._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_45._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_45._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'postDate')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_45._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_45._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'giftCardResponse')), min_occurs=0, max_occurs=1)
     )
-CTD_ANON_45._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_45._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_45._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_45._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -14915,12 +14915,12 @@ applepayType._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(
 
 applepayType._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'data'), pyxb.binding.datatypes.string, scope=applepayType))
 applepayType._GroupModel = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(applepayType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'data')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(applepayType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'header')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(applepayType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'signature')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(applepayType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'version')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(applepayType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'data')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(applepayType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'header')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(applepayType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'signature')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(applepayType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'version')), min_occurs=0, max_occurs=1)
     )
-applepayType._ContentModel = pyxb.binding.content.ParticleModel(applepayType._GroupModel, min_occurs=0L, max_occurs=1)
+applepayType._ContentModel = pyxb.binding.content.ParticleModel(applepayType._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -14945,17 +14945,17 @@ CTD_ANON_46._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(N
 CTD_ANON_46._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'orderId'), string25Type, scope=CTD_ANON_46))
 CTD_ANON_46._GroupModel = pyxb.binding.content.GroupAll(
     pyxb.binding.content.ParticleModel(CTD_ANON_46._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'litleTxnId')), min_occurs=1, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_46._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_46._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'litleToken')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_46._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'bin')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_46._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'type')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_46._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'eCheckAccountSuffix')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_46._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_46._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_46._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_46._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'applepayResponse')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_46._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_46._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'litleToken')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_46._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'bin')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_46._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'type')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_46._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'eCheckAccountSuffix')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_46._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_46._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_46._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_46._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'applepayResponse')), min_occurs=0, max_occurs=1)
     )
-CTD_ANON_46._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_46._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_46._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_46._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -14969,13 +14969,13 @@ CTD_ANON_47._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(N
 
 CTD_ANON_47._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'taxIncludedInTotal'), pyxb.binding.datatypes.boolean, scope=CTD_ANON_47))
 CTD_ANON_47._GroupModel = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(CTD_ANON_47._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'taxIncludedInTotal')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_47._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'taxAmount')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_47._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'taxRate')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_47._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'taxTypeIdentifier')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_47._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'cardAcceptorTaxId')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_47._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'taxIncludedInTotal')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_47._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'taxAmount')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_47._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'taxRate')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_47._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'taxTypeIdentifier')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_47._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'cardAcceptorTaxId')), min_occurs=0, max_occurs=1)
     )
-CTD_ANON_47._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_47._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_47._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_47._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -14994,14 +14994,14 @@ CTD_ANON_48._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(N
 CTD_ANON_48._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'message'), messageType, scope=CTD_ANON_48))
 CTD_ANON_48._GroupModel = pyxb.binding.content.GroupAll(
     pyxb.binding.content.ParticleModel(CTD_ANON_48._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'litleTxnId')), min_occurs=1, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_48._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_48._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_48._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_48._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'postDate')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_48._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_48._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'giftCardResponse')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_48._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_48._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_48._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_48._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'postDate')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_48._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_48._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'giftCardResponse')), min_occurs=0, max_occurs=1)
     )
-CTD_ANON_48._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_48._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_48._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_48._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -15013,12 +15013,12 @@ CTD_ANON_49._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(N
 
 CTD_ANON_49._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'card'), cardType, scope=CTD_ANON_49))
 CTD_ANON_49._GroupModel = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(CTD_ANON_49._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_49._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'amount')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_49._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderSource')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_49._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'card')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_49._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_49._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'amount')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_49._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderSource')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_49._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'card')), min_occurs=0, max_occurs=1)
     )
-CTD_ANON_49._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_49._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_49._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_49._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -15063,27 +15063,27 @@ CTD_ANON_50._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(N
 CTD_ANON_50._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'recycling'), recyclingType, scope=CTD_ANON_50))
 CTD_ANON_50._GroupModel = pyxb.binding.content.GroupAll(
     pyxb.binding.content.ParticleModel(CTD_ANON_50._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'litleTxnId')), min_occurs=1, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_50._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_50._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_50._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_50._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'cardProductId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_50._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'postDate')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_50._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_50._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'authCode')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_50._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'authorizationResponseSubCode')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_50._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'approvedAmount')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_50._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'accountInformation')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_50._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'accountUpdater')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_50._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fraudResult')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_50._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'billMeLaterResponseData')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_50._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'tokenResponse')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_50._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'enhancedAuthResponse')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_50._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'recycling')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_50._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'recurringResponse')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_50._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'giftCardResponse')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_50._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'applepayResponse')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_50._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_50._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_50._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_50._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'cardProductId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_50._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'postDate')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_50._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_50._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'authCode')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_50._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'authorizationResponseSubCode')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_50._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'approvedAmount')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_50._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'accountInformation')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_50._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'accountUpdater')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_50._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fraudResult')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_50._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'billMeLaterResponseData')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_50._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'tokenResponse')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_50._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'enhancedAuthResponse')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_50._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'recycling')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_50._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'recurringResponse')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_50._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'giftCardResponse')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_50._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'applepayResponse')), min_occurs=0, max_occurs=1)
     )
-CTD_ANON_50._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_50._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_50._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_50._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -15095,12 +15095,12 @@ CTD_ANON_51._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(N
 
 CTD_ANON_51._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'amount'), transactionAmountType, scope=CTD_ANON_51))
 CTD_ANON_51._GroupModel = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(CTD_ANON_51._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_51._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'amount')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_51._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderSource')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_51._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'card')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_51._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_51._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'amount')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_51._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderSource')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_51._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'card')), min_occurs=0, max_occurs=1)
     )
-CTD_ANON_51._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_51._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_51._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_51._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -15110,12 +15110,12 @@ CTD_ANON_52._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(N
 
 CTD_ANON_52._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'fundingSubmerchantId'), merchantIdentificationType, scope=CTD_ANON_52))
 CTD_ANON_52._GroupModel_ = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(CTD_ANON_52._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fundingSubmerchantId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_52._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fundsTransferId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_52._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'amount')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_52._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fundingSubmerchantId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_52._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fundsTransferId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_52._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'amount')), min_occurs=0, max_occurs=1)
     )
 CTD_ANON_52._GroupModel = pyxb.binding.content.GroupChoice(
-    pyxb.binding.content.ParticleModel(CTD_ANON_52._GroupModel_, min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_52._GroupModel_, min_occurs=0, max_occurs=1)
     )
 CTD_ANON_52._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_52._GroupModel, min_occurs=1, max_occurs=1)
 
@@ -15132,12 +15132,12 @@ CTD_ANON_53._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(N
 CTD_ANON_53._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'response'), responseType, scope=CTD_ANON_53))
 CTD_ANON_53._GroupModel = pyxb.binding.content.GroupAll(
     pyxb.binding.content.ParticleModel(CTD_ANON_53._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'litleTxnId')), min_occurs=1, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_53._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fundsTransferId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_53._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_53._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_53._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_53._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fundsTransferId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_53._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_53._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_53._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0, max_occurs=1)
     )
-CTD_ANON_53._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_53._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_53._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_53._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -15159,17 +15159,17 @@ CTD_ANON_54._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(N
 
 CTD_ANON_54._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'cardholderName'), string512Type, scope=CTD_ANON_54))
 CTD_ANON_54._GroupModel = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(CTD_ANON_54._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'applicationPrimaryAccountNumber')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_54._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'applicationExpirationDate')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_54._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'currencyCode')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_54._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'transactionAmount')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_54._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'cardholderName')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_54._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'deviceManufacturerIdentifier')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_54._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'paymentDataType')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_54._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'onlinePaymentCryptogram')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_54._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'eciIndicator')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_54._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'applicationPrimaryAccountNumber')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_54._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'applicationExpirationDate')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_54._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'currencyCode')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_54._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'transactionAmount')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_54._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'cardholderName')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_54._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'deviceManufacturerIdentifier')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_54._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'paymentDataType')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_54._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'onlinePaymentCryptogram')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_54._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'eciIndicator')), min_occurs=0, max_occurs=1)
     )
-CTD_ANON_54._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_54._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_54._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_54._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -15181,12 +15181,12 @@ fraudCheckType._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedNam
 
 fraudCheckType._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'authenticationTransactionId'), authenticationTransactionIdType, scope=fraudCheckType))
 fraudCheckType._GroupModel = pyxb.binding.content.GroupAll(
-    pyxb.binding.content.ParticleModel(fraudCheckType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'authenticationValue')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(fraudCheckType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'authenticationTransactionId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(fraudCheckType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'customerIpAddress')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(fraudCheckType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'authenticatedByMerchant')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(fraudCheckType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'authenticationValue')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(fraudCheckType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'authenticationTransactionId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(fraudCheckType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'customerIpAddress')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(fraudCheckType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'authenticatedByMerchant')), min_occurs=0, max_occurs=1)
     )
-fraudCheckType._ContentModel = pyxb.binding.content.ParticleModel(fraudCheckType._GroupModel, min_occurs=0L, max_occurs=1)
+fraudCheckType._ContentModel = pyxb.binding.content.ParticleModel(fraudCheckType._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -15196,12 +15196,12 @@ CTD_ANON_55._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(N
 
 CTD_ANON_55._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'fundingSubmerchantId'), merchantIdentificationType, scope=CTD_ANON_55))
 CTD_ANON_55._GroupModel_ = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(CTD_ANON_55._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fundingSubmerchantId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_55._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fundsTransferId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_55._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'amount')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_55._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fundingSubmerchantId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_55._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fundsTransferId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_55._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'amount')), min_occurs=0, max_occurs=1)
     )
 CTD_ANON_55._GroupModel = pyxb.binding.content.GroupChoice(
-    pyxb.binding.content.ParticleModel(CTD_ANON_55._GroupModel_, min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_55._GroupModel_, min_occurs=0, max_occurs=1)
     )
 CTD_ANON_55._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_55._GroupModel, min_occurs=1, max_occurs=1)
 
@@ -15211,25 +15211,25 @@ CTD_ANON_56._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(N
 CTD_ANON_56._GroupModel = pyxb.binding.content.GroupAll(
     pyxb.binding.content.ParticleModel(CTD_ANON_56._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'litleTxnId')), min_occurs=1, max_occurs=1)
     )
-CTD_ANON_56._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_56._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_56._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_56._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
 cardTokenTypeAU._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'bin'), pyxb.binding.datatypes.string, scope=cardTokenTypeAU))
 cardTokenTypeAU._GroupModel_ = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(cardTokenTypeAU._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'litleToken')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(cardTokenTypeAU._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'expDate')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(cardTokenTypeAU._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'cardValidationNum')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(cardTokenTypeAU._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'type')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(cardTokenTypeAU._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'litleToken')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(cardTokenTypeAU._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'expDate')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(cardTokenTypeAU._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'cardValidationNum')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(cardTokenTypeAU._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'type')), min_occurs=0, max_occurs=1)
     )
 cardTokenTypeAU._GroupModel_2 = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(cardTokenTypeAU._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'bin')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(cardTokenTypeAU._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'bin')), min_occurs=0, max_occurs=1)
     )
 cardTokenTypeAU._GroupModel = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(cardTokenTypeAU._GroupModel_, min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(cardTokenTypeAU._GroupModel_2, min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(cardTokenTypeAU._GroupModel_, min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(cardTokenTypeAU._GroupModel_2, min_occurs=0, max_occurs=1)
     )
-cardTokenTypeAU._ContentModel = pyxb.binding.content.ParticleModel(cardTokenTypeAU._GroupModel, min_occurs=0L, max_occurs=1)
+cardTokenTypeAU._ContentModel = pyxb.binding.content.ParticleModel(cardTokenTypeAU._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -15239,11 +15239,11 @@ driversLicenseInfo._AddElement(pyxb.binding.basis.element(pyxb.namespace.Expande
 
 driversLicenseInfo._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'state'), stateCodeType, scope=driversLicenseInfo))
 driversLicenseInfo._GroupModel = pyxb.binding.content.GroupAll(
-    pyxb.binding.content.ParticleModel(driversLicenseInfo._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'licenseNumber')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(driversLicenseInfo._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'state')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(driversLicenseInfo._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'dateOfBirth')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(driversLicenseInfo._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'licenseNumber')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(driversLicenseInfo._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'state')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(driversLicenseInfo._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'dateOfBirth')), min_occurs=0, max_occurs=1)
     )
-driversLicenseInfo._ContentModel = pyxb.binding.content.ParticleModel(driversLicenseInfo._GroupModel, min_occurs=0L, max_occurs=1)
+driversLicenseInfo._ContentModel = pyxb.binding.content.ParticleModel(driversLicenseInfo._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -15258,12 +15258,12 @@ CTD_ANON_57._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(N
 CTD_ANON_57._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'message'), messageType, scope=CTD_ANON_57))
 CTD_ANON_57._GroupModel = pyxb.binding.content.GroupAll(
     pyxb.binding.content.ParticleModel(CTD_ANON_57._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'litleTxnId')), min_occurs=1, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_57._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fundsTransferId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_57._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_57._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_57._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_57._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fundsTransferId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_57._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_57._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_57._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0, max_occurs=1)
     )
-CTD_ANON_57._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_57._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_57._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_57._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -15277,14 +15277,14 @@ CTD_ANON_58._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(N
 
 CTD_ANON_58._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'amount'), transactionAmountType, scope=CTD_ANON_58))
 CTD_ANON_58._GroupModel_ = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(CTD_ANON_58._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fundingSubmerchantId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_58._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'submerchantName')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_58._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fundsTransferId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_58._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'amount')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_58._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'accountInfo')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_58._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fundingSubmerchantId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_58._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'submerchantName')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_58._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fundsTransferId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_58._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'amount')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_58._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'accountInfo')), min_occurs=0, max_occurs=1)
     )
 CTD_ANON_58._GroupModel = pyxb.binding.content.GroupChoice(
-    pyxb.binding.content.ParticleModel(CTD_ANON_58._GroupModel_, min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_58._GroupModel_, min_occurs=0, max_occurs=1)
     )
 CTD_ANON_58._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_58._GroupModel, min_occurs=1, max_occurs=1)
 
@@ -15309,16 +15309,16 @@ CTD_ANON_59._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(N
 CTD_ANON_59._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'orderId'), string25Type, scope=CTD_ANON_59))
 CTD_ANON_59._GroupModel = pyxb.binding.content.GroupAll(
     pyxb.binding.content.ParticleModel(CTD_ANON_59._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'litleTxnId')), min_occurs=1, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_59._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_59._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_59._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_59._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'postDate')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_59._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_59._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fraudResult')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_59._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'approvedAmount')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_59._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'giftCardResponse')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_59._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_59._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_59._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_59._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'postDate')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_59._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_59._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fraudResult')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_59._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'approvedAmount')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_59._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'giftCardResponse')), min_occurs=0, max_occurs=1)
     )
-CTD_ANON_59._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_59._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_59._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_59._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -15352,23 +15352,23 @@ CTD_ANON_60._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(N
 
 CTD_ANON_60._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'termsAndConditions'), STD_ANON_11, scope=CTD_ANON_60))
 CTD_ANON_60._GroupModel = pyxb.binding.content.GroupAll(
-    pyxb.binding.content.ParticleModel(CTD_ANON_60._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'bmlMerchantId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_60._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'bmlProductType')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_60._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'termsAndConditions')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_60._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'preapprovalNumber')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_60._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'merchantPromotionalCode')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_60._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'customerPasswordChanged')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_60._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'customerBillingAddressChanged')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_60._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'customerEmailChanged')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_60._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'customerPhoneChanged')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_60._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'secretQuestionCode')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_60._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'secretQuestionAnswer')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_60._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'virtualAuthenticationKeyPresenceIndicator')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_60._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'virtualAuthenticationKeyData')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_60._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'itemCategoryCode')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_60._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'authorizationSourcePlatform')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_60._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'bmlMerchantId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_60._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'bmlProductType')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_60._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'termsAndConditions')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_60._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'preapprovalNumber')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_60._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'merchantPromotionalCode')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_60._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'customerPasswordChanged')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_60._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'customerBillingAddressChanged')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_60._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'customerEmailChanged')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_60._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'customerPhoneChanged')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_60._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'secretQuestionCode')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_60._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'secretQuestionAnswer')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_60._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'virtualAuthenticationKeyPresenceIndicator')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_60._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'virtualAuthenticationKeyData')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_60._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'itemCategoryCode')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_60._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'authorizationSourcePlatform')), min_occurs=0, max_occurs=1)
     )
-CTD_ANON_60._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_60._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_60._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_60._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -15376,10 +15376,10 @@ CTD_ANON_61._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(N
 
 CTD_ANON_61._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'walletSourceTypeId'), pyxb.binding.datatypes.string, scope=CTD_ANON_61))
 CTD_ANON_61._GroupModel = pyxb.binding.content.GroupAll(
-    pyxb.binding.content.ParticleModel(CTD_ANON_61._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'walletSourceType')), min_occurs=0L, max_occurs=1L),
-    pyxb.binding.content.ParticleModel(CTD_ANON_61._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'walletSourceTypeId')), min_occurs=0L, max_occurs=1L)
+    pyxb.binding.content.ParticleModel(CTD_ANON_61._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'walletSourceType')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_61._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'walletSourceTypeId')), min_occurs=0, max_occurs=1)
     )
-CTD_ANON_61._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_61._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_61._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_61._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -15387,10 +15387,10 @@ CTD_ANON_62._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(N
 
 CTD_ANON_62._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'healthcareAmounts'), CTD_ANON_6, scope=CTD_ANON_62))
 CTD_ANON_62._GroupModel = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(CTD_ANON_62._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'healthcareAmounts')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_62._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'IIASFlag')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_62._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'healthcareAmounts')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_62._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'IIASFlag')), min_occurs=0, max_occurs=1)
     )
-CTD_ANON_62._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_62._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_62._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_62._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -15405,12 +15405,12 @@ CTD_ANON_63._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(N
 CTD_ANON_63._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'fundsTransferId'), string25Type, scope=CTD_ANON_63))
 CTD_ANON_63._GroupModel = pyxb.binding.content.GroupAll(
     pyxb.binding.content.ParticleModel(CTD_ANON_63._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'litleTxnId')), min_occurs=1, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_63._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fundsTransferId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_63._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_63._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_63._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_63._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fundsTransferId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_63._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_63._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_63._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0, max_occurs=1)
     )
-CTD_ANON_63._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_63._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_63._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_63._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -15455,27 +15455,27 @@ CTD_ANON_64._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(N
 CTD_ANON_64._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'litleTxnId'), litleIdType, scope=CTD_ANON_64))
 CTD_ANON_64._GroupModel = pyxb.binding.content.GroupAll(
     pyxb.binding.content.ParticleModel(CTD_ANON_64._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'litleTxnId')), min_occurs=1, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_64._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_64._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_64._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_64._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'cardProductId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_64._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'postDate')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_64._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_64._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'authCode')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_64._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'authorizationResponseSubCode')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_64._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'approvedAmount')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_64._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'accountInformation')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_64._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fraudResult')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_64._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'billMeLaterResponseData')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_64._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'tokenResponse')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_64._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'enhancedAuthResponse')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_64._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'accountUpdater')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_64._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'recycling')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_64._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'recurringResponse')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_64._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'giftCardResponse')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_64._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'applepayResponse')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_64._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_64._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_64._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_64._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'cardProductId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_64._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'postDate')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_64._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_64._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'authCode')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_64._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'authorizationResponseSubCode')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_64._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'approvedAmount')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_64._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'accountInformation')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_64._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fraudResult')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_64._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'billMeLaterResponseData')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_64._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'tokenResponse')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_64._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'enhancedAuthResponse')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_64._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'accountUpdater')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_64._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'recycling')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_64._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'recurringResponse')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_64._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'giftCardResponse')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_64._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'applepayResponse')), min_occurs=0, max_occurs=1)
     )
-CTD_ANON_64._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_64._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_64._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_64._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -15490,12 +15490,12 @@ CTD_ANON_65._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(N
 CTD_ANON_65._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'message'), messageType, scope=CTD_ANON_65))
 CTD_ANON_65._GroupModel = pyxb.binding.content.GroupAll(
     pyxb.binding.content.ParticleModel(CTD_ANON_65._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'litleTxnId')), min_occurs=1, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_65._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fundsTransferId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_65._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_65._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_65._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_65._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fundsTransferId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_65._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_65._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_65._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0, max_occurs=1)
     )
-CTD_ANON_65._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_65._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_65._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_65._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -15507,15 +15507,15 @@ CTD_ANON_66._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(N
 
 CTD_ANON_66._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'city'), customBillingCityType, scope=CTD_ANON_66))
 CTD_ANON_66._GroupModel_ = pyxb.binding.content.GroupChoice(
-    pyxb.binding.content.ParticleModel(CTD_ANON_66._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'phone')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_66._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'city')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_66._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'url')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_66._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'phone')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_66._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'city')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_66._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'url')), min_occurs=0, max_occurs=1)
     )
 CTD_ANON_66._GroupModel = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(CTD_ANON_66._GroupModel_, min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_66._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'descriptor')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_66._GroupModel_, min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_66._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'descriptor')), min_occurs=0, max_occurs=1)
     )
-CTD_ANON_66._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_66._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_66._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_66._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -15535,16 +15535,16 @@ CTD_ANON_67._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(N
 
 CTD_ANON_67._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'riskEstimator'), riskEstimator, scope=CTD_ANON_67))
 CTD_ANON_67._GroupModel = pyxb.binding.content.GroupAll(
-    pyxb.binding.content.ParticleModel(CTD_ANON_67._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'bmlMerchantId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_67._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'promotionalOfferCode')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_67._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'approvedTermsCode')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_67._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'creditLine')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_67._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'addressIndicator')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_67._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'loanToValueEstimator')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_67._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'riskEstimator')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_67._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'riskQueueAssignment')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_67._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'bmlMerchantId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_67._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'promotionalOfferCode')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_67._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'approvedTermsCode')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_67._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'creditLine')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_67._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'addressIndicator')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_67._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'loanToValueEstimator')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_67._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'riskEstimator')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_67._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'riskQueueAssignment')), min_occurs=0, max_occurs=1)
     )
-CTD_ANON_67._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_67._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_67._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_67._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -15559,12 +15559,12 @@ CTD_ANON_68._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(N
 CTD_ANON_68._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'fundsTransferId'), string25Type, scope=CTD_ANON_68))
 CTD_ANON_68._GroupModel = pyxb.binding.content.GroupAll(
     pyxb.binding.content.ParticleModel(CTD_ANON_68._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'litleTxnId')), min_occurs=1, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_68._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fundsTransferId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_68._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_68._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_68._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_68._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fundsTransferId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_68._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_68._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_68._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0, max_occurs=1)
     )
-CTD_ANON_68._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_68._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_68._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_68._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -15573,27 +15573,27 @@ CTD_ANON_69._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(N
 CTD_ANON_69._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'litleTxnId'), litleIdType, scope=CTD_ANON_69))
 CTD_ANON_69._GroupModel = pyxb.binding.content.GroupAll(
     pyxb.binding.content.ParticleModel(CTD_ANON_69._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'litleTxnId')), min_occurs=1, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_69._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'processingInstructions')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_69._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'processingInstructions')), min_occurs=0, max_occurs=1)
     )
-CTD_ANON_69._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_69._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_69._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_69._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
 CTD_ANON_70._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'subscriptionId'), litleIdType, scope=CTD_ANON_70))
 CTD_ANON_70._GroupModel_ = pyxb.binding.content.GroupSequence(
     pyxb.binding.content.ParticleModel(CTD_ANON_70._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'litleTxnId')), min_occurs=1, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_70._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_70._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_70._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_70._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_70._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_70._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0, max_occurs=1)
     )
 CTD_ANON_70._GroupModel_2 = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(CTD_ANON_70._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'subscriptionId')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_70._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'subscriptionId')), min_occurs=0, max_occurs=1)
     )
 CTD_ANON_70._GroupModel = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(CTD_ANON_70._GroupModel_, min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_70._GroupModel_2, min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_70._GroupModel_, min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_70._GroupModel_2, min_occurs=0, max_occurs=1)
     )
-CTD_ANON_70._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_70._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_70._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_70._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -15607,49 +15607,49 @@ CTD_ANON_71._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(N
 
 CTD_ANON_71._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'capability'), posCapabilityTypeEnum, scope=CTD_ANON_71))
 CTD_ANON_71._GroupModel = pyxb.binding.content.GroupAll(
-    pyxb.binding.content.ParticleModel(CTD_ANON_71._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'capability')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_71._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'entryMode')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_71._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'cardholderId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_71._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'terminalId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_71._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'catLevel')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_71._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'capability')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_71._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'entryMode')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_71._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'cardholderId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_71._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'terminalId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_71._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'catLevel')), min_occurs=0, max_occurs=1)
     )
-CTD_ANON_71._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_71._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_71._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_71._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
 CTD_ANON_72._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'planCode'), string25Type, scope=CTD_ANON_72))
 CTD_ANON_72._GroupModel_ = pyxb.binding.content.GroupSequence(
     pyxb.binding.content.ParticleModel(CTD_ANON_72._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'litleTxnId')), min_occurs=1, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_72._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_72._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_72._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_72._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_72._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_72._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0, max_occurs=1)
     )
 CTD_ANON_72._GroupModel_2 = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(CTD_ANON_72._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'planCode')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_72._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'planCode')), min_occurs=0, max_occurs=1)
     )
 CTD_ANON_72._GroupModel = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(CTD_ANON_72._GroupModel_, min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_72._GroupModel_2, min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_72._GroupModel_, min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_72._GroupModel_2, min_occurs=0, max_occurs=1)
     )
-CTD_ANON_72._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_72._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_72._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_72._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
 CTD_ANON_73._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'planCode'), string25Type, scope=CTD_ANON_73))
 CTD_ANON_73._GroupModel_ = pyxb.binding.content.GroupSequence(
     pyxb.binding.content.ParticleModel(CTD_ANON_73._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'litleTxnId')), min_occurs=1, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_73._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_73._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_73._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_73._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_73._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_73._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0, max_occurs=1)
     )
 CTD_ANON_73._GroupModel_2 = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(CTD_ANON_73._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'planCode')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_73._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'planCode')), min_occurs=0, max_occurs=1)
     )
 CTD_ANON_73._GroupModel = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(CTD_ANON_73._GroupModel_, min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_73._GroupModel_2, min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_73._GroupModel_, min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_73._GroupModel_2, min_occurs=0, max_occurs=1)
     )
-CTD_ANON_73._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_73._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_73._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_73._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -15670,15 +15670,15 @@ CTD_ANON_74._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(N
 CTD_ANON_74._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'giftCardResponse'), CTD_ANON_2, scope=CTD_ANON_74))
 CTD_ANON_74._GroupModel = pyxb.binding.content.GroupAll(
     pyxb.binding.content.ParticleModel(CTD_ANON_74._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'litleTxnId')), min_occurs=1, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_74._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_74._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_74._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_74._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'postDate')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_74._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_74._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fraudResult')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_74._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'giftCardResponse')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_74._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_74._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_74._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_74._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'postDate')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_74._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_74._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fraudResult')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_74._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'giftCardResponse')), min_occurs=0, max_occurs=1)
     )
-CTD_ANON_74._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_74._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_74._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_74._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -15686,7 +15686,7 @@ CTD_ANON_75._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(N
 CTD_ANON_75._GroupModel = pyxb.binding.content.GroupAll(
     pyxb.binding.content.ParticleModel(CTD_ANON_75._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'litleTxnId')), min_occurs=1, max_occurs=1)
     )
-CTD_ANON_75._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_75._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_75._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_75._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -15701,12 +15701,12 @@ CTD_ANON_76._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(N
 CTD_ANON_76._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'litleTxnId'), litleIdType, scope=CTD_ANON_76))
 CTD_ANON_76._GroupModel = pyxb.binding.content.GroupAll(
     pyxb.binding.content.ParticleModel(CTD_ANON_76._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'litleTxnId')), min_occurs=1, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_76._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_76._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_76._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'postDate')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_76._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_76._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_76._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_76._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'postDate')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_76._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0, max_occurs=1)
     )
-CTD_ANON_76._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_76._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_76._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_76._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -15720,13 +15720,13 @@ createDiscountType._AddElement(pyxb.binding.basis.element(pyxb.namespace.Expande
 
 createDiscountType._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'name'), nameType, scope=createDiscountType))
 createDiscountType._GroupModel = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(createDiscountType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'discountCode')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(createDiscountType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'name')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(createDiscountType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'amount')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(createDiscountType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'startDate')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(createDiscountType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'endDate')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(createDiscountType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'discountCode')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(createDiscountType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'name')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(createDiscountType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'amount')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(createDiscountType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'startDate')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(createDiscountType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'endDate')), min_occurs=0, max_occurs=1)
     )
-createDiscountType._ContentModel = pyxb.binding.content.ParticleModel(createDiscountType._GroupModel, min_occurs=0L, max_occurs=1)
+createDiscountType._ContentModel = pyxb.binding.content.ParticleModel(createDiscountType._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -15740,13 +15740,13 @@ createAddOnType._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedNa
 
 createAddOnType._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'name'), nameType, scope=createAddOnType))
 createAddOnType._GroupModel = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(createAddOnType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'addOnCode')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(createAddOnType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'name')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(createAddOnType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'amount')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(createAddOnType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'startDate')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(createAddOnType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'endDate')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(createAddOnType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'addOnCode')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(createAddOnType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'name')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(createAddOnType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'amount')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(createAddOnType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'startDate')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(createAddOnType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'endDate')), min_occurs=0, max_occurs=1)
     )
-createAddOnType._ContentModel = pyxb.binding.content.ParticleModel(createAddOnType._GroupModel, min_occurs=0L, max_occurs=1)
+createAddOnType._ContentModel = pyxb.binding.content.ParticleModel(createAddOnType._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -15758,12 +15758,12 @@ CTD_ANON_77._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(N
 
 CTD_ANON_77._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'authAmount'), transactionAmountType, scope=CTD_ANON_77))
 CTD_ANON_77._GroupModel = pyxb.binding.content.GroupAll(
-    pyxb.binding.content.ParticleModel(CTD_ANON_77._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'authDate')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_77._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'authCode')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_77._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fraudResult')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_77._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'authAmount')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_77._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'authDate')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_77._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'authCode')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_77._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fraudResult')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_77._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'authAmount')), min_occurs=0, max_occurs=1)
     )
-CTD_ANON_77._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_77._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_77._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_77._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -15779,14 +15779,14 @@ recurringSubscriptionType._AddElement(pyxb.binding.basis.element(pyxb.namespace.
 
 recurringSubscriptionType._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'startDate'), pyxb.binding.datatypes.date, scope=recurringSubscriptionType))
 recurringSubscriptionType._GroupModel = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(recurringSubscriptionType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'planCode')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(recurringSubscriptionType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'numberOfPayments')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(recurringSubscriptionType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'startDate')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(recurringSubscriptionType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'amount')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(recurringSubscriptionType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'createDiscount')), min_occurs=0L, max_occurs=None),
-    pyxb.binding.content.ParticleModel(recurringSubscriptionType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'createAddOn')), min_occurs=0L, max_occurs=None)
+    pyxb.binding.content.ParticleModel(recurringSubscriptionType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'planCode')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(recurringSubscriptionType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'numberOfPayments')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(recurringSubscriptionType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'startDate')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(recurringSubscriptionType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'amount')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(recurringSubscriptionType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'createDiscount')), min_occurs=0, max_occurs=None),
+    pyxb.binding.content.ParticleModel(recurringSubscriptionType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'createAddOn')), min_occurs=0, max_occurs=None)
     )
-recurringSubscriptionType._ContentModel = pyxb.binding.content.ParticleModel(recurringSubscriptionType._GroupModel, min_occurs=0L, max_occurs=1)
+recurringSubscriptionType._ContentModel = pyxb.binding.content.ParticleModel(recurringSubscriptionType._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -15794,10 +15794,10 @@ accountInfoType._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedNa
 
 accountInfoType._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'number'), ccAccountNumberType, scope=accountInfoType))
 accountInfoType._GroupModel = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(accountInfoType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'type')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(accountInfoType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'number')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(accountInfoType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'type')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(accountInfoType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'number')), min_occurs=0, max_occurs=1)
     )
-accountInfoType._ContentModel = pyxb.binding.content.ParticleModel(accountInfoType._GroupModel, min_occurs=0L, max_occurs=1)
+accountInfoType._ContentModel = pyxb.binding.content.ParticleModel(accountInfoType._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -15809,12 +15809,12 @@ echeckTokenType._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedNa
 
 echeckTokenType._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'litleToken'), ccAccountNumberType, scope=echeckTokenType))
 echeckTokenType._GroupModel = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(echeckTokenType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'litleToken')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(echeckTokenType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'routingNum')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(echeckTokenType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'accType')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(echeckTokenType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'checkNum')), min_occurs=0L, max_occurs=1L)
+    pyxb.binding.content.ParticleModel(echeckTokenType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'litleToken')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(echeckTokenType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'routingNum')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(echeckTokenType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'accType')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(echeckTokenType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'checkNum')), min_occurs=0, max_occurs=1)
     )
-echeckTokenType._ContentModel = pyxb.binding.content.ParticleModel(echeckTokenType._GroupModel, min_occurs=0L, max_occurs=1)
+echeckTokenType._ContentModel = pyxb.binding.content.ParticleModel(echeckTokenType._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -15841,24 +15841,24 @@ CTD_ANON_78._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(N
 CTD_ANON_78._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'customBilling'), CTD_ANON_66, scope=CTD_ANON_78))
 CTD_ANON_78._GroupModel_ = pyxb.binding.content.GroupSequence(
     pyxb.binding.content.ParticleModel(CTD_ANON_78._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'litleTxnId')), min_occurs=1, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_78._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'amount')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_78._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'customBilling')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_78._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'amount')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_78._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'customBilling')), min_occurs=0, max_occurs=1)
     )
 CTD_ANON_78._GroupModel_2 = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(CTD_ANON_78._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_78._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'verify')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_78._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'amount')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_78._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'secondaryAmount')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_78._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderSource')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_78._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'billToAddress')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_78._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'shipToAddress')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_78._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'echeckOrEcheckToken')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_78._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'customBilling')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_78._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'merchantData')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_78._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_78._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'verify')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_78._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'amount')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_78._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'secondaryAmount')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_78._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderSource')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_78._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'billToAddress')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_78._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'shipToAddress')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_78._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'echeckOrEcheckToken')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_78._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'customBilling')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_78._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'merchantData')), min_occurs=0, max_occurs=1)
     )
 CTD_ANON_78._GroupModel = pyxb.binding.content.GroupChoice(
     pyxb.binding.content.ParticleModel(CTD_ANON_78._GroupModel_, min_occurs=1, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_78._GroupModel_2, min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_78._GroupModel_2, min_occurs=0, max_occurs=1)
     )
 CTD_ANON_78._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_78._GroupModel, min_occurs=1, max_occurs=1)
 
@@ -15868,7 +15868,7 @@ CTD_ANON_79._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(N
 CTD_ANON_79._GroupModel = pyxb.binding.content.GroupAll(
     pyxb.binding.content.ParticleModel(CTD_ANON_79._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'litleTxnId')), min_occurs=1, max_occurs=1)
     )
-CTD_ANON_79._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_79._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_79._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_79._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -15876,7 +15876,7 @@ CTD_ANON_80._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(N
 CTD_ANON_80._GroupModel = pyxb.binding.content.GroupAll(
     pyxb.binding.content.ParticleModel(CTD_ANON_80._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'litleTxnId')), min_occurs=1, max_occurs=1)
     )
-CTD_ANON_80._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_80._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_80._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_80._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -15925,13 +15925,13 @@ CTD_ANON_81._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(N
 CTD_ANON_81._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'customBilling'), CTD_ANON_66, scope=CTD_ANON_81))
 CTD_ANON_81._GroupModel_2 = pyxb.binding.content.GroupSequence(
     pyxb.binding.content.ParticleModel(CTD_ANON_81._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'litleTxnId')), min_occurs=1, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_81._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'amount')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_81._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'secondaryAmount')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_81._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'surchargeAmount')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_81._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'customBilling')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_81._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'enhancedData')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_81._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'processingInstructions')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_81._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'pos')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_81._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'amount')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_81._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'secondaryAmount')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_81._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'surchargeAmount')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_81._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'customBilling')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_81._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'enhancedData')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_81._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'processingInstructions')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_81._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'pos')), min_occurs=0, max_occurs=1)
     )
 CTD_ANON_81._GroupModel_4 = pyxb.binding.content.GroupChoice(
     pyxb.binding.content.ParticleModel(CTD_ANON_81._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'mpos')), min_occurs=1, max_occurs=1),
@@ -15941,32 +15941,32 @@ CTD_ANON_81._GroupModel_4 = pyxb.binding.content.GroupChoice(
     pyxb.binding.content.ParticleModel(CTD_ANON_81._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'paypal')), min_occurs=1, max_occurs=1)
     )
 CTD_ANON_81._GroupModel_3 = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(CTD_ANON_81._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_81._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'amount')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_81._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'secondaryAmount')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_81._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'surchargeAmount')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_81._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderSource')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_81._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'billToAddress')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_81._GroupModel_4, min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_81._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'customBilling')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_81._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'taxType')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_81._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'billMeLaterRequest')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_81._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'enhancedData')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_81._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'processingInstructions')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_81._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'pos')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_81._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'amexAggregatorData')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_81._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'merchantData')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_81._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_81._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'amount')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_81._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'secondaryAmount')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_81._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'surchargeAmount')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_81._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderSource')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_81._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'billToAddress')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_81._GroupModel_4, min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_81._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'customBilling')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_81._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'taxType')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_81._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'billMeLaterRequest')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_81._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'enhancedData')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_81._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'processingInstructions')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_81._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'pos')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_81._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'amexAggregatorData')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_81._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'merchantData')), min_occurs=0, max_occurs=1)
     )
 CTD_ANON_81._GroupModel_ = pyxb.binding.content.GroupChoice(
     pyxb.binding.content.ParticleModel(CTD_ANON_81._GroupModel_2, min_occurs=1, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_81._GroupModel_3, min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_81._GroupModel_3, min_occurs=0, max_occurs=1)
     )
 CTD_ANON_81._GroupModel = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(CTD_ANON_81._GroupModel_, min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_81._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'payPalNotes')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_81._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'actionReason')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_81._GroupModel_, min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_81._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'payPalNotes')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_81._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'actionReason')), min_occurs=0, max_occurs=1)
     )
-CTD_ANON_81._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_81._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_81._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_81._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -15974,10 +15974,10 @@ CTD_ANON_82._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(N
 
 CTD_ANON_82._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'merchantId'), merchantIdentificationType, scope=CTD_ANON_82))
 CTD_ANON_82._GroupModel = pyxb.binding.content.GroupAll(
-    pyxb.binding.content.ParticleModel(CTD_ANON_82._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'merchantId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_82._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'postDay')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_82._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'merchantId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_82._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'postDay')), min_occurs=0, max_occurs=1)
     )
-CTD_ANON_82._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_82._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_82._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_82._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -15991,14 +15991,14 @@ CTD_ANON_83._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(N
 
 CTD_ANON_83._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'fundingSubmerchantId'), merchantIdentificationType, scope=CTD_ANON_83))
 CTD_ANON_83._GroupModel_ = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(CTD_ANON_83._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fundingSubmerchantId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_83._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'submerchantName')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_83._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fundsTransferId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_83._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'amount')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_83._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'accountInfo')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_83._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fundingSubmerchantId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_83._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'submerchantName')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_83._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fundsTransferId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_83._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'amount')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_83._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'accountInfo')), min_occurs=0, max_occurs=1)
     )
 CTD_ANON_83._GroupModel = pyxb.binding.content.GroupChoice(
-    pyxb.binding.content.ParticleModel(CTD_ANON_83._GroupModel_, min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_83._GroupModel_, min_occurs=0, max_occurs=1)
     )
 CTD_ANON_83._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_83._GroupModel, min_occurs=1, max_occurs=1)
 
@@ -16015,12 +16015,12 @@ CTD_ANON_84._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(N
 CTD_ANON_84._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'litleTxnId'), litleIdType, scope=CTD_ANON_84))
 CTD_ANON_84._GroupModel = pyxb.binding.content.GroupAll(
     pyxb.binding.content.ParticleModel(CTD_ANON_84._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'litleTxnId')), min_occurs=1, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_84._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_84._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_84._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_84._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_84._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_84._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_84._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_84._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0, max_occurs=1)
     )
-CTD_ANON_84._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_84._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_84._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_84._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -16042,17 +16042,17 @@ CTD_ANON_85._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(N
 
 CTD_ANON_85._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'trialNumberOfIntervals'), numberOfPaymentsType, scope=CTD_ANON_85))
 CTD_ANON_85._GroupModel = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(CTD_ANON_85._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'planCode')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_85._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'name')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_85._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'description')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_85._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'intervalType')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_85._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'amount')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_85._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'numberOfPayments')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_85._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'trialNumberOfIntervals')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_85._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'trialIntervalType')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_85._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'active')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_85._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'planCode')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_85._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'name')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_85._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'description')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_85._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'intervalType')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_85._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'amount')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_85._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'numberOfPayments')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_85._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'trialNumberOfIntervals')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_85._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'trialIntervalType')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_85._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'active')), min_occurs=0, max_occurs=1)
     )
-CTD_ANON_85._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_85._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_85._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_85._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -16064,12 +16064,12 @@ CTD_ANON_86._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(N
 
 CTD_ANON_86._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'amount'), transactionAmountType, scope=CTD_ANON_86))
 CTD_ANON_86._GroupModel = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(CTD_ANON_86._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'advancedFraudChecks')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_86._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'billToAddress')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_86._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'shipToAddress')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_86._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'amount')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_86._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'advancedFraudChecks')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_86._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'billToAddress')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_86._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'shipToAddress')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_86._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'amount')), min_occurs=0, max_occurs=1)
     )
-CTD_ANON_86._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_86._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_86._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_86._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -16121,26 +16121,26 @@ CTD_ANON_87._GroupModel_ = pyxb.binding.content.GroupChoice(
     pyxb.binding.content.ParticleModel(CTD_ANON_87._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'paypage')), min_occurs=1, max_occurs=1)
     )
 CTD_ANON_87._GroupModel = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(CTD_ANON_87._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_87._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'authInformation')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_87._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'amount')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_87._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'secondaryAmount')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_87._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'surchargeAmount')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_87._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderSource')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_87._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'billToAddress')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_87._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'shipToAddress')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_87._GroupModel_, min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_87._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'customBilling')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_87._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'taxType')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_87._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'billMeLaterRequest')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_87._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'enhancedData')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_87._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'processingInstructions')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_87._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'pos')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_87._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'amexAggregatorData')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_87._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'merchantData')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_87._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'debtRepayment')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_87._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_87._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'authInformation')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_87._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'amount')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_87._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'secondaryAmount')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_87._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'surchargeAmount')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_87._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderSource')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_87._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'billToAddress')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_87._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'shipToAddress')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_87._GroupModel_, min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_87._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'customBilling')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_87._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'taxType')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_87._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'billMeLaterRequest')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_87._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'enhancedData')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_87._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'processingInstructions')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_87._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'pos')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_87._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'amexAggregatorData')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_87._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'merchantData')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_87._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'debtRepayment')), min_occurs=0, max_occurs=1)
     )
-CTD_ANON_87._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_87._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_87._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_87._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -16155,12 +16155,12 @@ CTD_ANON_88._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(N
 CTD_ANON_88._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'response'), responseType, scope=CTD_ANON_88))
 CTD_ANON_88._GroupModel = pyxb.binding.content.GroupAll(
     pyxb.binding.content.ParticleModel(CTD_ANON_88._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'litleTxnId')), min_occurs=1, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_88._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_88._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_88._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_88._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'advancedFraudResults')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_88._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_88._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_88._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_88._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'advancedFraudResults')), min_occurs=0, max_occurs=1)
     )
-CTD_ANON_88._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_88._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_88._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_88._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -16168,7 +16168,7 @@ CTD_ANON_89._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(N
 CTD_ANON_89._GroupModel = pyxb.binding.content.GroupAll(
     pyxb.binding.content.ParticleModel(CTD_ANON_89._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'litleTxnId')), min_occurs=1, max_occurs=1)
     )
-CTD_ANON_89._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_89._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_89._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_89._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -16178,11 +16178,11 @@ advancedFraudResultsType._AddElement(pyxb.binding.basis.element(pyxb.namespace.E
 
 advancedFraudResultsType._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'deviceReviewStatus'), pyxb.binding.datatypes.string, scope=advancedFraudResultsType))
 advancedFraudResultsType._GroupModel = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(advancedFraudResultsType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'deviceReviewStatus')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(advancedFraudResultsType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'deviceReputationScore')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(advancedFraudResultsType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'triggeredRule')), min_occurs=0L, max_occurs=None)
+    pyxb.binding.content.ParticleModel(advancedFraudResultsType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'deviceReviewStatus')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(advancedFraudResultsType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'deviceReputationScore')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(advancedFraudResultsType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'triggeredRule')), min_occurs=0, max_occurs=None)
     )
-advancedFraudResultsType._ContentModel = pyxb.binding.content.ParticleModel(advancedFraudResultsType._GroupModel, min_occurs=0L, max_occurs=1)
+advancedFraudResultsType._ContentModel = pyxb.binding.content.ParticleModel(advancedFraudResultsType._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -16190,10 +16190,10 @@ CTD_ANON_90._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(N
 
 CTD_ANON_90._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'orderId'), string25Type, scope=CTD_ANON_90))
 CTD_ANON_90._GroupModel = pyxb.binding.content.GroupAll(
-    pyxb.binding.content.ParticleModel(CTD_ANON_90._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_90._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'cardOrToken')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_90._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_90._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'cardOrToken')), min_occurs=0, max_occurs=1)
     )
-CTD_ANON_90._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_90._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_90._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_90._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -16207,13 +16207,13 @@ mposType._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Name
 
 mposType._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'track1Status'), trackStatusType, scope=mposType))
 mposType._GroupModel = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(mposType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'ksn')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(mposType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'formatId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(mposType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'encryptedTrack')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(mposType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'track1Status')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(mposType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'track2Status')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(mposType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'ksn')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(mposType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'formatId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(mposType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'encryptedTrack')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(mposType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'track1Status')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(mposType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'track2Status')), min_occurs=0, max_occurs=1)
     )
-mposType._ContentModel = pyxb.binding.content.ParticleModel(mposType._GroupModel, min_occurs=0L, max_occurs=1)
+mposType._ContentModel = pyxb.binding.content.ParticleModel(mposType._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -16221,13 +16221,13 @@ CTD_ANON_91._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(N
 
 CTD_ANON_91._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'batchResponse'), CTD_ANON_13, scope=CTD_ANON_91))
 CTD_ANON_91._GroupModel_ = pyxb.binding.content.GroupChoice(
-    pyxb.binding.content.ParticleModel(CTD_ANON_91._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'batchResponse')), min_occurs=0L, max_occurs=None),
+    pyxb.binding.content.ParticleModel(CTD_ANON_91._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'batchResponse')), min_occurs=0, max_occurs=None),
     pyxb.binding.content.ParticleModel(CTD_ANON_91._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'RFRResponse')), min_occurs=1, max_occurs=1)
     )
 CTD_ANON_91._GroupModel = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(CTD_ANON_91._GroupModel_, min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_91._GroupModel_, min_occurs=0, max_occurs=1)
     )
-CTD_ANON_91._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_91._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_91._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_91._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -16239,12 +16239,12 @@ applepayHeaderType._AddElement(pyxb.binding.basis.element(pyxb.namespace.Expande
 
 applepayHeaderType._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'transactionId'), pyxb.binding.datatypes.string, scope=applepayHeaderType))
 applepayHeaderType._GroupModel = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(applepayHeaderType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'applicationData')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(applepayHeaderType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'ephemeralPublicKey')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(applepayHeaderType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'publicKeyHash')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(applepayHeaderType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'transactionId')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(applepayHeaderType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'applicationData')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(applepayHeaderType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'ephemeralPublicKey')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(applepayHeaderType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'publicKeyHash')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(applepayHeaderType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'transactionId')), min_occurs=0, max_occurs=1)
     )
-applepayHeaderType._ContentModel = pyxb.binding.content.ParticleModel(applepayHeaderType._GroupModel, min_occurs=0L, max_occurs=1)
+applepayHeaderType._ContentModel = pyxb.binding.content.ParticleModel(applepayHeaderType._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -16330,43 +16330,43 @@ CTD_ANON_92._GroupModel_ = pyxb.binding.content.GroupChoice(
     pyxb.binding.content.ParticleModel(CTD_ANON_92._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'applepay')), min_occurs=1, max_occurs=1)
     )
 CTD_ANON_92._GroupModel_2 = pyxb.binding.content.GroupChoice(
-    pyxb.binding.content.ParticleModel(CTD_ANON_92._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fraudCheck')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_92._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'cardholderAuthentication')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_92._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fraudCheck')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_92._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'cardholderAuthentication')), min_occurs=0, max_occurs=1)
     )
 CTD_ANON_92._GroupModel = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(CTD_ANON_92._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'litleTxnId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_92._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_92._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'amount')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_92._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'secondaryAmount')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_92._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'surchargeAmount')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_92._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderSource')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_92._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'customerInfo')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_92._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'billToAddress')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_92._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'shipToAddress')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_92._GroupModel_, min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_92._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'billMeLaterRequest')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_92._GroupModel_2, min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_92._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'customBilling')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_92._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'taxType')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_92._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'enhancedData')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_92._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'processingInstructions')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_92._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'pos')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_92._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'payPalOrderComplete')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_92._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'payPalNotes')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_92._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'amexAggregatorData')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_92._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'allowPartialAuth')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_92._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'healthcareIIAS')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_92._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'filtering')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_92._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'merchantData')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_92._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'recyclingRequest')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_92._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fraudFilterOverride')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_92._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'recurringRequest')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_92._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'litleInternalRecurringRequest')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_92._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'debtRepayment')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_92._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'advancedFraudChecks')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_92._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'wallet')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_92._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'litleTxnId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_92._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_92._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'amount')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_92._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'secondaryAmount')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_92._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'surchargeAmount')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_92._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderSource')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_92._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'customerInfo')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_92._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'billToAddress')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_92._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'shipToAddress')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_92._GroupModel_, min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_92._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'billMeLaterRequest')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_92._GroupModel_2, min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_92._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'customBilling')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_92._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'taxType')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_92._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'enhancedData')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_92._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'processingInstructions')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_92._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'pos')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_92._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'payPalOrderComplete')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_92._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'payPalNotes')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_92._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'amexAggregatorData')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_92._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'allowPartialAuth')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_92._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'healthcareIIAS')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_92._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'filtering')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_92._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'merchantData')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_92._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'recyclingRequest')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_92._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fraudFilterOverride')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_92._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'recurringRequest')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_92._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'litleInternalRecurringRequest')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_92._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'debtRepayment')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_92._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'advancedFraudChecks')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_92._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'wallet')), min_occurs=0, max_occurs=1)
     )
-CTD_ANON_92._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_92._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_92._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_92._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -16374,10 +16374,10 @@ echeckForTokenType._AddElement(pyxb.binding.basis.element(pyxb.namespace.Expande
 
 echeckForTokenType._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'accNum'), echeckAccountNumberType, scope=echeckForTokenType))
 echeckForTokenType._GroupModel = pyxb.binding.content.GroupAll(
-    pyxb.binding.content.ParticleModel(echeckForTokenType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'accNum')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(echeckForTokenType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'routingNum')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(echeckForTokenType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'accNum')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(echeckForTokenType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'routingNum')), min_occurs=0, max_occurs=1)
     )
-echeckForTokenType._ContentModel = pyxb.binding.content.ParticleModel(echeckForTokenType._GroupModel, min_occurs=0L, max_occurs=1)
+echeckForTokenType._ContentModel = pyxb.binding.content.ParticleModel(echeckForTokenType._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -16387,12 +16387,12 @@ CTD_ANON_94._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(N
 
 CTD_ANON_94._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'fundingSubmerchantId'), merchantIdentificationType, scope=CTD_ANON_94))
 CTD_ANON_94._GroupModel_ = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(CTD_ANON_94._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fundingSubmerchantId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_94._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fundsTransferId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_94._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'amount')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_94._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fundingSubmerchantId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_94._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fundsTransferId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_94._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'amount')), min_occurs=0, max_occurs=1)
     )
 CTD_ANON_94._GroupModel = pyxb.binding.content.GroupChoice(
-    pyxb.binding.content.ParticleModel(CTD_ANON_94._GroupModel_, min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_94._GroupModel_, min_occurs=0, max_occurs=1)
     )
 CTD_ANON_94._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_94._GroupModel, min_occurs=1, max_occurs=1)
 
@@ -16408,10 +16408,10 @@ baseRequest._GroupModel_ = pyxb.binding.content.GroupChoice(
     pyxb.binding.content.ParticleModel(baseRequest._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'recurringTransaction')), min_occurs=1, max_occurs=1)
     )
 baseRequest._GroupModel = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(baseRequest._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'authentication')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(baseRequest._GroupModel_, min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(baseRequest._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'authentication')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(baseRequest._GroupModel_, min_occurs=0, max_occurs=1)
     )
-baseRequest._ContentModel = pyxb.binding.content.ParticleModel(baseRequest._GroupModel, min_occurs=0L, max_occurs=1)
+baseRequest._ContentModel = pyxb.binding.content.ParticleModel(baseRequest._GroupModel, min_occurs=0, max_occurs=1)
 
 
 CTD_ANON_95._GroupModel_ = pyxb.binding.content.GroupChoice(
@@ -16419,10 +16419,10 @@ CTD_ANON_95._GroupModel_ = pyxb.binding.content.GroupChoice(
     pyxb.binding.content.ParticleModel(CTD_ANON_95._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'recurringTransaction')), min_occurs=1, max_occurs=1)
     )
 CTD_ANON_95._GroupModel = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(CTD_ANON_95._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'authentication')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_95._GroupModel_, min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_95._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'authentication')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_95._GroupModel_, min_occurs=0, max_occurs=1)
     )
-CTD_ANON_95._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_95._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_95._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_95._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -16430,10 +16430,10 @@ CTD_ANON_96._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(N
 
 CTD_ANON_96._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'recurringTransactionResponse'), recurringTransactionResponseType, abstract=pyxb.binding.datatypes.boolean(1), scope=CTD_ANON_96))
 CTD_ANON_96._GroupModel = pyxb.binding.content.GroupChoice(
-    pyxb.binding.content.ParticleModel(CTD_ANON_96._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'transactionResponse')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_96._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'recurringTransactionResponse')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_96._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'transactionResponse')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_96._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'recurringTransactionResponse')), min_occurs=0, max_occurs=1)
     )
-CTD_ANON_96._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_96._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_96._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_96._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -16443,11 +16443,11 @@ filteringType._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName
 
 filteringType._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'prepaid'), pyxb.binding.datatypes.boolean, scope=filteringType))
 filteringType._GroupModel = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(filteringType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'prepaid')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(filteringType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'international')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(filteringType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'chargeback')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(filteringType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'prepaid')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(filteringType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'international')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(filteringType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'chargeback')), min_occurs=0, max_occurs=1)
     )
-filteringType._ContentModel = pyxb.binding.content.ParticleModel(filteringType._GroupModel, min_occurs=0L, max_occurs=1)
+filteringType._ContentModel = pyxb.binding.content.ParticleModel(filteringType._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -16462,12 +16462,12 @@ CTD_ANON_97._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(N
 CTD_ANON_97._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'litleTxnId'), litleIdType, scope=CTD_ANON_97))
 CTD_ANON_97._GroupModel = pyxb.binding.content.GroupAll(
     pyxb.binding.content.ParticleModel(CTD_ANON_97._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'litleTxnId')), min_occurs=1, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_97._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fundsTransferId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_97._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_97._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_97._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_97._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fundsTransferId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_97._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_97._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_97._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0, max_occurs=1)
     )
-CTD_ANON_97._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_97._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_97._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_97._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -16486,14 +16486,14 @@ CTD_ANON_98._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(N
 CTD_ANON_98._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'message'), messageType, scope=CTD_ANON_98))
 CTD_ANON_98._GroupModel = pyxb.binding.content.GroupAll(
     pyxb.binding.content.ParticleModel(CTD_ANON_98._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'litleTxnId')), min_occurs=1, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_98._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_98._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_98._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_98._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'postDate')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_98._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_98._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'giftCardResponse')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_98._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_98._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_98._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_98._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'postDate')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_98._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_98._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'giftCardResponse')), min_occurs=0, max_occurs=1)
     )
-CTD_ANON_98._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_98._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_98._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_98._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -16503,12 +16503,12 @@ CTD_ANON_99._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(N
 
 CTD_ANON_99._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'fundingSubmerchantId'), merchantIdentificationType, scope=CTD_ANON_99))
 CTD_ANON_99._GroupModel_ = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(CTD_ANON_99._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fundingSubmerchantId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_99._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fundsTransferId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_99._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'amount')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_99._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fundingSubmerchantId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_99._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fundsTransferId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_99._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'amount')), min_occurs=0, max_occurs=1)
     )
 CTD_ANON_99._GroupModel = pyxb.binding.content.GroupChoice(
-    pyxb.binding.content.ParticleModel(CTD_ANON_99._GroupModel_, min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_99._GroupModel_, min_occurs=0, max_occurs=1)
     )
 CTD_ANON_99._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_99._GroupModel, min_occurs=1, max_occurs=1)
 
@@ -16518,10 +16518,10 @@ extendedCardResponseType._AddElement(pyxb.binding.basis.element(pyxb.namespace.E
 
 extendedCardResponseType._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'code'), responseType, scope=extendedCardResponseType))
 extendedCardResponseType._GroupModel = pyxb.binding.content.GroupAll(
-    pyxb.binding.content.ParticleModel(extendedCardResponseType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(extendedCardResponseType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'code')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(extendedCardResponseType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(extendedCardResponseType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'code')), min_occurs=0, max_occurs=1)
     )
-extendedCardResponseType._ContentModel = pyxb.binding.content.ParticleModel(extendedCardResponseType._GroupModel, min_occurs=0L, max_occurs=1)
+extendedCardResponseType._ContentModel = pyxb.binding.content.ParticleModel(extendedCardResponseType._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -16536,12 +16536,12 @@ CTD_ANON_100._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(
 CTD_ANON_100._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'message'), messageType, scope=CTD_ANON_100))
 CTD_ANON_100._GroupModel = pyxb.binding.content.GroupAll(
     pyxb.binding.content.ParticleModel(CTD_ANON_100._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'litleTxnId')), min_occurs=1, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_100._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fundsTransferId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_100._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_100._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_100._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_100._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fundsTransferId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_100._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_100._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_100._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0, max_occurs=1)
     )
-CTD_ANON_100._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_100._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_100._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_100._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -16558,13 +16558,13 @@ CTD_ANON_101._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(
 CTD_ANON_101._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'recycling'), voidRecyclingResponseType, scope=CTD_ANON_101))
 CTD_ANON_101._GroupModel = pyxb.binding.content.GroupAll(
     pyxb.binding.content.ParticleModel(CTD_ANON_101._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'litleTxnId')), min_occurs=1, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_101._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_101._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_101._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'postDate')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_101._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_101._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'recycling')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_101._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_101._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_101._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'postDate')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_101._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_101._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'recycling')), min_occurs=0, max_occurs=1)
     )
-CTD_ANON_101._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_101._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_101._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_101._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -16587,16 +16587,16 @@ CTD_ANON_102._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(
 CTD_ANON_102._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'postDate'), pyxb.binding.datatypes.date, scope=CTD_ANON_102))
 CTD_ANON_102._GroupModel = pyxb.binding.content.GroupAll(
     pyxb.binding.content.ParticleModel(CTD_ANON_102._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'litleTxnId')), min_occurs=1, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_102._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_102._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_102._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_102._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'postDate')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_102._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_102._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fraudResult')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_102._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'giftCardResponse')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_102._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'virtualGiftCardResponse')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_102._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_102._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_102._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_102._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'postDate')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_102._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_102._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fraudResult')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_102._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'giftCardResponse')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_102._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'virtualGiftCardResponse')), min_occurs=0, max_occurs=1)
     )
-CTD_ANON_102._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_102._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_102._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_102._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -16611,12 +16611,12 @@ CTD_ANON_103._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(
 CTD_ANON_103._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'actionReason'), actionReasonType, scope=CTD_ANON_103))
 CTD_ANON_103._GroupModel = pyxb.binding.content.GroupAll(
     pyxb.binding.content.ParticleModel(CTD_ANON_103._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'litleTxnId')), min_occurs=1, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_103._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'amount')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_103._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'surchargeAmount')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_103._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'payPalNotes')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_103._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'actionReason')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_103._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'amount')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_103._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'surchargeAmount')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_103._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'payPalNotes')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_103._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'actionReason')), min_occurs=0, max_occurs=1)
     )
-CTD_ANON_103._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_103._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_103._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_103._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -16637,15 +16637,15 @@ CTD_ANON_104._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(
 CTD_ANON_104._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'response'), responseType, scope=CTD_ANON_104))
 CTD_ANON_104._GroupModel = pyxb.binding.content.GroupAll(
     pyxb.binding.content.ParticleModel(CTD_ANON_104._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'litleTxnId')), min_occurs=1, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_104._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_104._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_104._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_104._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'postDate')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_104._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_104._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fraudResult')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_104._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'giftCardResponse')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_104._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_104._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_104._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_104._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'postDate')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_104._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_104._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fraudResult')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_104._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'giftCardResponse')), min_occurs=0, max_occurs=1)
     )
-CTD_ANON_104._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_104._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_104._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_104._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -16653,10 +16653,10 @@ CTD_ANON_105._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(
 
 CTD_ANON_105._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'payerEmail'), STD_ANON, scope=CTD_ANON_105))
 CTD_ANON_105._GroupModel = pyxb.binding.content.GroupChoice(
-    pyxb.binding.content.ParticleModel(CTD_ANON_105._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'payerId')), min_occurs=1L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_105._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'payerEmail')), min_occurs=1L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_105._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'payerId')), min_occurs=1, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_105._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'payerEmail')), min_occurs=1, max_occurs=1)
     )
-CTD_ANON_105._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_105._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_105._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_105._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -16737,37 +16737,37 @@ CTD_ANON_106._GroupModel_3 = pyxb.binding.content.GroupChoice(
     pyxb.binding.content.ParticleModel(CTD_ANON_106._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'applepay')), min_occurs=1, max_occurs=1)
     )
 CTD_ANON_106._GroupModel_2 = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(CTD_ANON_106._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_106._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'amount')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_106._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'secondaryAmount')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_106._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'surchargeAmount')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_106._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderSource')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_106._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'customerInfo')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_106._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'billToAddress')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_106._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'shipToAddress')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_106._GroupModel_3, min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_106._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'billMeLaterRequest')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_106._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'cardholderAuthentication')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_106._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'processingInstructions')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_106._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'pos')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_106._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'customBilling')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_106._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'taxType')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_106._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'enhancedData')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_106._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'amexAggregatorData')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_106._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'allowPartialAuth')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_106._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'healthcareIIAS')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_106._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'filtering')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_106._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'merchantData')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_106._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'recyclingRequest')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_106._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fraudFilterOverride')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_106._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'recurringRequest')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_106._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'debtRepayment')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_106._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'advancedFraudChecks')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_106._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'wallet')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_106._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_106._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'amount')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_106._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'secondaryAmount')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_106._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'surchargeAmount')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_106._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderSource')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_106._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'customerInfo')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_106._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'billToAddress')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_106._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'shipToAddress')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_106._GroupModel_3, min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_106._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'billMeLaterRequest')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_106._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'cardholderAuthentication')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_106._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'processingInstructions')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_106._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'pos')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_106._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'customBilling')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_106._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'taxType')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_106._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'enhancedData')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_106._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'amexAggregatorData')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_106._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'allowPartialAuth')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_106._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'healthcareIIAS')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_106._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'filtering')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_106._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'merchantData')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_106._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'recyclingRequest')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_106._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fraudFilterOverride')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_106._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'recurringRequest')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_106._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'debtRepayment')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_106._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'advancedFraudChecks')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_106._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'wallet')), min_occurs=0, max_occurs=1)
     )
 CTD_ANON_106._GroupModel = pyxb.binding.content.GroupChoice(
     pyxb.binding.content.ParticleModel(CTD_ANON_106._GroupModel_, min_occurs=1, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_106._GroupModel_2, min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_106._GroupModel_2, min_occurs=0, max_occurs=1)
     )
 CTD_ANON_106._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_106._GroupModel, min_occurs=1, max_occurs=1)
 
@@ -16790,15 +16790,15 @@ CTD_ANON_107._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(
 CTD_ANON_107._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'litleTxnId'), litleIdType, scope=CTD_ANON_107))
 CTD_ANON_107._GroupModel = pyxb.binding.content.GroupAll(
     pyxb.binding.content.ParticleModel(CTD_ANON_107._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'litleTxnId')), min_occurs=1, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_107._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_107._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_107._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_107._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'postDate')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_107._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_107._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fraudResult')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_107._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'giftCardResponse')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_107._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_107._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_107._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_107._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'postDate')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_107._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_107._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fraudResult')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_107._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'giftCardResponse')), min_occurs=0, max_occurs=1)
     )
-CTD_ANON_107._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_107._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_107._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_107._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -16844,23 +16844,23 @@ CTD_ANON_108._GroupModel_ = pyxb.binding.content.GroupChoice(
     pyxb.binding.content.ParticleModel(CTD_ANON_108._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'paypage')), min_occurs=1, max_occurs=1)
     )
 CTD_ANON_108._GroupModel = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(CTD_ANON_108._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_108._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'amount')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_108._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'secondaryAmount')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_108._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'surchargeAmount')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_108._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderSource')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_108._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'billToAddress')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_108._GroupModel_, min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_108._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'customBilling')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_108._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'taxType')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_108._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'enhancedData')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_108._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'processingInstructions')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_108._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'pos')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_108._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'amexAggregatorData')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_108._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'merchantData')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_108._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'debtRepayment')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_108._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_108._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'amount')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_108._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'secondaryAmount')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_108._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'surchargeAmount')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_108._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderSource')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_108._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'billToAddress')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_108._GroupModel_, min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_108._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'customBilling')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_108._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'taxType')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_108._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'enhancedData')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_108._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'processingInstructions')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_108._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'pos')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_108._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'amexAggregatorData')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_108._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'merchantData')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_108._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'debtRepayment')), min_occurs=0, max_occurs=1)
     )
-CTD_ANON_108._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_108._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_108._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_108._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -16879,14 +16879,14 @@ CTD_ANON_109._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(
 CTD_ANON_109._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'message'), messageType, scope=CTD_ANON_109))
 CTD_ANON_109._GroupModel = pyxb.binding.content.GroupAll(
     pyxb.binding.content.ParticleModel(CTD_ANON_109._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'litleTxnId')), min_occurs=1, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_109._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_109._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_109._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_109._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_109._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'postDate')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_109._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'tokenResponse')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_109._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_109._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_109._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_109._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_109._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'postDate')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_109._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'tokenResponse')), min_occurs=0, max_occurs=1)
     )
-CTD_ANON_109._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_109._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_109._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_109._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -16901,12 +16901,12 @@ CTD_ANON_110._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(
 CTD_ANON_110._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'message'), messageType, scope=CTD_ANON_110))
 CTD_ANON_110._GroupModel = pyxb.binding.content.GroupAll(
     pyxb.binding.content.ParticleModel(CTD_ANON_110._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'litleTxnId')), min_occurs=1, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_110._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fundsTransferId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_110._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_110._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_110._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_110._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fundsTransferId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_110._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_110._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_110._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0, max_occurs=1)
     )
-CTD_ANON_110._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_110._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_110._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_110._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -16914,7 +16914,7 @@ CTD_ANON_111._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(
 CTD_ANON_111._GroupModel = pyxb.binding.content.GroupAll(
     pyxb.binding.content.ParticleModel(CTD_ANON_111._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'litleTxnId')), min_occurs=1, max_occurs=1)
     )
-CTD_ANON_111._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_111._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_111._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_111._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -16925,10 +16925,10 @@ CTD_ANON_112._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(
 CTD_ANON_112._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'echeckOrEcheckToken'), pyxb.binding.datatypes.anyType, abstract=pyxb.binding.datatypes.boolean(1), scope=CTD_ANON_112))
 CTD_ANON_112._GroupModel = pyxb.binding.content.GroupSequence(
     pyxb.binding.content.ParticleModel(CTD_ANON_112._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'litleTxnId')), min_occurs=1, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_112._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'echeckOrEcheckToken')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_112._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'merchantData')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_112._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'echeckOrEcheckToken')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_112._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'merchantData')), min_occurs=0, max_occurs=1)
     )
-CTD_ANON_112._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_112._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_112._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_112._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -16942,13 +16942,13 @@ updateDiscountType._AddElement(pyxb.binding.basis.element(pyxb.namespace.Expande
 
 updateDiscountType._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'discountCode'), string25Type, scope=updateDiscountType))
 updateDiscountType._GroupModel = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(updateDiscountType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'discountCode')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(updateDiscountType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'name')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(updateDiscountType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'amount')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(updateDiscountType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'startDate')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(updateDiscountType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'endDate')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(updateDiscountType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'discountCode')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(updateDiscountType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'name')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(updateDiscountType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'amount')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(updateDiscountType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'startDate')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(updateDiscountType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'endDate')), min_occurs=0, max_occurs=1)
     )
-updateDiscountType._ContentModel = pyxb.binding.content.ParticleModel(updateDiscountType._GroupModel, min_occurs=0L, max_occurs=1)
+updateDiscountType._ContentModel = pyxb.binding.content.ParticleModel(updateDiscountType._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -16967,14 +16967,14 @@ CTD_ANON_113._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(
 CTD_ANON_113._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'tokenResponse'), tokenResponseType, scope=CTD_ANON_113))
 CTD_ANON_113._GroupModel = pyxb.binding.content.GroupAll(
     pyxb.binding.content.ParticleModel(CTD_ANON_113._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'litleTxnId')), min_occurs=1, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_113._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_113._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_113._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_113._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'postDate')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_113._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'accountUpdater')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_113._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'tokenResponse')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_113._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_113._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_113._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_113._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'postDate')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_113._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'accountUpdater')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_113._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'tokenResponse')), min_occurs=0, max_occurs=1)
     )
-CTD_ANON_113._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_113._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_113._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_113._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -16986,12 +16986,12 @@ cardTokenInfoType._AddElement(pyxb.binding.basis.element(pyxb.namespace.Expanded
 
 cardTokenInfoType._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'type'), methodOfPaymentTypeEnum, scope=cardTokenInfoType))
 cardTokenInfoType._GroupModel = pyxb.binding.content.GroupAll(
-    pyxb.binding.content.ParticleModel(cardTokenInfoType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'litleToken')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(cardTokenInfoType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'type')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(cardTokenInfoType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'expDate')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(cardTokenInfoType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'bin')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(cardTokenInfoType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'litleToken')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(cardTokenInfoType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'type')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(cardTokenInfoType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'expDate')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(cardTokenInfoType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'bin')), min_occurs=0, max_occurs=1)
     )
-cardTokenInfoType._ContentModel = pyxb.binding.content.ParticleModel(cardTokenInfoType._GroupModel, min_occurs=0L, max_occurs=1)
+cardTokenInfoType._ContentModel = pyxb.binding.content.ParticleModel(cardTokenInfoType._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -17014,28 +17014,28 @@ CTD_ANON_114._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(
 CTD_ANON_114._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'customBilling'), CTD_ANON_66, scope=CTD_ANON_114))
 CTD_ANON_114._GroupModel_2 = pyxb.binding.content.GroupSequence(
     pyxb.binding.content.ParticleModel(CTD_ANON_114._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'litleTxnId')), min_occurs=1, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_114._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'amount')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_114._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'secondaryAmount')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_114._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'customBilling')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_114._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'amount')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_114._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'secondaryAmount')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_114._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'customBilling')), min_occurs=0, max_occurs=1)
     )
 CTD_ANON_114._GroupModel_3 = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(CTD_ANON_114._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_114._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'amount')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_114._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'secondaryAmount')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_114._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderSource')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_114._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'billToAddress')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_114._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'echeckOrEcheckToken')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_114._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'customBilling')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_114._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'merchantData')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_114._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_114._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'amount')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_114._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'secondaryAmount')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_114._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderSource')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_114._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'billToAddress')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_114._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'echeckOrEcheckToken')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_114._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'customBilling')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_114._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'merchantData')), min_occurs=0, max_occurs=1)
     )
 CTD_ANON_114._GroupModel_ = pyxb.binding.content.GroupChoice(
     pyxb.binding.content.ParticleModel(CTD_ANON_114._GroupModel_2, min_occurs=1, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_114._GroupModel_3, min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_114._GroupModel_3, min_occurs=0, max_occurs=1)
     )
 CTD_ANON_114._GroupModel = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(CTD_ANON_114._GroupModel_, min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_114._GroupModel_, min_occurs=0, max_occurs=1)
     )
-CTD_ANON_114._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_114._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_114._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_114._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -17060,25 +17060,25 @@ CTD_ANON_115._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(
 CTD_ANON_115._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'giftCardResponse'), CTD_ANON_2, scope=CTD_ANON_115))
 CTD_ANON_115._GroupModel = pyxb.binding.content.GroupAll(
     pyxb.binding.content.ParticleModel(CTD_ANON_115._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'litleTxnId')), min_occurs=1, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_115._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_115._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_115._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_115._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'postDate')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_115._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_115._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'tokenResponse')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_115._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'accountUpdater')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_115._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fraudResult')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_115._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'giftCardResponse')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_115._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_115._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'response')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_115._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'responseTime')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_115._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'postDate')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_115._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'message')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_115._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'tokenResponse')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_115._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'accountUpdater')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_115._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fraudResult')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_115._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'giftCardResponse')), min_occurs=0, max_occurs=1)
     )
-CTD_ANON_115._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_115._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_115._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_115._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
 deleteDiscountType._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'discountCode'), string25Type, scope=deleteDiscountType))
 deleteDiscountType._GroupModel = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(deleteDiscountType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'discountCode')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(deleteDiscountType._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'discountCode')), min_occurs=0, max_occurs=1)
     )
-deleteDiscountType._ContentModel = pyxb.binding.content.ParticleModel(deleteDiscountType._GroupModel, min_occurs=0L, max_occurs=1)
+deleteDiscountType._ContentModel = pyxb.binding.content.ParticleModel(deleteDiscountType._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -17086,7 +17086,7 @@ CTD_ANON_116._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(
 CTD_ANON_116._GroupModel = pyxb.binding.content.GroupAll(
     pyxb.binding.content.ParticleModel(CTD_ANON_116._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'litleTxnId')), min_occurs=1, max_occurs=1)
     )
-CTD_ANON_116._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_116._GroupModel, min_occurs=0L, max_occurs=1)
+CTD_ANON_116._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_116._GroupModel, min_occurs=0, max_occurs=1)
 
 
 
@@ -17096,12 +17096,12 @@ CTD_ANON_117._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(
 
 CTD_ANON_117._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'fundingSubmerchantId'), merchantIdentificationType, scope=CTD_ANON_117))
 CTD_ANON_117._GroupModel_ = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(CTD_ANON_117._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fundingSubmerchantId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_117._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fundsTransferId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(CTD_ANON_117._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'amount')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_117._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fundingSubmerchantId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_117._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'fundsTransferId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(CTD_ANON_117._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'amount')), min_occurs=0, max_occurs=1)
     )
 CTD_ANON_117._GroupModel = pyxb.binding.content.GroupChoice(
-    pyxb.binding.content.ParticleModel(CTD_ANON_117._GroupModel_, min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(CTD_ANON_117._GroupModel_, min_occurs=0, max_occurs=1)
     )
 CTD_ANON_117._ContentModel = pyxb.binding.content.ParticleModel(CTD_ANON_117._GroupModel, min_occurs=1, max_occurs=1)
 
@@ -17113,11 +17113,11 @@ updateCardValidationNumOnToken_._AddElement(pyxb.binding.basis.element(pyxb.name
 
 updateCardValidationNumOnToken_._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'orderId'), string25Type, scope=updateCardValidationNumOnToken_))
 updateCardValidationNumOnToken_._GroupModel = pyxb.binding.content.GroupSequence(
-    pyxb.binding.content.ParticleModel(updateCardValidationNumOnToken_._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(updateCardValidationNumOnToken_._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'litleToken')), min_occurs=0L, max_occurs=1),
-    pyxb.binding.content.ParticleModel(updateCardValidationNumOnToken_._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'cardValidationNum')), min_occurs=0L, max_occurs=1)
+    pyxb.binding.content.ParticleModel(updateCardValidationNumOnToken_._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'orderId')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(updateCardValidationNumOnToken_._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'litleToken')), min_occurs=0, max_occurs=1),
+    pyxb.binding.content.ParticleModel(updateCardValidationNumOnToken_._UseForTag(pyxb.namespace.ExpandedName(Namespace, u'cardValidationNum')), min_occurs=0, max_occurs=1)
     )
-updateCardValidationNumOnToken_._ContentModel = pyxb.binding.content.ParticleModel(updateCardValidationNumOnToken_._GroupModel, min_occurs=0L, max_occurs=1)
+updateCardValidationNumOnToken_._ContentModel = pyxb.binding.content.ParticleModel(updateCardValidationNumOnToken_._GroupModel, min_occurs=0, max_occurs=1)
 
 activate._setSubstitutionGroup(transaction)
 
