@@ -21,18 +21,27 @@
 #FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 #OTHER DEALINGS IN THE SOFTWARE.
 
-import os, sys
-lib_path = os.path.abspath('../unit')
+import os
+import sys
+
+FILE_PATH = os.path.dirname(os.path.realpath(__file__))
+
+
+lib_path = os.path.abspath(os.path.join(FILE_PATH, '..', '..'))
+sys.path.append(lib_path)
+
+
+lib_path = os.path.abspath(os.path.join(FILE_PATH, '..', 'unit'))
 sys.path.append(lib_path)
 
 import AllUnitTests
 
-lib_path = os.path.abspath('../certification')
+lib_path = os.path.abspath(os.path.join(FILE_PATH, '..', 'certification'))
 sys.path.append(lib_path)
 
 import AllCertificationTests
 
-lib_path = os.path.abspath('../functional')
+lib_path = os.path.abspath(os.path.join(FILE_PATH, '..', 'functional'))
 sys.path.append(lib_path)
 
 import AllFunctionalTests
