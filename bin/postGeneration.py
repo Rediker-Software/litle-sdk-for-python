@@ -133,22 +133,6 @@ def removeMinOccurs(xfile):
                 cregex(minOccurs1Str, minOccurs, currentline, xfile, listindex, readlines)
     replace_in_file(lib_path, "min_occurs=0LL", "min_occurs=0L")
 
-# fix paypal as credit field
-def fixPaypalinCredit(xfile):
-    creditAnon = findAnon(xfile, "credit")
-    line = creditAnon + "._AddElement\(pyxb.binding.basis.element\(pyxb.namespace.ExpandedName\(Namespace, 'paypal'\)"
-    rightLine = re.compile(line)
-    readlines = open(xfile, 'r').readlines()
-    for currentline in readlines:
-        if(rightLine.search(currentline)):
-            wholeLine = currentline
-    i = wholeLine.find('\n')
-    wholeLine = wholeLine[:i-1]
-    wholeLine = wholeLine.replace(')', '\)')
-    wholeLine = wholeLine.replace('(', '\(')
-    replace_in_file(xfile, wholeLine, creditAnon + "._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, 'paypal'), payPal, scope=" + creditAnon + ")")
-    
-
 def fixChoices(xfile):
     line = "._GroupModel_.*?, min_occurs=1, max_occurs=1\)"
     lineToSkip = findAnon(xfile, "authorization") + "._GroupModel_,"
@@ -188,22 +172,38 @@ def removeAbsolutePath(xfile):
     decLocationStr = "_DeclarationLocation"
     useLocationStr = "_UseLocation"
     defLocationStr = "_DefinitionLocation"
+    xsdLocationStr = "_XSDLocation"
+
+    locationUtilityStr = "pyxb.utils.utility.Location"
+
+    abslocation = os.path.abspath('../SchemaCombined903.xsd').replace('\\', '\\\\')
 
     for currentline in readlines:
         if currentline.find(decLocationStr) >= 0 \
             or currentline.find(useLocationStr) >= 0 \
-            or currentline.find(defLocationStr) >= 0:
-#             re.escape("()\\.")
+            or currentline.find(defLocationStr) >= 0 \
+            or currentline.find(xsdLocationStr) >= 0:
+
             currentline = currentline.replace('\\', '\\\\')
             currentline = currentline.replace(')', '\)')
-            currentline = currentline.replace('(', '\(')            
+            currentline = currentline.replace('(', '\(')
             replace_in_file(xfile, currentline, "")
+
+        if locationUtilityStr in currentline:
+            newline = currentline
+
+            currentline = currentline.replace('\\', '\\\\')
+            currentline = currentline.replace(')', '\)')
+            currentline = currentline.replace('(', '\(')
+
+            newline = newline.replace(abslocation, '')
+
+            replace_in_file(xfile, currentline, newline)
 
 # Run actual Changes
 removeMinOccurs(lib_path)
 if (not isInFile(lib_path, "import xml.dom")):
     replace_in_file(lib_path, "import sys", "import sys\nimport xml.dom")
-fixPaypalinCredit(lib_path)
 fixChoices(lib_path)
 removeAbsolutePath(lib_path)
 
