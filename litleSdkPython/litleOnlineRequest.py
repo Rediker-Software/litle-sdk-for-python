@@ -88,9 +88,22 @@ class litleOnlineRequest:
             litleOnline.transaction = transaction
         return litleOnline
     
-    def _addNamespace(self, responseXml):
-        if (b"xmlns='http://www.litle.com/schema'" not in responseXml) and (b'xmlns="http://www.litle.com/schema"' not in responseXml):
-            return responseXml.replace(b' response=', b' xmlns="http://www.litle.com/schema" response=')    
+    def _addNamespace(self, responseXml):      
+        url_format_a = "xmlns='http://www.litle.com/schema'"
+        url_format_b = 'xmlns="http://www.litle.com/schema"'
+        replacement_token = ' response='
+        replaced_token = ' xmlns="http://www.litle.com/schema" response='
+        
+        # The responseXml can be bytes or a string
+        if isinstance(responseXml, bytes):
+            url_format_a = b"xmlns='http://www.litle.com/schema'"
+            url_format_b = b'xmlns="http://www.litle.com/schema"'
+            replacement_token = b' response='
+            replaced_token = b' xmlns="http://www.litle.com/schema" response='
+
+        if (url_format_a not in responseXml) and (url_format_b not in responseXml):
+            return responseXml.replace(replacement_token, replaced_token)
+
         return responseXml
     
     def _processResponse(self, responseXml):
