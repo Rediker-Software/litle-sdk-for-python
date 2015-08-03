@@ -42,9 +42,9 @@ class litleOnlineRequest:
     def _litleToXml(self,litleOnline):
         try :
             dom = litleOnline.toDOM()
-            temp = dom.toxml('utf-8')
-            temp= temp.replace('ns1:','')
-            return temp.replace(':ns1','')
+            temp = dom.toxml('utf-8')            
+            temp = temp.replace(b'ns1:', b'')
+            return temp.replace(b':ns1', b'')
         except pyxb.ValidationError as e:
             raise Exception("Invalid Number of Choices, Fill Out One and Only One Choice",e)
         
@@ -89,9 +89,8 @@ class litleOnlineRequest:
         return litleOnline
     
     def _addNamespace(self, responseXml):
-        if ((responseXml.count("xmlns='http://www.litle.com/schema'") == 0) and
-            (responseXml.count('xmlns="http://www.litle.com/schema"') == 0)):
-            return responseXml.replace(' response=',' xmlns="http://www.litle.com/schema" response=')    
+        if (b"xmlns='http://www.litle.com/schema'" not in responseXml) and (b'xmlns="http://www.litle.com/schema"' not in responseXml):
+            return responseXml.replace(b' response=', b' xmlns="http://www.litle.com/schema" response=')    
         return responseXml
     
     def _processResponse(self, responseXml):
