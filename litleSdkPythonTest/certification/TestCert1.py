@@ -1061,7 +1061,7 @@ class certTest1(unittest.TestCase):
         response = litleXml.sendRequest(authorization)
         self.assertEquals( "010",response.response)
         self.assertEquals("Partially Approved",response.message)
-        self.assertEquals( 32000L,response.approvedAmount)
+        self.assertEquals( 32000,response.approvedAmount)
         
         
     def test13Auth(self):
@@ -1084,7 +1084,7 @@ class certTest1(unittest.TestCase):
         response = litleXml.sendRequest(authorization)
         self.assertEquals( "010",response.response)
         self.assertEquals("Partially Approved",response.message)
-        self.assertEquals( 48000L,response.approvedAmount)
+        self.assertEquals( 48000,response.approvedAmount)
         
         
     def test14Auth(self):
@@ -1107,7 +1107,7 @@ class certTest1(unittest.TestCase):
         response = litleXml.sendRequest(authorization)
         self.assertEquals( "010",response.response)
         self.assertEquals("Partially Approved",response.message)
-        self.assertEquals( 40000L,response.approvedAmount)
+        self.assertEquals( 40000,response.approvedAmount)
         
     
     def test15Auth(self):
@@ -1130,7 +1130,7 @@ class certTest1(unittest.TestCase):
         response = litleXml.sendRequest(authorization)
         self.assertEquals( "010",response.response)
         self.assertEquals("Partially Approved",response.message)
-        self.assertEquals( 12000L,response.approvedAmount)
+        self.assertEquals( 12000,response.approvedAmount)
         
 def suite():
     suite = unittest.TestSuite()
