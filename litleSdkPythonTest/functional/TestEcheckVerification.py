@@ -32,7 +32,7 @@ class TestEcheckVerification(unittest.TestCase):
     
     def testSimpleEcheckVerification(self):
         echeckverification = litleXmlFields.echeckVerification()
-        echeckverification.amount = 123456L
+        echeckverification.amount = 123456
         echeckverification.orderId = '12345'
         echeckverification.orderSource = 'ecommerce'
         
@@ -57,7 +57,7 @@ class TestEcheckVerification(unittest.TestCase):
     
     def test_echeckVerificationWithEcheckToken(self):
         echeckverification = litleXmlFields.echeckVerification()
-        echeckverification.amount = 123456L
+        echeckverification.amount = 123456
         echeckverification.orderId = '12345'
         echeckverification.orderSource = 'ecommerce'
         
@@ -82,7 +82,7 @@ class TestEcheckVerification(unittest.TestCase):
         
     def test_MissingBillingField(self):
         echeckverification = litleXmlFields.echeckVerification()
-        echeckverification.amount = 123L
+        echeckverification.amount = 123
         echeckverification.orderId = '12345'
         echeckverification.orderSource = 'ecommerce'
         

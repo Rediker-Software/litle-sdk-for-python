@@ -32,8 +32,8 @@ class TestSale(unittest.TestCase):
     
     def testSimpleSaleWithCard(self):
         sale = litleXmlFields.sale()
-        sale.litleTxnId = 123456L
-        sale.amount = 106L
+        sale.litleTxnId = 123456
+        sale.amount = 106
         sale.orderId = '12344'
         sale.orderSource = 'ecommerce'
         
@@ -49,8 +49,8 @@ class TestSale(unittest.TestCase):
         
     def testSimpleSaleWithPayPal(self):
         sale = litleXmlFields.sale()
-        sale.litleTxnId = 123456L
-        sale.amount = 106L
+        sale.litleTxnId = 123456
+        sale.amount = 106
         sale.orderId = '12344'
         sale.orderSource = 'ecommerce'
         
@@ -82,8 +82,8 @@ class TestSale(unittest.TestCase):
         
     def testSimpleSaleWithSecondaryAmountAndApplepay(self):
         sale = litleXmlFields.sale()
-        sale.litleTxnId = 123456L
-        sale.amount = 106L
+        sale.litleTxnId = 123456
+        sale.amount = 106
         sale.secondaryAmount = 10
         sale.orderId = '12344'
         sale.orderSource = 'ecommerce'

@@ -22,7 +22,6 @@
 #OTHER DEALINGS IN THE SOFTWARE.
 
 import os, sys
-from httplib import EXPECTATION_FAILED
 lib_path = os.path.abspath('../all')
 sys.path.append(lib_path)
 

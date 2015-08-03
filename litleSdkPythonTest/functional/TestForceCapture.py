@@ -32,7 +32,7 @@ class TestForceCapture(unittest.TestCase):
     
     def testSimpleForceCaptureWithCard(self):
         forcecapture = litleXmlFields.forceCapture()
-        forcecapture.amount = 106L
+        forcecapture.amount = 106
         forcecapture.orderId = '12344'
         forcecapture.orderSource = 'ecommerce'
         
@@ -49,7 +49,7 @@ class TestForceCapture(unittest.TestCase):
         
     def testSimpleForceCaptureWithToken(self):
         forcecapture = litleXmlFields.forceCapture()
-        forcecapture.amount = 106L
+        forcecapture.amount = 106
         forcecapture.orderId = '12344'
         forcecapture.orderSource = 'ecommerce'
         
@@ -66,7 +66,7 @@ class TestForceCapture(unittest.TestCase):
         
     def testSimpleForceCaptureWithSecondaryAmount(self):
         forcecapture = litleXmlFields.forceCapture()
-        forcecapture.amount = 106L
+        forcecapture.amount = 106
         forcecapture.secondaryAmount = 10
         forcecapture.orderId = '12344'
         forcecapture.orderSource = 'ecommerce'

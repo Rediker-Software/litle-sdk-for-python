@@ -32,7 +32,7 @@ class TestEcheckVoid(unittest.TestCase):
     
     def testTestEcheckVoid(self):
         echeckvoid = litleXmlFields.echeckVoid()
-        echeckvoid.litleTxnId = 123456789101112L
+        echeckvoid.litleTxnId = 123456789101112
         litleXml =  litleOnlineRequest(config)
         response = litleXml.sendRequest(echeckvoid)
         self.assertEquals("Approved",response.message)

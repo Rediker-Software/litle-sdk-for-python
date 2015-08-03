@@ -53,31 +53,31 @@ if not wide_enough:
     print("WARNING: Narrow build detected, your Python lacks full Unicode support!!")
 
 class TestUtf8(unittest.TestCase):
-    
+
     def testJapaneseCharacters(self):
-    	authorization = litleXmlFields.authorization()
-    	authorization.orderId = '12344'
-    	authorization.amount = 106
-    	authorization.orderSource = 'ecommerce'
-    	
-    	card = litleXmlFields.cardType()
-    	card.number = "4100000000000001"
-    	card.expDate = "1210"
-    	card.type = "VI"
-    	card.cardValidationNum = "123"
-    	
-    	billingAddress = litleXmlFields.contact()
-    	billingAddress.addressLine1 = u' チャプター'
+        authorization = litleXmlFields.authorization()
+        authorization.orderId = '12344'
+        authorization.amount = 106
+        authorization.orderSource = 'ecommerce'
+
+        card = litleXmlFields.cardType()
+        card.number = "4100000000000001"
+        card.expDate = "1210"
+        card.type = "VI"
+        card.cardValidationNum = "123"
+
+        billingAddress = litleXmlFields.contact()
+        billingAddress.addressLine1 = u' チャプター'
         billingAddress.city = "Tokyo"
-    	
-    	authorization.card = card
-    	authorization.billToAddress = billingAddress
-    	
-    	litleXml = litleOnlineRequest(config)
-    	response = litleXml.sendRequest(authorization)
-    	
-    	self.assertEquals("000",response.response)
-    
+
+        authorization.card = card
+        authorization.billToAddress = billingAddress
+
+        litleXml = litleOnlineRequest(config)
+        response = litleXml.sendRequest(authorization)
+
+        self.assertEquals("000",response.response)
+
 def suite():
     suite = unittest.TestSuite()
     suite = unittest.TestLoader().loadTestsFromTestCase(TestUtf8)
