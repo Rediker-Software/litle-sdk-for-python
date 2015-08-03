@@ -781,7 +781,7 @@ class TestLitleOnline(unittest.TestCase):
         card.number = "4100000000000000"
         card.expDate = "1210"
         
-        with self.assertRaises(pyxb.BadTypeValueError):
+        with self.assertRaises(pyxb.SimpleTypeValueError):
             card.type = 'VC'
             auth.card = card
 
