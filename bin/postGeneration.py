@@ -34,11 +34,9 @@ def makeNotRequired(xfile, field):
 
 def cregex(find, replace, currentline, xfile, listindex, readlines):
     f = re.sub(find, replace, currentline)
-    print '\n' + xfile
-    print '- ' + currentline ,
-    if currentline[-1:] != '\n': print '\n' ,
-    print '+ ' + f
-    if f[-1:] != '\n': print '\n' ,
+    print('\n' + xfile)
+    print('- ' + currentline)
+    print('+ ' + f)
     readlines[listindex] = f
     write_file=open(xfile,'w')
     for line in readlines:
@@ -73,7 +71,7 @@ def LitleAnyCreateFromDOM (cls, node, _fallback_namespace):\n\
 
 #finds the CTD_ANON number corresponding to the given field
 def findAnon(xfile, field):
-    line = field + " = pyxb.binding.basis.element\(pyxb.namespace.ExpandedName\(Namespace, u'" + field + "'\),"
+    line = field + " = pyxb.binding.basis.element\(pyxb.namespace.ExpandedName\(Namespace, '" + field + "'\),"
     rightLine = re.compile(line)
     readlines = open(xfile, 'r').readlines()
     for currentline in readlines:
@@ -89,7 +87,7 @@ def removeMinOccurs(xfile):
     groupChoiceStr = " pyxb.binding.content.GroupChoice\("
     groupModelStr = "_GroupModel_" 
     minOccurs1Str = "min_occurs=1"
-    minOccurs = "min_occurs=0L"
+    minOccurs = "min_occurs=0"
     closeParenStr = "    \)"
     
     txnId = re.compile(txnIdStr)
@@ -138,7 +136,7 @@ def removeMinOccurs(xfile):
 # fix paypal as credit field
 def fixPaypalinCredit(xfile):
     creditAnon = findAnon(xfile, "credit")
-    line = creditAnon + "._AddElement\(pyxb.binding.basis.element\(pyxb.namespace.ExpandedName\(Namespace, u'paypal'\)"
+    line = creditAnon + "._AddElement\(pyxb.binding.basis.element\(pyxb.namespace.ExpandedName\(Namespace, 'paypal'\)"
     rightLine = re.compile(line)
     readlines = open(xfile, 'r').readlines()
     for currentline in readlines:
@@ -148,7 +146,7 @@ def fixPaypalinCredit(xfile):
     wholeLine = wholeLine[:i-1]
     wholeLine = wholeLine.replace(')', '\)')
     wholeLine = wholeLine.replace('(', '\(')
-    replace_in_file(xfile, wholeLine, creditAnon + "._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, u'paypal'), payPal, scope=" + creditAnon + ")")
+    replace_in_file(xfile, wholeLine, creditAnon + "._AddElement(pyxb.binding.basis.element(pyxb.namespace.ExpandedName(Namespace, 'paypal'), payPal, scope=" + creditAnon + ")")
     
 
 def fixChoices(xfile):
@@ -174,13 +172,13 @@ def fixChoices(xfile):
                 currentline.count(lineToSkip5) == 0):
                 temp = currentline
                 count2 = count2 + 1
-                toReplace = temp.replace("min_occurs=1,", "min_occurs=0L,")
+                toReplace = temp.replace("min_occurs=1,", "min_occurs=0,")
                 currentline = currentline.replace(')', '\)')
                 currentline = currentline.replace('(', '\(')
                 replace_in_file(xfile, currentline, toReplace)
         elif cardTypeSequenceReg.search(currentline):
             temp = currentline
-            toReplace = temp.replace("min_occurs=0L,", "min_occurs=1,")
+            toReplace = temp.replace("min_occurs=0,", "min_occurs=1,")
             currentline = currentline.replace(')', '\)')
             currentline = currentline.replace('(', '\(')
             replace_in_file(xfile, currentline, toReplace)
